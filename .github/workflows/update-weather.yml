@@ -9,6 +9,10 @@ on:
     - cron: '0 11 * * *'  # 夜20時 (JST) = 11:00 (UTC)
   workflow_dispatch:  # 手動実行も可能にする
 
+# ★ここを追加：GitHub Actionsに書き込み権限を付与
+permissions:
+  contents: write
+
 jobs:
   update-weather:
     runs-on: ubuntu-latest
