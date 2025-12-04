@@ -1,0 +1,45 @@
+name: Update Weather Data
+
+on:
+  schedule:
+    # 日本時間で 朝7時、昼13時、夜20時に実行（UTC時刻で指定）
+    # UTC = JST - 9時間
+    - cron: '0 22 * * *'  # 朝7時 (JST) = 22:00 (UTC前日)
+    - cron: '0 4 * * *'   # 昼13時 (JST) = 04:00 (UTC)
+    - cron: '0 11 * * *'  # 夜20時 (JST) = 11:00 (UTC)
+  workflow_dispatch:  # 手動実行も可能にする
+
+jobs:
+  update-weather:
+    runs-on: ubuntu-latest
+    
+    steps:
+      # 1. リポジトリをチェックアウト
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      # 2. Node.jsをセットアップ
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      
+      # 3. backendの依存関係をインストール
+      - name: Install backend dependencies
+        run: |
+          cd backend
+          npm install
+      
+      # 4. weather.jsonを生成
+      - name: Generate weather data
+        run: |
+          cd backend
+          node talk_weather.js
+      
+      # 5. 変更をコミット＆プッシュ
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add frontend/public/data/weather.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update weather data [automated]" && git push)
