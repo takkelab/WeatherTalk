@@ -1,0 +1,7 @@
+﻿{
+  "name": "weather-talk",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Weather conversation generator",
+  "main": "talk_weather.js"
+}

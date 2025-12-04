@@ -1,0 +1,101 @@
+{
+  "updatedAt": "2025-11-28T05:11:28.529Z",
+  "date": "2025-11-28",
+  "timeOfDay": "noon",
+  "topPhrases": [
+    {
+      "id": "temp.delta",
+      "topic": "temp",
+      "text": "昨日より暖かいですね",
+      "weight": 50
+    },
+    {
+      "id": "temp.diurnal",
+      "topic": "temp",
+      "text": "朝は寒かったけど、暖かくなってきましたね",
+      "weight": 45
+    },
+    {
+      "id": "feel.wind.strong",
+      "topic": "feel",
+      "text": "風強そうですね",
+      "weight": 58
+    }
+  ],
+  "byTopic": {
+    "temp": {
+      "header": "気温",
+      "phrases": [
+        {
+          "id": "temp.delta",
+          "text": "昨日より暖かいですね",
+          "weight": 50
+        },
+        {
+          "id": "temp.diurnal",
+          "text": "朝は寒かったけど、暖かくなってきましたね",
+          "weight": 45
+        }
+      ]
+    },
+    "rain": {
+      "header": "雨",
+      "phrases": []
+    },
+    "feel": {
+      "header": "体感",
+      "phrases": [
+        {
+          "id": "feel.wind.strong",
+          "text": "風強そうですね",
+          "weight": 58
+        },
+        {
+          "id": "feel.wind.moderate",
+          "text": "風が出てきましたね",
+          "weight": 48
+        }
+      ]
+    },
+    "season": {
+      "header": "季節",
+      "phrases": [
+        {
+          "id": "season.transition.seasonal-shift",
+          "text": "冬の気配がしますね",
+          "weight": 58
+        },
+        {
+          "id": "season.daylight.sunset-early",
+          "text": "日が短くなりましたね",
+          "weight": 55
+        }
+      ]
+    },
+    "comparison": {
+      "header": "例年比較",
+      "phrases": []
+    },
+    "fallback": {
+      "header": "その他",
+      "phrases": []
+    }
+  },
+  "details": {
+    "maxTemp": 17.9,
+    "minTemp": 7.7,
+    "yesterdayDiff": "+3.2",
+    "apparentMax": 15.7,
+    "apparentMin": 6.1,
+    "apparentDeltaMax": "-2.2",
+    "apparentDeltaMin": "-1.6",
+    "rain": 0,
+    "rainProbToday": 0,
+    "rainProbTomorrow": 0,
+    "windMax": 8,
+    "gustMax": 26.6,
+    "humidity": 68,
+    "sunrise": "2025-11-28T06:29",
+    "sunset": "2025-11-28T16:28"
+  }
+}
