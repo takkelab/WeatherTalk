@@ -162,7 +162,7 @@
   padding: 20px;
   background: #F7FAFC;
   border-radius: 12px;
-  border-left: 4px solid #4A90E2;
+  border-left: 4px solid #31038f;
   transition: all 0.2s ease;
 }
 
@@ -176,7 +176,7 @@
   flex-shrink: 0;
   width: 32px;
   height: 32px;
-  background: #480fbc;
+  background: #31038f;
   color: white;
   border-radius: 50%;
   display: flex;
