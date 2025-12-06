@@ -191,6 +191,7 @@ function evaluateAll(ctx, options = {}, jstTime = null) {
       humidity: ctx.today.humidityMean != null ? round1(ctx.today.humidityMean) : null,
       sunrise: ctx.today.sunrise,
       sunset: ctx.today.sunset,
+      code: ctx.today.code,
     };
 
     // JSON出力用データ
