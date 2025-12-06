@@ -2,14 +2,14 @@ name: Update Weather Data
 
 on:
   schedule:
-    # 日本時間で 朝7時、昼13時、夜20時に実行（UTC時刻で指定）
+    # 日本時間で 朝6時、昼12時、夜18時に実行（UTC時刻で指定）
     # UTC = JST - 9時間
-    - cron: '0 22 * * *'  # 朝7時 (JST) = 22:00 (UTC前日)
-    - cron: '0 4 * * *'   # 昼13時 (JST) = 04:00 (UTC)
-    - cron: '0 11 * * *'  # 夜20時 (JST) = 11:00 (UTC)
+    - cron: '0 21 * * *'  # 朝6時 (JST) = 21:00 (UTC前日)
+    - cron: '0 3 * * *'   # 昼12時 (JST) = 03:00 (UTC)
+    - cron: '0 9 * * *'   # 夜18時 (JST) = 09:00 (UTC)
   workflow_dispatch:  # 手動実行も可能にする
 
-# ★ここを追加：GitHub Actionsに書き込み権限を付与
+# GitHub Actionsに書き込み権限を付与
 permissions:
   contents: write
 

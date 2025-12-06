@@ -22,9 +22,9 @@ export const sign1 = (n) => (n > 0 ? `+${round1(n)}` : `${round1(n)}`);
  */
 export function timeOfDay(d = new Date()) {
   const h = d.getHours();
-  if (h < 10) return "morning";
-  if (h < 17) return "noon";
-  return "evening";
+  if (h >= 4 && h < 11) return "morning";   // 4〜10時：朝
+  if (h >= 11 && h < 17) return "noon";     // 11〜16時：昼
+  return "evening";                          // 17〜3時：夜
 }
 
 /**
