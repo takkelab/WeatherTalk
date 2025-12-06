@@ -1,7 +1,8 @@
 {
-  "updatedAt": "2025-12-06T01:14:31.741Z",
+  "updatedAt": "2025-12-06T01:26:00.045Z",
+  "updatedAtJST": "2025-12-06T10:26:00.045+09:00",
   "date": "2025-12-06",
-  "timeOfDay": "evening",
+  "timeOfDay": "morning",
   "topPhrases": [
     {
       "id": "temp.absolute.cold",
