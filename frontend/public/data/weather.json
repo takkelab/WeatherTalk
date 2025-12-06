@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2025-12-06T01:35:48.600Z",
-  "updatedAtJST": "2025-12-06T10:35:48.600+09:00",
+  "updatedAt": "2025-12-06T03:38:33.896Z",
+  "updatedAtJST": "2025-12-06T12:38:33.896+09:00",
   "date": "2025-12-06",
-  "timeOfDay": "morning",
+  "timeOfDay": "noon",
   "topPhrases": [
     {
       "id": "temp.absolute.cold",
       "topic": "temp",
-      "text": "今朝は冷えますね",
+      "text": "昼でも寒いですね",
       "weight": 65
     },
     {
       "id": "temp.diurnal",
       "topic": "temp",
-      "text": "昼くらいから暖かくなるらしいですね",
+      "text": "朝は寒かったけど、暖かくなってきましたね",
       "weight": 45
     },
     {
       "id": "feel.wind.strong",
       "topic": "feel",
-      "text": "今日は風強いらしいですよ",
+      "text": "風強そうですね",
       "weight": 58
     }
   ],
@@ -29,12 +29,12 @@
       "phrases": [
         {
           "id": "temp.absolute.cold",
-          "text": "今朝は冷えますね",
+          "text": "昼でも寒いですね",
           "weight": 65
         },
         {
           "id": "temp.diurnal",
-          "text": "昼くらいから暖かくなるらしいですね",
+          "text": "朝は寒かったけど、暖かくなってきましたね",
           "weight": 45
         }
       ]
@@ -48,7 +48,7 @@
       "phrases": [
         {
           "id": "feel.wind.strong",
-          "text": "今日は風強いらしいですよ",
+          "text": "風強そうですね",
           "weight": 58
         }
       ]
@@ -92,6 +92,7 @@
     "gustMax": 23.8,
     "humidity": 58,
     "sunrise": "2025-12-06T06:37",
-    "sunset": "2025-12-06T16:27"
+    "sunset": "2025-12-06T16:27",
+    "code": 1
   }
 }
