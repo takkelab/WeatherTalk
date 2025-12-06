@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-05T22:08:57.939Z",
+  "updatedAt": "2025-12-06T01:14:31.741Z",
   "date": "2025-12-06",
   "timeOfDay": "evening",
   "topPhrases": [
@@ -77,19 +77,19 @@
     }
   },
   "details": {
-    "maxTemp": 10.8,
-    "minTemp": 2.1,
-    "yesterdayDiff": "-0.1",
-    "apparentMax": 8,
-    "apparentMin": -0.9,
+    "maxTemp": 11.1,
+    "minTemp": 2.3,
+    "yesterdayDiff": "+0.2",
+    "apparentMax": 8.3,
+    "apparentMin": -0.8,
     "apparentDeltaMax": "-2.8",
-    "apparentDeltaMin": "-3",
+    "apparentDeltaMin": "-3.1",
     "rain": 0,
     "rainProbToday": 0,
     "rainProbTomorrow": 0,
-    "windMax": 4,
-    "gustMax": 21.6,
-    "humidity": 62,
+    "windMax": 4.9,
+    "gustMax": 23.8,
+    "humidity": 58,
     "sunrise": "2025-12-06T06:37",
     "sunset": "2025-12-06T16:27"
   }
