@@ -80,9 +80,9 @@ function buildSeries(json) {
 }
 
 // ===== 評価：フラット＋区画（byTopic）を返す =====
-function evaluateAll(ctx, options = {}) {
+function evaluateAll(ctx, options = {}, jstTime = null) {
   const rules = buildRules(options);
-  const tod = timeOfDay();
+  const tod = timeOfDay(jstTime);
   const hits = [];
   
   for (const r of rules) {
@@ -155,18 +155,18 @@ function evaluateAll(ctx, options = {}) {
     const json = await fetchDaily();
     const ctx = buildSeries(json);
 
+    // ★ 日本時刻（JST）を取得
+    const now = new Date();
+    const jstOffset = 9 * 60; // 9時間（分単位）
+    const jstTime = new Date(now.getTime() + jstOffset * 60 * 1000);
+
     // 拡張ルールのON/OFFはここで
     const options = {
       enableTomorrowRain: true,
       enableSunBreak: true,
     };
 
-    // ★ 日本時刻（JST）を取得
-    const now = new Date();
-    const jstOffset = 9 * 60; // 9時間（分単位）
-    const jstTime = new Date(now.getTime() + jstOffset * 60 * 1000);
-
-    const { flat, byTopic } = evaluateAll(ctx, options);
+    const { flat, byTopic } = evaluateAll(ctx, options, jstTime);
 
     // 体感差
     const apparentDeltaMax =
