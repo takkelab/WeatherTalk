@@ -142,6 +142,13 @@
   box-shadow: 0 2px 16px rgba(0, 0, 0, 0.08);
 }
 
+.section-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #2D3748;
+  margin-bottom: 20px;
+}
+
 .phrases-list {
   display: flex;
   flex-direction: column;
@@ -162,6 +169,21 @@
 .phrase-card:hover {
   background: #EDF2F7;
   transform: translateX(4px);
+}
+
+/* ↓ これを追加 */
+.phrase-rank {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  background: #4A90E2;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 16px;
 }
 
 .phrase-main {

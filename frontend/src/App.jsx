@@ -52,10 +52,10 @@ function App() {
   // 背景クラスを取得
   const getBackgroundClass = () => {
     if (!weatherData) return 'bg-default'
-    
+
     const weatherType = getWeatherType(weatherData.details.code)
     const timeOfDay = weatherData.timeOfDay
-    
+
     return `bg-${weatherType}-${timeOfDay}`
   }
 
@@ -112,7 +112,7 @@ function App() {
   // フレーズIDから根拠を生成
   const getEvidence = (phrase, details) => {
     const id = phrase.id
-    
+
     // 気温系
     if (id.includes('temp.absolute.hot')) {
       return `最高気温: ${details.maxTemp}℃`
@@ -127,7 +127,7 @@ function App() {
       const range = (details.maxTemp - details.minTemp).toFixed(1)
       return `寒暖差: ${range}℃`
     }
-    
+
     // 雨系
     if (id.includes('rain.yesterday')) {
       return `昨日の降水量: ${details.rain}mm`
@@ -138,7 +138,7 @@ function App() {
     if (id.includes('rain.tomorrow')) {
       return `明日の降水確率: ${details.rainProbTomorrow}%`
     }
-    
+
     // 風系
     if (id.includes('wind.moderate')) {
       return `最大風速: ${details.windMax}m/s / 突風: ${details.gustMax}m/s`
@@ -149,7 +149,7 @@ function App() {
     if (id.includes('wind.cold-windy')) {
       return `最高気温: ${details.maxTemp}℃ / 突風: ${details.gustMax}m/s`
     }
-    
+
     // 湿度系
     if (id.includes('humidity.muggy')) {
       return `湿度: ${details.humidity}% / 気温: ${details.maxTemp}℃`
@@ -157,7 +157,7 @@ function App() {
     if (id.includes('humidity.dry')) {
       return `湿度: ${details.humidity}%`
     }
-    
+
     // 季節系
     if (id.includes('sunset-early')) {
       const sunsetTime = formatTime(details.sunset)
@@ -179,7 +179,7 @@ function App() {
       const avgTemp = ((details.maxTemp + details.minTemp) / 2).toFixed(1)
       return `平均気温: ${avgTemp}℃`
     }
-    
+
     // 例年比較系
     if (id.includes('comparison.normal.warmer')) {
       return `最高気温: ${details.maxTemp}℃`
@@ -190,7 +190,7 @@ function App() {
     if (id.includes('comparison.unseasonable')) {
       return `最高気温: ${details.maxTemp}℃`
     }
-    
+
     // デフォルト: 基本情報
     return `最高: ${details.maxTemp}℃ / 最低: ${details.minTemp}℃`
   }
@@ -229,22 +229,24 @@ function App() {
         <main className="main">
           {/* TOP3フレーズ */}
           <section className="top-phrases">
+            <h2 className="section-title">💬 おすすめフレーズ TOP3</h2>
             {weatherData.topPhrases.length === 0 ? (
               <div className="no-data">今日は特に話すことがないですね...</div>
             ) : (
               <div className="phrases-list">
                 {weatherData.topPhrases.map((phrase, index) => {
                   const evidence = getEvidence(phrase, weatherData.details)
-                  
+
                   return (
                     <div key={phrase.id} className="phrase-card">
+                      <div className="phrase-rank">{index + 1}</div>
                       <div className="phrase-main">
                         <div className="phrase-text">{phrase.text}</div>
                         {evidence && (
                           <div className="phrase-evidence">{evidence}</div>
                         )}
                       </div>
-                      <button 
+                      <button
                         className="copy-btn"
                         onClick={handleCopy}
                       >
@@ -259,20 +261,20 @@ function App() {
 
           {/* カテゴリ別フレーズ */}
           <section className="section-collapsible">
-            <h2 
+            <h2
               className="section-header"
               onClick={() => setShowCategories(!showCategories)}
             >
               <span>カテゴリ別フレーズ</span>
               <span className="toggle-icon">{showCategories ? '▼' : '▶'}</span>
             </h2>
-            
+
             {showCategories && (
               <div className="section-content">
                 {Object.entries(weatherData.byTopic).map(([topicKey, topicData]) => {
                   // フレーズが0件のカテゴリはスキップ
                   if (topicData.phrases.length === 0) return null
-                  
+
                   return (
                     <div key={topicKey} className="category">
                       <h3 className="category-title">
@@ -281,7 +283,7 @@ function App() {
                       <div className="category-list">
                         {topicData.phrases.map((phrase) => {
                           const evidence = getEvidence(phrase, weatherData.details)
-                          
+
                           return (
                             <div key={phrase.id} className="category-item">
                               <div className="category-content">
@@ -290,7 +292,7 @@ function App() {
                                   <div className="category-evidence">{evidence}</div>
                                 )}
                               </div>
-                              <button 
+                              <button
                                 className="copy-btn-small"
                                 onClick={handleCopy}
                               >
@@ -309,14 +311,14 @@ function App() {
 
           {/* 詳細データ */}
           <section className="section-collapsible">
-            <h2 
+            <h2
               className="section-header"
               onClick={() => setShowDetails(!showDetails)}
             >
               <span>詳細データ</span>
               <span className="toggle-icon">{showDetails ? '▼' : '▶'}</span>
             </h2>
-            
+
             {showDetails && (
               <div className="section-content">
                 <div className="details-grid">
