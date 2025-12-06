@@ -196,11 +196,11 @@ function App() {
   }
 
   // コピー機能
-  const handleCopy = (text) => {
+  const handleCopy = (event, text) => {
+    event.preventDefault()
     navigator.clipboard.writeText(text)
       .then(() => {
-        // 簡易的なフィードバック（アラート以外の方法も検討可能）
-        const button = event.target
+        const button = event.currentTarget
         const originalText = button.textContent
         button.textContent = '✓ コピー完了'
         setTimeout(() => {
@@ -248,7 +248,7 @@ function App() {
                       </div>
                       <button
                         className="copy-btn"
-                        onClick={handleCopy}
+                        onClick={(e) => handleCopy(e, phrase.text)}
                       >
                         コピー
                       </button>
@@ -294,7 +294,7 @@ function App() {
                               </div>
                               <button
                                 className="copy-btn-small"
-                                onClick={handleCopy}
+                                onClick={(e) => handleCopy(e, phrase.text)}
                               >
                                 コピー
                               </button>
