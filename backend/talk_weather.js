@@ -161,6 +161,11 @@ function evaluateAll(ctx, options = {}) {
       enableSunBreak: true,
     };
 
+    // ★ 日本時刻（JST）を取得
+    const now = new Date();
+    const jstOffset = 9 * 60; // 9時間（分単位）
+    const jstTime = new Date(now.getTime() + jstOffset * 60 * 1000);
+
     const { flat, byTopic } = evaluateAll(ctx, options);
 
     // 体感差
@@ -190,9 +195,10 @@ function evaluateAll(ctx, options = {}) {
 
     // JSON出力用データ
     const output = {
-      updatedAt: new Date().toISOString(),
+      updatedAt: now.toISOString(),  // UTC時刻（システム記録用）
+      updatedAtJST: jstTime.toISOString().replace('Z', '+09:00'),  // JST時刻（表示用）
       date: ctx.today.date,
-      timeOfDay: timeOfDay(),
+      timeOfDay: timeOfDay(jstTime),  // ★ JST時刻で判定
       topPhrases: flat.slice(0, 3).map(p => ({
         id: p.id,
         topic: p.topic,
@@ -227,7 +233,7 @@ function evaluateAll(ctx, options = {}) {
     fs.writeFileSync(outputPath, JSON.stringify(output, null, 2), 'utf-8');
     console.log(`✅ 天気データを生成しました: ${outputPath}`);
     console.log(`📅 日付: ${ctx.today.date}`);
-    console.log(`⏰ 時間帯: ${timeOfDay()}`);
+    console.log(`⏰ 時間帯: ${timeOfDay(jstTime)}`);  // ★ JST時刻で表示
     console.log(`💬 フレーズ数: ${flat.length}件`);
     
   } catch (e) {
