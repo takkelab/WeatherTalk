@@ -36,6 +36,19 @@ function App() {
     return 'cloudy' // デフォルト
   }
 
+  // ↓ これを追加
+  const getWeatherInfo = (code) => {
+    if (code === 0 || code === 1) return { icon: '☀️', text: '晴れ' }
+    if (code === 2) return { icon: '🌤️', text: '晴れ時々曇り' }
+    if (code === 3) return { icon: '☁️', text: '曇り' }
+    if (code >= 51 && code <= 67) return { icon: '🌧️', text: '雨' }
+    if (code >= 71 && code <= 77) return { icon: '❄️', text: '雪' }
+    if (code >= 80 && code <= 82) return { icon: '🌧️', text: 'にわか雨' }
+    if (code >= 85 && code <= 86) return { icon: '❄️', text: 'にわか雪' }
+    if (code >= 95 && code <= 99) return { icon: '⚡', text: '雷雨' }
+    return { icon: '☁️', text: '曇り' }
+  }
+
   // 背景クラスを取得
   const getBackgroundClass = () => {
     if (!weatherData) return 'bg-default'
@@ -199,14 +212,17 @@ function App() {
       })
   }
 
+  const weatherInfo = getWeatherInfo(weatherData.details.code)
+
   return (
     <div className={`app ${getBackgroundClass()}`}>
       <div className="container">
         <header className="header">
-          <h1>今日の天気フレーズ</h1>
+          <h1>{weatherInfo.icon} 今日の天気フレーズ</h1>
           <div className="meta-info">
             <span className="date">{formatDate(weatherData.date)}</span>
             <span className="time-of-day">{timeOfDayJP[weatherData.timeOfDay]}</span>
+            <span className="weather-type">{weatherInfo.text}</span>
           </div>
         </header>
 

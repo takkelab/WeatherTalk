@@ -122,6 +122,10 @@
   color: #718096;
 }
 
+.weather-type {
+  color: #718096;
+}
+
 /* ===== メイン ===== */
 .main {
   display: flex;
