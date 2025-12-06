@@ -197,17 +197,17 @@ function App() {
 
   // コピー機能
   const handleCopy = (event, text) => {
-    event.preventDefault()
+    const button = event.currentTarget  // ← 先に取得して保存
+
     navigator.clipboard.writeText(text)
       .then(() => {
-        const button = event.currentTarget
-        const originalText = button.textContent
         button.textContent = '✓ コピー完了'
         setTimeout(() => {
-          button.textContent = originalText
+          button.textContent = 'コピー'
         }, 2000)
       })
-      .catch(() => {
+      .catch((err) => {
+        console.error('コピーエラー:', err)
         alert('コピーに失敗しました')
       })
   }
