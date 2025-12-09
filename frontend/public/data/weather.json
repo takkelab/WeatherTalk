@@ -1,26 +1,26 @@
 {
-  "updatedAt": "2025-12-09T09:27:53.390Z",
-  "updatedAtJST": "2025-12-09T18:27:53.390+09:00",
-  "date": "2025-12-09",
-  "timeOfDay": "evening",
+  "updatedAt": "2025-12-09T21:12:13.588Z",
+  "updatedAtJST": "2025-12-10T06:12:13.588+09:00",
+  "date": "2025-12-10",
+  "timeOfDay": "morning",
   "topPhrases": [
     {
-      "id": "temp.absolute.cold",
+      "id": "temp.diurnal",
       "topic": "temp",
-      "text": "夜は冷えますね",
-      "weight": 65
+      "text": "昼くらいから暖かくなるらしいですね",
+      "weight": 45
     },
     {
-      "id": "temp.delta",
-      "topic": "temp",
-      "text": "昨日より寒いですね",
-      "weight": 50
-    },
-    {
-      "id": "feel.wind.cold-windy",
+      "id": "feel.wind.strong",
       "topic": "feel",
-      "text": "今日は風も冷たかったですね",
-      "weight": 62
+      "text": "今日は風強いらしいですよ",
+      "weight": 58
+    },
+    {
+      "id": "season.feel.winter-like",
+      "topic": "season",
+      "text": "冬っぽいですね",
+      "weight": 60
     }
   ],
   "byTopic": {
@@ -28,14 +28,9 @@
       "header": "気温",
       "phrases": [
         {
-          "id": "temp.absolute.cold",
-          "text": "夜は冷えますね",
-          "weight": 65
-        },
-        {
-          "id": "temp.delta",
-          "text": "昨日より寒いですね",
-          "weight": 50
+          "id": "temp.diurnal",
+          "text": "昼くらいから暖かくなるらしいですね",
+          "weight": 45
         }
       ]
     },
@@ -47,13 +42,8 @@
       "header": "体感",
       "phrases": [
         {
-          "id": "feel.wind.cold-windy",
-          "text": "今日は風も冷たかったですね",
-          "weight": 62
-        },
-        {
           "id": "feel.wind.strong",
-          "text": "今日は風強かったらしいですね",
+          "text": "今日は風強いらしいですよ",
           "weight": 58
         }
       ]
@@ -67,9 +57,9 @@
           "weight": 60
         },
         {
-          "id": "season.transition.seasonal-shift",
-          "text": "冬の気配がしますね",
-          "weight": 58
+          "id": "season.daylight.sunset-early",
+          "text": "日が短くなりましたね",
+          "weight": 55
         }
       ]
     },
@@ -83,21 +73,21 @@
     }
   },
   "details": {
-    "maxTemp": 11.9,
-    "minTemp": 5.7,
-    "yesterdayDiff": "-4.6",
-    "apparentMax": 8.7,
-    "apparentMin": 3.3,
-    "apparentDeltaMax": "-3.2",
-    "apparentDeltaMin": "-2.4",
+    "maxTemp": 13,
+    "minTemp": 3,
+    "yesterdayDiff": "+1.1",
+    "apparentMax": 10.5,
+    "apparentMin": 0.3,
+    "apparentDeltaMax": "-2.5",
+    "apparentDeltaMin": "-2.7",
     "rain": 0,
     "rainProbToday": 0,
     "rainProbTomorrow": 0,
-    "windMax": 8.7,
-    "gustMax": 25.2,
-    "humidity": 55,
-    "sunrise": "2025-12-09T06:39",
-    "sunset": "2025-12-09T16:28",
-    "code": 2
+    "windMax": 4.1,
+    "gustMax": 18,
+    "humidity": 60,
+    "sunrise": "2025-12-10T06:40",
+    "sunset": "2025-12-10T16:28",
+    "code": 1
   }
 }
