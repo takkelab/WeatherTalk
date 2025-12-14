@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2025-12-14T03:56:39.853Z",
-  "updatedAtJST": "2025-12-14T12:56:39.853+09:00",
+  "updatedAt": "2025-12-14T09:23:17.056Z",
+  "updatedAtJST": "2025-12-14T18:23:17.056+09:00",
   "date": "2025-12-14",
-  "timeOfDay": "noon",
+  "timeOfDay": "evening",
   "topPhrases": [
     {
       "id": "temp.absolute.cold",
       "topic": "temp",
-      "text": "昼でも寒いですね",
+      "text": "夜は冷えますね",
       "weight": 65
     },
     {
       "id": "temp.diurnal",
       "topic": "temp",
-      "text": "朝は寒かったけど、暖かくなってきましたね",
+      "text": "夜になって急に寒くなりましたね",
       "weight": 45
     },
     {
       "id": "rain.today.probable",
       "topic": "rain",
-      "text": "午後から雨降るみたいですね",
+      "text": "これから雨降るみたいですね",
       "weight": 65
     }
   ],
@@ -29,12 +29,12 @@
       "phrases": [
         {
           "id": "temp.absolute.cold",
-          "text": "昼でも寒いですね",
+          "text": "夜は冷えますね",
           "weight": 65
         },
         {
           "id": "temp.diurnal",
-          "text": "朝は寒かったけど、暖かくなってきましたね",
+          "text": "夜になって急に寒くなりましたね",
           "weight": 45
         }
       ]
@@ -44,7 +44,7 @@
       "phrases": [
         {
           "id": "rain.today.probable",
-          "text": "午後から雨降るみたいですね",
+          "text": "これから雨降るみたいですね",
           "weight": 65
         }
       ]
@@ -54,12 +54,12 @@
       "phrases": [
         {
           "id": "feel.wind.cold-windy",
-          "text": "風が冷たくて寒いですね",
+          "text": "今日は風も冷たかったですね",
           "weight": 62
         },
         {
           "id": "feel.wind.strong",
-          "text": "風強そうですね",
+          "text": "今日は風強かったらしいですね",
           "weight": 58
         }
       ]
@@ -95,21 +95,21 @@
     }
   },
   "details": {
-    "maxTemp": 8.4,
+    "maxTemp": 8.7,
     "minTemp": 1.3,
-    "yesterdayDiff": "+0.2",
-    "apparentMax": 5.5,
+    "yesterdayDiff": "+0.5",
+    "apparentMax": 5.9,
     "apparentMin": -1.7,
-    "apparentDeltaMax": "-2.9",
+    "apparentDeltaMax": "-2.8",
     "apparentDeltaMin": "-3",
-    "rain": 6.3,
+    "rain": 6.7,
     "rainProbToday": 93,
     "rainProbTomorrow": 0,
-    "windMax": 9.2,
+    "windMax": 8.7,
     "gustMax": 25.6,
-    "humidity": 86,
+    "humidity": 85,
     "sunrise": "2025-12-14T06:43",
     "sunset": "2025-12-14T16:28",
-    "code": 53
+    "code": 55
   }
 }
