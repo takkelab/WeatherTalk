@@ -1,26 +1,26 @@
 {
-  "updatedAt": "2025-12-18T09:30:19.189Z",
-  "updatedAtJST": "2025-12-18T18:30:19.189+09:00",
-  "date": "2025-12-18",
-  "timeOfDay": "evening",
+  "updatedAt": "2025-12-18T21:13:11.939Z",
+  "updatedAtJST": "2025-12-19T06:13:11.939+09:00",
+  "date": "2025-12-19",
+  "timeOfDay": "morning",
   "topPhrases": [
     {
       "id": "temp.absolute.cold",
       "topic": "temp",
-      "text": "夜は冷えますね",
+      "text": "今朝は冷えますね",
       "weight": 65
     },
     {
-      "id": "feel.wind.cold-windy",
-      "topic": "feel",
-      "text": "今日は風も冷たかったですね",
-      "weight": 62
+      "id": "temp.diurnal",
+      "topic": "temp",
+      "text": "昼くらいから暖かくなるらしいですね",
+      "weight": 45
     },
     {
-      "id": "feel.wind.strong",
-      "topic": "feel",
-      "text": "今日は風強かったらしいですね",
-      "weight": 58
+      "id": "rain.tomorrow.probable",
+      "topic": "rain",
+      "text": "明日は雨降るらしいですよ",
+      "weight": 55
     }
   ],
   "byTopic": {
@@ -29,26 +29,32 @@
       "phrases": [
         {
           "id": "temp.absolute.cold",
-          "text": "夜は冷えますね",
+          "text": "今朝は冷えますね",
           "weight": 65
+        },
+        {
+          "id": "temp.diurnal",
+          "text": "昼くらいから暖かくなるらしいですね",
+          "weight": 45
         }
       ]
     },
     "rain": {
       "header": "雨",
-      "phrases": []
+      "phrases": [
+        {
+          "id": "rain.tomorrow.probable",
+          "text": "明日は雨降るらしいですよ",
+          "weight": 55
+        }
+      ]
     },
     "feel": {
       "header": "体感",
       "phrases": [
         {
-          "id": "feel.wind.cold-windy",
-          "text": "今日は風も冷たかったですね",
-          "weight": 62
-        },
-        {
           "id": "feel.wind.strong",
-          "text": "今日は風強かったらしいですね",
+          "text": "今日は風強いらしいですよ",
           "weight": 58
         }
       ]
@@ -78,21 +84,21 @@
     }
   },
   "details": {
-    "maxTemp": 11.5,
-    "minTemp": 4.6,
-    "yesterdayDiff": "-0.9",
-    "apparentMax": 8.3,
-    "apparentMin": 1.7,
-    "apparentDeltaMax": "-3.2",
-    "apparentDeltaMin": "-2.9",
+    "maxTemp": 10.7,
+    "minTemp": 2.3,
+    "yesterdayDiff": "-0.8",
+    "apparentMax": 8.5,
+    "apparentMin": -0.8,
+    "apparentDeltaMax": "-2.2",
+    "apparentDeltaMin": "-3.1",
     "rain": 0,
     "rainProbToday": 0,
-    "rainProbTomorrow": 0,
-    "windMax": 10,
-    "gustMax": 30.6,
-    "humidity": 56,
-    "sunrise": "2025-12-18T06:45",
-    "sunset": "2025-12-18T16:30",
+    "rainProbTomorrow": 19,
+    "windMax": 4.7,
+    "gustMax": 15.8,
+    "humidity": 64,
+    "sunrise": "2025-12-19T06:46",
+    "sunset": "2025-12-19T16:30",
     "code": 1
   }
 }
