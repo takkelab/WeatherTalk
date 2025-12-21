@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2025-12-20T21:12:06.767Z",
-  "updatedAtJST": "2025-12-21T06:12:06.767+09:00",
+  "updatedAt": "2025-12-21T03:57:17.467Z",
+  "updatedAtJST": "2025-12-21T12:57:17.467+09:00",
   "date": "2025-12-21",
-  "timeOfDay": "morning",
+  "timeOfDay": "noon",
   "topPhrases": [
     {
       "id": "temp.delta",
@@ -13,13 +13,13 @@
     {
       "id": "temp.diurnal",
       "topic": "temp",
-      "text": "昼くらいから暖かくなるらしいですね",
+      "text": "朝は寒かったけど、暖かくなってきましたね",
       "weight": 45
     },
     {
       "id": "rain.today.probable",
       "topic": "rain",
-      "text": "今日は雨降るみたいですね",
+      "text": "午後から雨降るみたいですね",
       "weight": 65
     }
   ],
@@ -34,7 +34,7 @@
         },
         {
           "id": "temp.diurnal",
-          "text": "昼くらいから暖かくなるらしいですね",
+          "text": "朝は寒かったけど、暖かくなってきましたね",
           "weight": 45
         }
       ]
@@ -44,8 +44,13 @@
       "phrases": [
         {
           "id": "rain.today.probable",
-          "text": "今日は雨降るみたいですね",
+          "text": "午後から雨降るみたいですね",
           "weight": 65
+        },
+        {
+          "id": "rain.tomorrow.probable",
+          "text": "明日は雨降るらしいですよ",
+          "weight": 55
         }
       ]
     },
@@ -54,12 +59,12 @@
       "phrases": [
         {
           "id": "feel.wind.strong",
-          "text": "今日は風強いらしいですよ",
+          "text": "風強そうですね",
           "weight": 58
         },
         {
           "id": "feel.wind.moderate",
-          "text": "今日はちょっと風が吹きそうですね",
+          "text": "風が出てきましたね",
           "weight": 48
         }
       ]
@@ -100,21 +105,21 @@
     }
   },
   "details": {
-    "maxTemp": 16.7,
-    "minTemp": 6.6,
-    "yesterdayDiff": "+4",
+    "maxTemp": 17,
+    "minTemp": 6.3,
+    "yesterdayDiff": "+4.3",
     "apparentMax": 16.5,
-    "apparentMin": 5.2,
-    "apparentDeltaMax": "-0.2",
-    "apparentDeltaMin": "-1.4",
-    "rain": 9.9,
-    "rainProbToday": 70,
-    "rainProbTomorrow": 25,
-    "windMax": 10,
-    "gustMax": 27,
-    "humidity": 88,
+    "apparentMin": 4.5,
+    "apparentDeltaMax": "-0.5",
+    "apparentDeltaMin": "-1.8",
+    "rain": 7.3,
+    "rainProbToday": 78,
+    "rainProbTomorrow": 38,
+    "windMax": 9.9,
+    "gustMax": 39.2,
+    "humidity": 84,
     "sunrise": "2025-12-21T06:47",
     "sunset": "2025-12-21T16:31",
-    "code": 63
+    "code": 61
   }
 }
