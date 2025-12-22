@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2025-12-21T21:12:17.290Z",
-  "updatedAtJST": "2025-12-22T06:12:17.290+09:00",
+  "updatedAt": "2025-12-22T04:01:12.655Z",
+  "updatedAtJST": "2025-12-22T13:01:12.655+09:00",
   "date": "2025-12-22",
-  "timeOfDay": "morning",
+  "timeOfDay": "noon",
   "topPhrases": [
     {
       "id": "temp.absolute.cold",
       "topic": "temp",
-      "text": "今朝は冷えますね",
+      "text": "昼でも寒いですね",
       "weight": 65
     },
     {
@@ -17,10 +17,10 @@
       "weight": 50
     },
     {
-      "id": "feel.wind.cold-windy",
-      "topic": "feel",
-      "text": "寒い上に風も強いみたいですね",
-      "weight": 62
+      "id": "rain.today.probable",
+      "topic": "rain",
+      "text": "午後から雨降るみたいですね",
+      "weight": 65
     }
   ],
   "byTopic": {
@@ -29,7 +29,7 @@
       "phrases": [
         {
           "id": "temp.absolute.cold",
-          "text": "今朝は冷えますね",
+          "text": "昼でも寒いですね",
           "weight": 65
         },
         {
@@ -41,19 +41,25 @@
     },
     "rain": {
       "header": "雨",
-      "phrases": []
+      "phrases": [
+        {
+          "id": "rain.today.probable",
+          "text": "午後から雨降るみたいですね",
+          "weight": 65
+        }
+      ]
     },
     "feel": {
       "header": "体感",
       "phrases": [
         {
           "id": "feel.wind.cold-windy",
-          "text": "寒い上に風も強いみたいですね",
+          "text": "風が冷たくて寒いですね",
           "weight": 62
         },
         {
           "id": "feel.wind.strong",
-          "text": "今日は風強いらしいですよ",
+          "text": "風強そうですね",
           "weight": 58
         }
       ]
@@ -84,20 +90,20 @@
   },
   "details": {
     "maxTemp": 10.2,
-    "minTemp": 3.7,
+    "minTemp": 3.5,
     "yesterdayDiff": "-7",
     "apparentMax": 7.4,
-    "apparentMin": 0.6,
+    "apparentMin": 0.5,
     "apparentDeltaMax": "-2.8",
-    "apparentDeltaMin": "-3.1",
-    "rain": 0,
+    "apparentDeltaMin": "-3",
+    "rain": 0.2,
     "rainProbToday": 50,
-    "rainProbTomorrow": 0,
-    "windMax": 11.7,
-    "gustMax": 38.2,
+    "rainProbTomorrow": 3,
+    "windMax": 12,
+    "gustMax": 41,
     "humidity": 57,
     "sunrise": "2025-12-22T06:47",
     "sunset": "2025-12-22T16:32",
-    "code": 3
+    "code": 51
   }
 }
