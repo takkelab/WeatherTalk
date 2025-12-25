@@ -1,26 +1,26 @@
 {
-  "updatedAt": "2025-12-25T03:57:03.774Z",
-  "updatedAtJST": "2025-12-25T12:57:03.774+09:00",
+  "updatedAt": "2025-12-25T09:26:39.096Z",
+  "updatedAtJST": "2025-12-25T18:26:39.096+09:00",
   "date": "2025-12-25",
-  "timeOfDay": "noon",
+  "timeOfDay": "evening",
   "topPhrases": [
     {
       "id": "temp.absolute.cold",
       "topic": "temp",
-      "text": "昼でも寒いですね",
+      "text": "夜は冷えますね",
       "weight": 65
+    },
+    {
+      "id": "temp.delta",
+      "topic": "temp",
+      "text": "昨日より暖かいですね",
+      "weight": 50
     },
     {
       "id": "rain.yesterday.heavy",
       "topic": "rain",
       "text": "昨日の雨、けっこう強かったですね",
       "weight": 68
-    },
-    {
-      "id": "rain.today.probable",
-      "topic": "rain",
-      "text": "午後から雨降るみたいですね",
-      "weight": 65
     }
   ],
   "byTopic": {
@@ -29,8 +29,13 @@
       "phrases": [
         {
           "id": "temp.absolute.cold",
-          "text": "昼でも寒いですね",
+          "text": "夜は冷えますね",
           "weight": 65
+        },
+        {
+          "id": "temp.delta",
+          "text": "昨日より暖かいですね",
+          "weight": 50
         }
       ]
     },
@@ -44,7 +49,7 @@
         },
         {
           "id": "rain.today.probable",
-          "text": "午後から雨降るみたいですね",
+          "text": "これから雨降るみたいですね",
           "weight": 65
         }
       ]
@@ -53,13 +58,8 @@
       "header": "体感",
       "phrases": [
         {
-          "id": "feel.wind.cold-windy",
-          "text": "風が冷たくて寒いですね",
-          "weight": 62
-        },
-        {
           "id": "feel.wind.strong",
-          "text": "風強そうですね",
+          "text": "今日は風強かったらしいですね",
           "weight": 58
         }
       ]
@@ -73,9 +73,9 @@
           "weight": 60
         },
         {
-          "id": "season.daylight.sunset-early",
-          "text": "日が短くなりましたね",
-          "weight": 55
+          "id": "season.transition.seasonal-shift",
+          "text": "冬の気配がしますね",
+          "weight": 58
         }
       ]
     },
@@ -95,21 +95,21 @@
     }
   },
   "details": {
-    "maxTemp": 8.6,
+    "maxTemp": 9.3,
     "minTemp": 6.1,
-    "yesterdayDiff": "+2.4",
-    "apparentMax": 7,
+    "yesterdayDiff": "+3.1",
+    "apparentMax": 7.7,
     "apparentMin": 4.8,
     "apparentDeltaMax": "-1.6",
     "apparentDeltaMin": "-1.3",
-    "rain": 7.1,
-    "rainProbToday": 78,
-    "rainProbTomorrow": 25,
-    "windMax": 8.1,
-    "gustMax": 17.6,
-    "humidity": 97,
+    "rain": 5.9,
+    "rainProbToday": 83,
+    "rainProbTomorrow": 15,
+    "windMax": 7.6,
+    "gustMax": 21.2,
+    "humidity": 98,
     "sunrise": "2025-12-25T06:49",
     "sunset": "2025-12-25T16:33",
-    "code": 61
+    "code": 63
   }
 }
