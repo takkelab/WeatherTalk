@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2025-12-24T21:12:48.165Z",
-  "updatedAtJST": "2025-12-25T06:12:48.165+09:00",
+  "updatedAt": "2025-12-25T03:57:03.774Z",
+  "updatedAtJST": "2025-12-25T12:57:03.774+09:00",
   "date": "2025-12-25",
-  "timeOfDay": "morning",
+  "timeOfDay": "noon",
   "topPhrases": [
     {
       "id": "temp.absolute.cold",
       "topic": "temp",
-      "text": "今朝は冷えますね",
+      "text": "昼でも寒いですね",
       "weight": 65
     },
     {
@@ -19,7 +19,7 @@
     {
       "id": "rain.today.probable",
       "topic": "rain",
-      "text": "今日は雨降るみたいですね",
+      "text": "午後から雨降るみたいですね",
       "weight": 65
     }
   ],
@@ -29,7 +29,7 @@
       "phrases": [
         {
           "id": "temp.absolute.cold",
-          "text": "今朝は冷えますね",
+          "text": "昼でも寒いですね",
           "weight": 65
         }
       ]
@@ -44,7 +44,7 @@
         },
         {
           "id": "rain.today.probable",
-          "text": "今日は雨降るみたいですね",
+          "text": "午後から雨降るみたいですね",
           "weight": 65
         }
       ]
@@ -54,12 +54,12 @@
       "phrases": [
         {
           "id": "feel.wind.cold-windy",
-          "text": "寒い上に風も強いみたいですね",
+          "text": "風が冷たくて寒いですね",
           "weight": 62
         },
         {
           "id": "feel.wind.strong",
-          "text": "今日は風強いらしいですよ",
+          "text": "風強そうですね",
           "weight": 58
         }
       ]
@@ -95,21 +95,21 @@
     }
   },
   "details": {
-    "maxTemp": 8.8,
-    "minTemp": 6.3,
-    "yesterdayDiff": "+2.6",
-    "apparentMax": 6.8,
-    "apparentMin": 5.1,
-    "apparentDeltaMax": "-2",
-    "apparentDeltaMin": "-1.2",
-    "rain": 8,
+    "maxTemp": 8.6,
+    "minTemp": 6.1,
+    "yesterdayDiff": "+2.4",
+    "apparentMax": 7,
+    "apparentMin": 4.8,
+    "apparentDeltaMax": "-1.6",
+    "apparentDeltaMin": "-1.3",
+    "rain": 7.1,
     "rainProbToday": 78,
     "rainProbTomorrow": 25,
-    "windMax": 10.1,
-    "gustMax": 16.6,
+    "windMax": 8.1,
+    "gustMax": 17.6,
     "humidity": 97,
     "sunrise": "2025-12-25T06:49",
     "sunset": "2025-12-25T16:33",
-    "code": 63
+    "code": 61
   }
 }
