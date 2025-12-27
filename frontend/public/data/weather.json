@@ -1,26 +1,26 @@
 {
-  "updatedAt": "2025-12-27T09:23:56.522Z",
-  "updatedAtJST": "2025-12-27T18:23:56.522+09:00",
-  "date": "2025-12-27",
-  "timeOfDay": "evening",
+  "updatedAt": "2025-12-27T21:12:24.440Z",
+  "updatedAtJST": "2025-12-28T06:12:24.440+09:00",
+  "date": "2025-12-28",
+  "timeOfDay": "morning",
   "topPhrases": [
     {
       "id": "temp.absolute.cold",
       "topic": "temp",
-      "text": "夜は冷えますね",
+      "text": "今朝は冷えますね",
       "weight": 65
     },
     {
       "id": "temp.delta",
       "topic": "temp",
-      "text": "昨日より寒いですね",
+      "text": "昨日より暖かいですね",
       "weight": 50
     },
     {
-      "id": "feel.wind.strong",
-      "topic": "feel",
-      "text": "今日は風強かったらしいですね",
-      "weight": 58
+      "id": "temp.diurnal",
+      "topic": "temp",
+      "text": "昼くらいから暖かくなるらしいですね",
+      "weight": 45
     }
   ],
   "byTopic": {
@@ -29,12 +29,12 @@
       "phrases": [
         {
           "id": "temp.absolute.cold",
-          "text": "夜は冷えますね",
+          "text": "今朝は冷えますね",
           "weight": 65
         },
         {
           "id": "temp.delta",
-          "text": "昨日より寒いですね",
+          "text": "昨日より暖かいですね",
           "weight": 50
         }
       ]
@@ -48,7 +48,7 @@
       "phrases": [
         {
           "id": "feel.wind.strong",
-          "text": "今日は風強かったらしいですね",
+          "text": "今日は風強いらしいですよ",
           "weight": 58
         }
       ]
@@ -62,26 +62,15 @@
           "weight": 60
         },
         {
-          "id": "season.daylight.sunset-early",
-          "text": "日が短くなりましたね",
-          "weight": 55
+          "id": "season.transition.seasonal-shift",
+          "text": "冬の気配がしますね",
+          "weight": 58
         }
       ]
     },
     "comparison": {
       "header": "例年比較",
-      "phrases": [
-        {
-          "id": "comparison.unseasonable.cold",
-          "text": "季節外れに寒いですね",
-          "weight": 68
-        },
-        {
-          "id": "comparison.normal.colder",
-          "text": "この時期にしては寒いですね",
-          "weight": 54
-        }
-      ]
+      "phrases": []
     },
     "fallback": {
       "header": "その他",
@@ -89,21 +78,21 @@
     }
   },
   "details": {
-    "maxTemp": 6.7,
-    "minTemp": 0.1,
-    "yesterdayDiff": "-3.3",
-    "apparentMax": 3.1,
-    "apparentMin": -4.2,
-    "apparentDeltaMax": "-3.6",
-    "apparentDeltaMin": "-4.3",
+    "maxTemp": 10.1,
+    "minTemp": 0,
+    "yesterdayDiff": "+3.5",
+    "apparentMax": 7,
+    "apparentMin": -3.2,
+    "apparentDeltaMax": "-3.1",
+    "apparentDeltaMin": "-3.2",
     "rain": 0,
     "rainProbToday": 0,
     "rainProbTomorrow": 0,
-    "windMax": 7.9,
-    "gustMax": 22.3,
-    "humidity": 49,
-    "sunrise": "2025-12-27T06:49",
-    "sunset": "2025-12-27T16:35",
-    "code": 1
+    "windMax": 6.1,
+    "gustMax": 19.1,
+    "humidity": 62,
+    "sunrise": "2025-12-28T06:50",
+    "sunset": "2025-12-28T16:35",
+    "code": 0
   }
 }
