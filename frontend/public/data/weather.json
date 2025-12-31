@@ -1,26 +1,26 @@
 {
-  "updatedAt": "2025-12-31T09:28:26.391Z",
-  "updatedAtJST": "2025-12-31T18:28:26.391+09:00",
-  "date": "2025-12-31",
-  "timeOfDay": "evening",
+  "updatedAt": "2025-12-31T21:12:57.334Z",
+  "updatedAtJST": "2026-01-01T06:12:57.334+09:00",
+  "date": "2026-01-01",
+  "timeOfDay": "morning",
   "topPhrases": [
     {
       "id": "temp.absolute.cold",
       "topic": "temp",
-      "text": "夜は冷えますね",
+      "text": "今朝は冷えますね",
       "weight": 65
     },
     {
-      "id": "temp.diurnal",
+      "id": "temp.delta",
       "topic": "temp",
-      "text": "夜になって急に寒くなりましたね",
-      "weight": 45
+      "text": "昨日より寒いですね",
+      "weight": 50
     },
     {
-      "id": "feel.wind.strong",
-      "topic": "feel",
-      "text": "今日は風強かったらしいですね",
-      "weight": 58
+      "id": "rain.tomorrow.probable",
+      "topic": "rain",
+      "text": "明日は雨降るらしいですよ",
+      "weight": 55
     }
   ],
   "byTopic": {
@@ -29,26 +29,32 @@
       "phrases": [
         {
           "id": "temp.absolute.cold",
-          "text": "夜は冷えますね",
+          "text": "今朝は冷えますね",
           "weight": 65
         },
         {
-          "id": "temp.diurnal",
-          "text": "夜になって急に寒くなりましたね",
-          "weight": 45
+          "id": "temp.delta",
+          "text": "昨日より寒いですね",
+          "weight": 50
         }
       ]
     },
     "rain": {
       "header": "雨",
-      "phrases": []
+      "phrases": [
+        {
+          "id": "rain.tomorrow.probable",
+          "text": "明日は雨降るらしいですよ",
+          "weight": 55
+        }
+      ]
     },
     "feel": {
       "header": "体感",
       "phrases": [
         {
           "id": "feel.wind.strong",
-          "text": "今日は風強かったらしいですね",
+          "text": "今日は風強いらしいですよ",
           "weight": 58
         }
       ]
@@ -62,15 +68,21 @@
           "weight": 60
         },
         {
-          "id": "season.daylight.sunset-early",
-          "text": "日が短くなりましたね",
-          "weight": 55
+          "id": "season.transition.seasonal-shift",
+          "text": "冬の気配がしますね",
+          "weight": 58
         }
       ]
     },
     "comparison": {
       "header": "例年比較",
-      "phrases": []
+      "phrases": [
+        {
+          "id": "comparison.normal.colder",
+          "text": "この時期にしては寒いですね",
+          "weight": 54
+        }
+      ]
     },
     "fallback": {
       "header": "その他",
@@ -78,21 +90,21 @@
     }
   },
   "details": {
-    "maxTemp": 11.4,
-    "minTemp": 3,
-    "yesterdayDiff": "-2.9",
-    "apparentMax": 8.4,
-    "apparentMin": 0.2,
-    "apparentDeltaMax": "-3",
-    "apparentDeltaMin": "-2.8",
+    "maxTemp": 7.7,
+    "minTemp": 1.3,
+    "yesterdayDiff": "-3.7",
+    "apparentMax": 4.8,
+    "apparentMin": -1.7,
+    "apparentDeltaMax": "-2.9",
+    "apparentDeltaMin": "-3",
     "rain": 0,
-    "rainProbToday": 0,
-    "rainProbTomorrow": 5,
-    "windMax": 7.7,
-    "gustMax": 18.7,
+    "rainProbToday": 3,
+    "rainProbTomorrow": 45,
+    "windMax": 6.6,
+    "gustMax": 24.8,
     "humidity": 59,
-    "sunrise": "2025-12-31T06:51",
-    "sunset": "2025-12-31T16:37",
-    "code": 2
+    "sunrise": "2026-01-01T06:51",
+    "sunset": "2026-01-01T16:38",
+    "code": 1
   }
 }
