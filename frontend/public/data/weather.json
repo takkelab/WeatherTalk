@@ -1,26 +1,26 @@
 {
-  "updatedAt": "2025-12-31T03:57:02.986Z",
-  "updatedAtJST": "2025-12-31T12:57:02.986+09:00",
+  "updatedAt": "2025-12-31T09:28:26.391Z",
+  "updatedAtJST": "2025-12-31T18:28:26.391+09:00",
   "date": "2025-12-31",
-  "timeOfDay": "noon",
+  "timeOfDay": "evening",
   "topPhrases": [
     {
       "id": "temp.absolute.cold",
       "topic": "temp",
-      "text": "昼でも寒いですね",
+      "text": "夜は冷えますね",
       "weight": 65
-    },
-    {
-      "id": "temp.delta",
-      "topic": "temp",
-      "text": "昨日より寒いですね",
-      "weight": 50
     },
     {
       "id": "temp.diurnal",
       "topic": "temp",
-      "text": "朝は寒かったけど、暖かくなってきましたね",
+      "text": "夜になって急に寒くなりましたね",
       "weight": 45
+    },
+    {
+      "id": "feel.wind.strong",
+      "topic": "feel",
+      "text": "今日は風強かったらしいですね",
+      "weight": 58
     }
   ],
   "byTopic": {
@@ -29,13 +29,13 @@
       "phrases": [
         {
           "id": "temp.absolute.cold",
-          "text": "昼でも寒いですね",
+          "text": "夜は冷えますね",
           "weight": 65
         },
         {
-          "id": "temp.delta",
-          "text": "昨日より寒いですね",
-          "weight": 50
+          "id": "temp.diurnal",
+          "text": "夜になって急に寒くなりましたね",
+          "weight": 45
         }
       ]
     },
@@ -48,7 +48,7 @@
       "phrases": [
         {
           "id": "feel.wind.strong",
-          "text": "風強そうですね",
+          "text": "今日は風強かったらしいですね",
           "weight": 58
         }
       ]
@@ -62,9 +62,9 @@
           "weight": 60
         },
         {
-          "id": "season.transition.seasonal-shift",
-          "text": "冬の気配がしますね",
-          "weight": 58
+          "id": "season.daylight.sunset-early",
+          "text": "日が短くなりましたね",
+          "weight": 55
         }
       ]
     },
@@ -78,18 +78,18 @@
     }
   },
   "details": {
-    "maxTemp": 11.3,
+    "maxTemp": 11.4,
     "minTemp": 3,
-    "yesterdayDiff": "-3",
-    "apparentMax": 8.5,
+    "yesterdayDiff": "-2.9",
+    "apparentMax": 8.4,
     "apparentMin": 0.2,
-    "apparentDeltaMax": "-2.8",
+    "apparentDeltaMax": "-3",
     "apparentDeltaMin": "-2.8",
     "rain": 0,
     "rainProbToday": 0,
     "rainProbTomorrow": 5,
-    "windMax": 7.3,
-    "gustMax": 17.6,
+    "windMax": 7.7,
+    "gustMax": 18.7,
     "humidity": 59,
     "sunrise": "2025-12-31T06:51",
     "sunset": "2025-12-31T16:37",
