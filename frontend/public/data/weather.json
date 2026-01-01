@@ -1,26 +1,26 @@
 {
-  "updatedAt": "2026-01-01T04:06:13.439Z",
-  "updatedAtJST": "2026-01-01T13:06:13.439+09:00",
+  "updatedAt": "2026-01-01T09:28:20.676Z",
+  "updatedAtJST": "2026-01-01T18:28:20.676+09:00",
   "date": "2026-01-01",
-  "timeOfDay": "noon",
+  "timeOfDay": "evening",
   "topPhrases": [
     {
       "id": "temp.absolute.cold",
       "topic": "temp",
-      "text": "昼でも寒いですね",
+      "text": "夜は冷えますね",
       "weight": 65
-    },
-    {
-      "id": "temp.delta",
-      "topic": "temp",
-      "text": "昨日より寒いですね",
-      "weight": 50
     },
     {
       "id": "rain.tomorrow.probable",
       "topic": "rain",
       "text": "明日は雨降るらしいですよ",
       "weight": 55
+    },
+    {
+      "id": "feel.wind.strong",
+      "topic": "feel",
+      "text": "今日は風強かったらしいですね",
+      "weight": 58
     }
   ],
   "byTopic": {
@@ -29,13 +29,8 @@
       "phrases": [
         {
           "id": "temp.absolute.cold",
-          "text": "昼でも寒いですね",
+          "text": "夜は冷えますね",
           "weight": 65
-        },
-        {
-          "id": "temp.delta",
-          "text": "昨日より寒いですね",
-          "weight": 50
         }
       ]
     },
@@ -54,7 +49,7 @@
       "phrases": [
         {
           "id": "feel.wind.strong",
-          "text": "風強そうですね",
+          "text": "今日は風強かったらしいですね",
           "weight": 58
         }
       ]
@@ -68,9 +63,9 @@
           "weight": 60
         },
         {
-          "id": "season.transition.seasonal-shift",
-          "text": "冬の気配がしますね",
-          "weight": 58
+          "id": "season.daylight.sunset-early",
+          "text": "日が短くなりましたね",
+          "weight": 55
         }
       ]
     },
@@ -84,21 +79,21 @@
     }
   },
   "details": {
-    "maxTemp": 8,
+    "maxTemp": 8.9,
     "minTemp": 2.3,
-    "yesterdayDiff": "-3.4",
-    "apparentMax": 5,
+    "yesterdayDiff": "-2.5",
+    "apparentMax": 5.7,
     "apparentMin": -1,
-    "apparentDeltaMax": "-3",
+    "apparentDeltaMax": "-3.2",
     "apparentDeltaMin": "-3.3",
     "rain": 0,
     "rainProbToday": 15,
     "rainProbTomorrow": 50,
     "windMax": 7.6,
-    "gustMax": 24.8,
+    "gustMax": 19.4,
     "humidity": 59,
     "sunrise": "2026-01-01T06:51",
     "sunset": "2026-01-01T16:38",
-    "code": 2
+    "code": 3
   }
 }
