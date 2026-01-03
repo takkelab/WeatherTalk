@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-01-03T03:52:00.335Z",
-  "updatedAtJST": "2026-01-03T12:52:00.335+09:00",
+  "updatedAt": "2026-01-03T09:24:02.238Z",
+  "updatedAtJST": "2026-01-03T18:24:02.238+09:00",
   "date": "2026-01-03",
-  "timeOfDay": "noon",
+  "timeOfDay": "evening",
   "topPhrases": [
     {
       "id": "temp.absolute.cold",
       "topic": "temp",
-      "text": "昼でも寒いですね",
+      "text": "夜は冷えますね",
       "weight": 65
     },
     {
       "id": "temp.diurnal",
       "topic": "temp",
-      "text": "朝は寒かったけど、暖かくなってきましたね",
+      "text": "夜になって急に寒くなりましたね",
       "weight": 45
     },
     {
       "id": "feel.wind.cold-windy",
       "topic": "feel",
-      "text": "風が冷たくて寒いですね",
+      "text": "今日は風も冷たかったですね",
       "weight": 62
     }
   ],
@@ -29,12 +29,12 @@
       "phrases": [
         {
           "id": "temp.absolute.cold",
-          "text": "昼でも寒いですね",
+          "text": "夜は冷えますね",
           "weight": 65
         },
         {
           "id": "temp.diurnal",
-          "text": "朝は寒かったけど、暖かくなってきましたね",
+          "text": "夜になって急に寒くなりましたね",
           "weight": 45
         }
       ]
@@ -48,12 +48,12 @@
       "phrases": [
         {
           "id": "feel.wind.cold-windy",
-          "text": "風が冷たくて寒いですね",
+          "text": "今日は風も冷たかったですね",
           "weight": 62
         },
         {
           "id": "feel.wind.strong",
-          "text": "風強そうですね",
+          "text": "今日は風強かったらしいですね",
           "weight": 58
         }
       ]
@@ -83,18 +83,18 @@
     }
   },
   "details": {
-    "maxTemp": 8.8,
+    "maxTemp": 8.5,
     "minTemp": 0.4,
-    "yesterdayDiff": "+0.6",
-    "apparentMax": 5.1,
+    "yesterdayDiff": "+0.3",
+    "apparentMax": 5.2,
     "apparentMin": -3.1,
-    "apparentDeltaMax": "-3.7",
+    "apparentDeltaMax": "-3.3",
     "apparentDeltaMin": "-3.5",
     "rain": 0,
     "rainProbToday": 0,
     "rainProbTomorrow": 0,
-    "windMax": 8.2,
-    "gustMax": 13.7,
+    "windMax": 8.7,
+    "gustMax": 14.8,
     "humidity": 54,
     "sunrise": "2026-01-03T06:51",
     "sunset": "2026-01-03T16:39",
