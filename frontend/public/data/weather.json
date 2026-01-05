@@ -1,26 +1,26 @@
 {
-  "updatedAt": "2026-01-05T04:12:28.362Z",
-  "updatedAtJST": "2026-01-05T13:12:28.362+09:00",
+  "updatedAt": "2026-01-05T09:36:02.269Z",
+  "updatedAtJST": "2026-01-05T18:36:02.269+09:00",
   "date": "2026-01-05",
-  "timeOfDay": "noon",
+  "timeOfDay": "evening",
   "topPhrases": [
+    {
+      "id": "temp.absolute.cold",
+      "topic": "temp",
+      "text": "夜は冷えますね",
+      "weight": 65
+    },
     {
       "id": "temp.diurnal",
       "topic": "temp",
-      "text": "朝は寒かったけど、暖かくなってきましたね",
+      "text": "夜になって急に寒くなりましたね",
       "weight": 45
     },
     {
-      "id": "feel.wind.strong",
+      "id": "feel.wind.cold-windy",
       "topic": "feel",
-      "text": "風強そうですね",
-      "weight": 58
-    },
-    {
-      "id": "feel.wind.moderate",
-      "topic": "feel",
-      "text": "風が出てきましたね",
-      "weight": 48
+      "text": "今日は風も冷たかったですね",
+      "weight": 62
     }
   ],
   "byTopic": {
@@ -28,8 +28,13 @@
       "header": "気温",
       "phrases": [
         {
+          "id": "temp.absolute.cold",
+          "text": "夜は冷えますね",
+          "weight": 65
+        },
+        {
           "id": "temp.diurnal",
-          "text": "朝は寒かったけど、暖かくなってきましたね",
+          "text": "夜になって急に寒くなりましたね",
           "weight": 45
         }
       ]
@@ -42,14 +47,14 @@
       "header": "体感",
       "phrases": [
         {
-          "id": "feel.wind.strong",
-          "text": "風強そうですね",
-          "weight": 58
+          "id": "feel.wind.cold-windy",
+          "text": "今日は風も冷たかったですね",
+          "weight": 62
         },
         {
-          "id": "feel.wind.moderate",
-          "text": "風が出てきましたね",
-          "weight": 48
+          "id": "feel.wind.strong",
+          "text": "今日は風強かったらしいですね",
+          "weight": 58
         }
       ]
     },
@@ -70,13 +75,7 @@
     },
     "comparison": {
       "header": "例年比較",
-      "phrases": [
-        {
-          "id": "comparison.normal.warmer",
-          "text": "この時期にしては暖かいですね",
-          "weight": 54
-        }
-      ]
+      "phrases": []
     },
     "fallback": {
       "header": "その他",
@@ -84,21 +83,21 @@
     }
   },
   "details": {
-    "maxTemp": 12.2,
+    "maxTemp": 11.4,
     "minTemp": 0.9,
-    "yesterdayDiff": "+2.4",
-    "apparentMax": 9.8,
+    "yesterdayDiff": "+1.6",
+    "apparentMax": 8.9,
     "apparentMin": -2.2,
-    "apparentDeltaMax": "-2.4",
+    "apparentDeltaMax": "-2.5",
     "apparentDeltaMin": "-3.1",
     "rain": 0,
     "rainProbToday": 0,
     "rainProbTomorrow": 5,
-    "windMax": 8.7,
-    "gustMax": 27,
-    "humidity": 62,
+    "windMax": 8.9,
+    "gustMax": 24.5,
+    "humidity": 61,
     "sunrise": "2026-01-05T06:51",
     "sunset": "2026-01-05T16:41",
-    "code": 2
+    "code": 1
   }
 }
