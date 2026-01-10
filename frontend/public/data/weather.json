@@ -1,26 +1,26 @@
 {
-  "updatedAt": "2026-01-10T09:24:07.207Z",
-  "updatedAtJST": "2026-01-10T18:24:07.207+09:00",
-  "date": "2026-01-10",
-  "timeOfDay": "evening",
+  "updatedAt": "2026-01-10T21:12:42.138Z",
+  "updatedAtJST": "2026-01-11T06:12:42.138+09:00",
+  "date": "2026-01-11",
+  "timeOfDay": "morning",
   "topPhrases": [
-    {
-      "id": "temp.delta",
-      "topic": "temp",
-      "text": "昨日より暖かいですね",
-      "weight": 50
-    },
     {
       "id": "temp.diurnal",
       "topic": "temp",
-      "text": "夜になって急に寒くなりましたね",
+      "text": "昼くらいから暖かくなるらしいですね",
       "weight": 45
     },
     {
       "id": "feel.wind.strong",
       "topic": "feel",
-      "text": "今日は風強かったらしいですね",
+      "text": "今日は風強いらしいですよ",
       "weight": 58
+    },
+    {
+      "id": "season.feel.winter-like",
+      "topic": "season",
+      "text": "冬っぽいですね",
+      "weight": 60
     }
   ],
   "byTopic": {
@@ -28,13 +28,8 @@
       "header": "気温",
       "phrases": [
         {
-          "id": "temp.delta",
-          "text": "昨日より暖かいですね",
-          "weight": 50
-        },
-        {
           "id": "temp.diurnal",
-          "text": "夜になって急に寒くなりましたね",
+          "text": "昼くらいから暖かくなるらしいですね",
           "weight": 45
         }
       ]
@@ -48,7 +43,7 @@
       "phrases": [
         {
           "id": "feel.wind.strong",
-          "text": "今日は風強かったらしいですね",
+          "text": "今日は風強いらしいですよ",
           "weight": 58
         }
       ]
@@ -62,9 +57,9 @@
           "weight": 60
         },
         {
-          "id": "season.transition.seasonal-shift",
-          "text": "冬の気配がしますね",
-          "weight": 58
+          "id": "season.daylight.sunset-early",
+          "text": "日が短くなりましたね",
+          "weight": 55
         }
       ]
     },
@@ -84,21 +79,21 @@
     }
   },
   "details": {
-    "maxTemp": 12.4,
-    "minTemp": 0.2,
-    "yesterdayDiff": "+4",
-    "apparentMax": 9.2,
-    "apparentMin": -2.9,
-    "apparentDeltaMax": "-3.2",
-    "apparentDeltaMin": "-3.1",
+    "maxTemp": 13.1,
+    "minTemp": 2.2,
+    "yesterdayDiff": "+0.7",
+    "apparentMax": 10,
+    "apparentMin": -1.8,
+    "apparentDeltaMax": "-3.1",
+    "apparentDeltaMin": "-4",
     "rain": 0,
-    "rainProbToday": 13,
+    "rainProbToday": 0,
     "rainProbTomorrow": 0,
-    "windMax": 14.7,
-    "gustMax": 55.8,
-    "humidity": 61,
-    "sunrise": "2026-01-10T06:51",
-    "sunset": "2026-01-10T16:46",
-    "code": 1
+    "windMax": 14.6,
+    "gustMax": 53.3,
+    "humidity": 47,
+    "sunrise": "2026-01-11T06:51",
+    "sunset": "2026-01-11T16:46",
+    "code": 2
   }
 }
