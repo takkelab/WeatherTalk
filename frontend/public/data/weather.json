@@ -1,26 +1,26 @@
 {
-  "updatedAt": "2026-01-13T09:31:49.760Z",
-  "updatedAtJST": "2026-01-13T18:31:49.760+09:00",
-  "date": "2026-01-13",
-  "timeOfDay": "evening",
+  "updatedAt": "2026-01-13T21:15:12.114Z",
+  "updatedAtJST": "2026-01-14T06:15:12.114+09:00",
+  "date": "2026-01-14",
+  "timeOfDay": "morning",
   "topPhrases": [
+    {
+      "id": "temp.absolute.cold",
+      "topic": "temp",
+      "text": "今朝は冷えますね",
+      "weight": 65
+    },
     {
       "id": "temp.delta",
       "topic": "temp",
-      "text": "昨日より暖かいですね",
+      "text": "昨日より寒いですね",
       "weight": 50
     },
     {
       "id": "temp.diurnal",
       "topic": "temp",
-      "text": "夜になって急に寒くなりましたね",
+      "text": "昼くらいから暖かくなるらしいですね",
       "weight": 45
-    },
-    {
-      "id": "feel.wind.strong",
-      "topic": "feel",
-      "text": "今日は風強かったらしいですね",
-      "weight": 58
     }
   ],
   "byTopic": {
@@ -28,14 +28,14 @@
       "header": "気温",
       "phrases": [
         {
-          "id": "temp.delta",
-          "text": "昨日より暖かいですね",
-          "weight": 50
+          "id": "temp.absolute.cold",
+          "text": "今朝は冷えますね",
+          "weight": 65
         },
         {
-          "id": "temp.diurnal",
-          "text": "夜になって急に寒くなりましたね",
-          "weight": 45
+          "id": "temp.delta",
+          "text": "昨日より寒いですね",
+          "weight": 50
         }
       ]
     },
@@ -48,7 +48,7 @@
       "phrases": [
         {
           "id": "feel.wind.strong",
-          "text": "今日は風強かったらしいですね",
+          "text": "今日は風強いらしいですよ",
           "weight": 58
         }
       ]
@@ -70,18 +70,7 @@
     },
     "comparison": {
       "header": "例年比較",
-      "phrases": [
-        {
-          "id": "comparison.unseasonable.warm",
-          "text": "季節外れに暖かいですね",
-          "weight": 68
-        },
-        {
-          "id": "comparison.normal.warmer",
-          "text": "この時期にしては暖かいですね",
-          "weight": 54
-        }
-      ]
+      "phrases": []
     },
     "fallback": {
       "header": "その他",
@@ -89,21 +78,21 @@
     }
   },
   "details": {
-    "maxTemp": 14.8,
-    "minTemp": -0.7,
-    "yesterdayDiff": "+7.2",
-    "apparentMax": 10.9,
-    "apparentMin": -3.8,
-    "apparentDeltaMax": "-3.9",
-    "apparentDeltaMin": "-3.1",
+    "maxTemp": 9.3,
+    "minTemp": 1.3,
+    "yesterdayDiff": "-5.5",
+    "apparentMax": 6.1,
+    "apparentMin": -1.9,
+    "apparentDeltaMax": "-3.2",
+    "apparentDeltaMin": "-3.2",
     "rain": 0,
     "rainProbToday": 0,
     "rainProbTomorrow": 0,
-    "windMax": 14.3,
-    "gustMax": 62.3,
-    "humidity": 60,
-    "sunrise": "2026-01-13T06:51",
-    "sunset": "2026-01-13T16:48",
+    "windMax": 5.6,
+    "gustMax": 28.8,
+    "humidity": 57,
+    "sunrise": "2026-01-14T06:50",
+    "sunset": "2026-01-14T16:49",
     "code": 0
   }
 }
