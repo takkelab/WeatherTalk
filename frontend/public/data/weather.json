@@ -1,26 +1,26 @@
 {
-  "updatedAt": "2026-01-14T21:15:24.902Z",
-  "updatedAtJST": "2026-01-15T06:15:24.902+09:00",
+  "updatedAt": "2026-01-15T04:01:34.528Z",
+  "updatedAtJST": "2026-01-15T13:01:34.528+09:00",
   "date": "2026-01-15",
-  "timeOfDay": "morning",
+  "timeOfDay": "noon",
   "topPhrases": [
     {
       "id": "temp.absolute.cold",
       "topic": "temp",
-      "text": "今朝は冷えますね",
+      "text": "昼でも寒いですね",
       "weight": 65
     },
     {
       "id": "temp.diurnal",
       "topic": "temp",
-      "text": "昼くらいから暖かくなるらしいですね",
+      "text": "朝は寒かったけど、暖かくなってきましたね",
       "weight": 45
     },
     {
-      "id": "feel.wind.cold-windy",
+      "id": "feel.wind.strong",
       "topic": "feel",
-      "text": "寒い上に風も強いみたいですね",
-      "weight": 62
+      "text": "風強そうですね",
+      "weight": 58
     }
   ],
   "byTopic": {
@@ -29,12 +29,12 @@
       "phrases": [
         {
           "id": "temp.absolute.cold",
-          "text": "今朝は冷えますね",
+          "text": "昼でも寒いですね",
           "weight": 65
         },
         {
           "id": "temp.diurnal",
-          "text": "昼くらいから暖かくなるらしいですね",
+          "text": "朝は寒かったけど、暖かくなってきましたね",
           "weight": 45
         }
       ]
@@ -47,13 +47,8 @@
       "header": "体感",
       "phrases": [
         {
-          "id": "feel.wind.cold-windy",
-          "text": "寒い上に風も強いみたいですね",
-          "weight": 62
-        },
-        {
           "id": "feel.wind.strong",
-          "text": "今日は風強いらしいですよ",
+          "text": "風強そうですね",
           "weight": 58
         }
       ]
@@ -84,20 +79,20 @@
   },
   "details": {
     "maxTemp": 9.9,
-    "minTemp": -0.2,
+    "minTemp": 0.1,
     "yesterdayDiff": "+0.1",
     "apparentMax": 7.1,
-    "apparentMin": -3.5,
+    "apparentMin": -3.3,
     "apparentDeltaMax": "-2.8",
-    "apparentDeltaMin": "-3.3",
+    "apparentDeltaMin": "-3.4",
     "rain": 0,
     "rainProbToday": 0,
     "rainProbTomorrow": 0,
-    "windMax": 8.5,
-    "gustMax": 28.1,
-    "humidity": 58,
+    "windMax": 7.4,
+    "gustMax": 34.6,
+    "humidity": 57,
     "sunrise": "2026-01-15T06:50",
     "sunset": "2026-01-15T16:50",
-    "code": 2
+    "code": 1
   }
 }
