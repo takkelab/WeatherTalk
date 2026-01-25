@@ -1,26 +1,26 @@
 {
-  "updatedAt": "2026-01-25T09:25:37.543Z",
-  "updatedAtJST": "2026-01-25T18:25:37.543+09:00",
-  "date": "2026-01-25",
-  "timeOfDay": "evening",
+  "updatedAt": "2026-01-25T21:13:12.073Z",
+  "updatedAtJST": "2026-01-26T06:13:12.073+09:00",
+  "date": "2026-01-26",
+  "timeOfDay": "morning",
   "topPhrases": [
     {
       "id": "temp.absolute.cold",
       "topic": "temp",
-      "text": "夜は冷えますね",
+      "text": "今朝は冷えますね",
       "weight": 65
     },
     {
-      "id": "temp.delta",
+      "id": "temp.diurnal",
       "topic": "temp",
-      "text": "昨日より寒いですね",
-      "weight": 50
+      "text": "昼くらいから暖かくなるらしいですね",
+      "weight": 45
     },
     {
-      "id": "feel.wind.cold-windy",
+      "id": "feel.wind.strong",
       "topic": "feel",
-      "text": "今日は風も冷たかったですね",
-      "weight": 62
+      "text": "今日は風強いらしいですよ",
+      "weight": 58
     }
   ],
   "byTopic": {
@@ -29,13 +29,13 @@
       "phrases": [
         {
           "id": "temp.absolute.cold",
-          "text": "夜は冷えますね",
+          "text": "今朝は冷えますね",
           "weight": 65
         },
         {
-          "id": "temp.delta",
-          "text": "昨日より寒いですね",
-          "weight": 50
+          "id": "temp.diurnal",
+          "text": "昼くらいから暖かくなるらしいですね",
+          "weight": 45
         }
       ]
     },
@@ -47,13 +47,8 @@
       "header": "体感",
       "phrases": [
         {
-          "id": "feel.wind.cold-windy",
-          "text": "今日は風も冷たかったですね",
-          "weight": 62
-        },
-        {
           "id": "feel.wind.strong",
-          "text": "今日は風強かったらしいですね",
+          "text": "今日は風強いらしいですよ",
           "weight": 58
         }
       ]
@@ -65,22 +60,12 @@
           "id": "season.feel.winter-like",
           "text": "冬っぽいですね",
           "weight": 60
-        },
-        {
-          "id": "season.transition.seasonal-shift",
-          "text": "冬の気配がしますね",
-          "weight": 58
         }
       ]
     },
     "comparison": {
       "header": "例年比較",
       "phrases": [
-        {
-          "id": "comparison.unseasonable.cold",
-          "text": "季節外れに寒いですね",
-          "weight": 68
-        },
         {
           "id": "comparison.normal.colder",
           "text": "この時期にしては寒いですね",
@@ -94,21 +79,21 @@
     }
   },
   "details": {
-    "maxTemp": 5.8,
-    "minTemp": 0.1,
-    "yesterdayDiff": "-4",
-    "apparentMax": 1.4,
-    "apparentMin": -4.2,
-    "apparentDeltaMax": "-4.4",
-    "apparentDeltaMin": "-4.3",
+    "maxTemp": 6.1,
+    "minTemp": -1.1,
+    "yesterdayDiff": "0",
+    "apparentMax": 2.7,
+    "apparentMin": -4.9,
+    "apparentDeltaMax": "-3.4",
+    "apparentDeltaMin": "-3.8",
     "rain": 0,
-    "rainProbToday": 0,
-    "rainProbTomorrow": 13,
-    "windMax": 11.6,
-    "gustMax": 43.6,
-    "humidity": 51,
-    "sunrise": "2026-01-25T06:46",
-    "sunset": "2026-01-25T17:00",
-    "code": 1
+    "rainProbToday": 40,
+    "rainProbTomorrow": 45,
+    "windMax": 7.9,
+    "gustMax": 17.3,
+    "humidity": 47,
+    "sunrise": "2026-01-26T06:45",
+    "sunset": "2026-01-26T17:01",
+    "code": 3
   }
 }
