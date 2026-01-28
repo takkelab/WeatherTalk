@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-01-27T21:12:40.816Z",
-  "updatedAtJST": "2026-01-28T06:12:40.816+09:00",
+  "updatedAt": "2026-01-28T04:02:57.544Z",
+  "updatedAtJST": "2026-01-28T13:02:57.544+09:00",
   "date": "2026-01-28",
-  "timeOfDay": "morning",
+  "timeOfDay": "noon",
   "topPhrases": [
     {
       "id": "temp.absolute.cold",
       "topic": "temp",
-      "text": "今朝は冷えますね",
+      "text": "昼でも寒いですね",
       "weight": 65
     },
     {
       "id": "feel.wind.cold-windy",
       "topic": "feel",
-      "text": "寒い上に風も強いみたいですね",
+      "text": "風が冷たくて寒いですね",
       "weight": 62
     },
     {
       "id": "feel.wind.strong",
       "topic": "feel",
-      "text": "今日は風強いらしいですよ",
+      "text": "風強そうですね",
       "weight": 58
     }
   ],
@@ -29,7 +29,7 @@
       "phrases": [
         {
           "id": "temp.absolute.cold",
-          "text": "今朝は冷えますね",
+          "text": "昼でも寒いですね",
           "weight": 65
         }
       ]
@@ -43,12 +43,12 @@
       "phrases": [
         {
           "id": "feel.wind.cold-windy",
-          "text": "寒い上に風も強いみたいですね",
+          "text": "風が冷たくて寒いですね",
           "weight": 62
         },
         {
           "id": "feel.wind.strong",
-          "text": "今日は風強いらしいですよ",
+          "text": "風強そうですね",
           "weight": 58
         }
       ]
@@ -79,19 +79,19 @@
     }
   },
   "details": {
-    "maxTemp": 7.6,
-    "minTemp": 2,
-    "yesterdayDiff": "-1.5",
-    "apparentMax": 3.9,
-    "apparentMin": -1.9,
+    "maxTemp": 7.8,
+    "minTemp": 2.4,
+    "yesterdayDiff": "-1.3",
+    "apparentMax": 4.1,
+    "apparentMin": -1.7,
     "apparentDeltaMax": "-3.7",
-    "apparentDeltaMin": "-3.9",
+    "apparentDeltaMin": "-4.1",
     "rain": 0,
-    "rainProbToday": 3,
-    "rainProbTomorrow": 15,
-    "windMax": 9.3,
-    "gustMax": 25.6,
-    "humidity": 52,
+    "rainProbToday": 5,
+    "rainProbTomorrow": 18,
+    "windMax": 10,
+    "gustMax": 24.5,
+    "humidity": 51,
     "sunrise": "2026-01-28T06:44",
     "sunset": "2026-01-28T17:03",
     "code": 3
