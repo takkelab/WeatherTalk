@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-01-29T21:20:29.176Z",
-  "updatedAtJST": "2026-01-30T06:20:29.176+09:00",
+  "updatedAt": "2026-01-30T04:26:20.839Z",
+  "updatedAtJST": "2026-01-30T13:26:20.839+09:00",
   "date": "2026-01-30",
-  "timeOfDay": "morning",
+  "timeOfDay": "noon",
   "topPhrases": [
     {
       "id": "temp.absolute.cold",
       "topic": "temp",
-      "text": "今朝は冷えますね",
+      "text": "昼でも寒いですね",
       "weight": 65
     },
     {
       "id": "temp.diurnal",
       "topic": "temp",
-      "text": "昼くらいから暖かくなるらしいですね",
+      "text": "朝は寒かったけど、暖かくなってきましたね",
       "weight": 45
     },
     {
       "id": "feel.wind.cold-windy",
       "topic": "feel",
-      "text": "寒い上に風も強いみたいですね",
+      "text": "風が冷たくて寒いですね",
       "weight": 62
     }
   ],
@@ -29,12 +29,12 @@
       "phrases": [
         {
           "id": "temp.absolute.cold",
-          "text": "今朝は冷えますね",
+          "text": "昼でも寒いですね",
           "weight": 65
         },
         {
           "id": "temp.diurnal",
-          "text": "昼くらいから暖かくなるらしいですね",
+          "text": "朝は寒かったけど、暖かくなってきましたね",
           "weight": 45
         }
       ]
@@ -48,12 +48,12 @@
       "phrases": [
         {
           "id": "feel.wind.cold-windy",
-          "text": "寒い上に風も強いみたいですね",
+          "text": "風が冷たくて寒いですね",
           "weight": 62
         },
         {
           "id": "feel.wind.strong",
-          "text": "今日は風強いらしいですよ",
+          "text": "風強そうですね",
           "weight": 58
         }
       ]
@@ -85,18 +85,18 @@
   },
   "details": {
     "maxTemp": 6.8,
-    "minTemp": -1.1,
+    "minTemp": -1.5,
     "yesterdayDiff": "-0.8",
-    "apparentMax": 2.6,
+    "apparentMax": 2.8,
     "apparentMin": -4.7,
-    "apparentDeltaMax": "-4.2",
-    "apparentDeltaMin": "-3.6",
+    "apparentDeltaMax": "-4",
+    "apparentDeltaMin": "-3.2",
     "rain": 0,
     "rainProbToday": 0,
     "rainProbTomorrow": 0,
-    "windMax": 8.4,
-    "gustMax": 30.2,
-    "humidity": 49,
+    "windMax": 8,
+    "gustMax": 25.6,
+    "humidity": 50,
     "sunrise": "2026-01-30T06:43",
     "sunset": "2026-01-30T17:06",
     "code": 1
