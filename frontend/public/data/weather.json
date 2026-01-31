@@ -1,26 +1,26 @@
 {
-  "updatedAt": "2026-01-30T21:21:11.817Z",
-  "updatedAtJST": "2026-01-31T06:21:11.817+09:00",
+  "updatedAt": "2026-01-31T04:21:56.460Z",
+  "updatedAtJST": "2026-01-31T13:21:56.460+09:00",
   "date": "2026-01-31",
-  "timeOfDay": "morning",
+  "timeOfDay": "noon",
   "topPhrases": [
     {
       "id": "temp.absolute.cold",
       "topic": "temp",
-      "text": "今朝は冷えますね",
+      "text": "昼でも寒いですね",
       "weight": 65
     },
     {
       "id": "temp.diurnal",
       "topic": "temp",
-      "text": "昼くらいから暖かくなるらしいですね",
+      "text": "朝は寒かったけど、暖かくなってきましたね",
       "weight": 45
     },
     {
-      "id": "feel.wind.cold-windy",
+      "id": "feel.wind.strong",
       "topic": "feel",
-      "text": "寒い上に風も強いみたいですね",
-      "weight": 62
+      "text": "風強そうですね",
+      "weight": 58
     }
   ],
   "byTopic": {
@@ -29,12 +29,12 @@
       "phrases": [
         {
           "id": "temp.absolute.cold",
-          "text": "今朝は冷えますね",
+          "text": "昼でも寒いですね",
           "weight": 65
         },
         {
           "id": "temp.diurnal",
-          "text": "昼くらいから暖かくなるらしいですね",
+          "text": "朝は寒かったけど、暖かくなってきましたね",
           "weight": 45
         }
       ]
@@ -47,13 +47,8 @@
       "header": "体感",
       "phrases": [
         {
-          "id": "feel.wind.cold-windy",
-          "text": "寒い上に風も強いみたいですね",
-          "weight": 62
-        },
-        {
           "id": "feel.wind.strong",
-          "text": "今日は風強いらしいですよ",
+          "text": "風強そうですね",
           "weight": 58
         }
       ]
@@ -84,18 +79,18 @@
     }
   },
   "details": {
-    "maxTemp": 7.4,
+    "maxTemp": 7.3,
     "minTemp": -1.1,
-    "yesterdayDiff": "+0.3",
-    "apparentMax": 3.6,
-    "apparentMin": -5.1,
-    "apparentDeltaMax": "-3.8",
-    "apparentDeltaMin": "-4",
+    "yesterdayDiff": "+0.2",
+    "apparentMax": 4.1,
+    "apparentMin": -5.3,
+    "apparentDeltaMax": "-3.2",
+    "apparentDeltaMin": "-4.2",
     "rain": 0,
     "rainProbToday": 0,
     "rainProbTomorrow": 0,
-    "windMax": 8,
-    "gustMax": 15.8,
+    "windMax": 7.2,
+    "gustMax": 19.1,
     "humidity": 46,
     "sunrise": "2026-01-31T06:42",
     "sunset": "2026-01-31T17:07",
