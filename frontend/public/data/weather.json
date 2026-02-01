@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-02-01T09:34:31.161Z",
-  "updatedAtJST": "2026-02-01T18:34:31.161+09:00",
-  "date": "2026-02-01",
-  "timeOfDay": "evening",
+  "updatedAt": "2026-02-01T21:16:27.779Z",
+  "updatedAtJST": "2026-02-02T06:16:27.779+09:00",
+  "date": "2026-02-02",
+  "timeOfDay": "morning",
   "topPhrases": [
     {
       "id": "temp.absolute.cold",
       "topic": "temp",
-      "text": "夜は冷えますね",
+      "text": "今朝は冷えますね",
       "weight": 65
     },
     {
       "id": "temp.diurnal",
       "topic": "temp",
-      "text": "夜になって急に寒くなりましたね",
+      "text": "昼くらいから暖かくなるらしいですね",
       "weight": 45
     },
     {
       "id": "feel.wind.strong",
       "topic": "feel",
-      "text": "今日は風強かったらしいですね",
+      "text": "今日は風強いらしいですよ",
       "weight": 58
     }
   ],
@@ -29,12 +29,12 @@
       "phrases": [
         {
           "id": "temp.absolute.cold",
-          "text": "夜は冷えますね",
+          "text": "今朝は冷えますね",
           "weight": 65
         },
         {
           "id": "temp.diurnal",
-          "text": "夜になって急に寒くなりましたね",
+          "text": "昼くらいから暖かくなるらしいですね",
           "weight": 45
         }
       ]
@@ -48,7 +48,7 @@
       "phrases": [
         {
           "id": "feel.wind.strong",
-          "text": "今日は風強かったらしいですね",
+          "text": "今日は風強いらしいですよ",
           "weight": 58
         }
       ]
@@ -73,21 +73,21 @@
     }
   },
   "details": {
-    "maxTemp": 9.4,
-    "minTemp": -1.1,
-    "yesterdayDiff": "+1.7",
-    "apparentMax": 6.5,
-    "apparentMin": -4.6,
-    "apparentDeltaMax": "-2.9",
-    "apparentDeltaMin": "-3.5",
+    "maxTemp": 9.6,
+    "minTemp": 0.3,
+    "yesterdayDiff": "0",
+    "apparentMax": 6.8,
+    "apparentMin": -3.1,
+    "apparentDeltaMax": "-2.8",
+    "apparentDeltaMin": "-3.4",
     "rain": 0,
-    "rainProbToday": 0,
+    "rainProbToday": 25,
     "rainProbTomorrow": 8,
-    "windMax": 5.6,
-    "gustMax": 13.3,
-    "humidity": 50,
-    "sunrise": "2026-02-01T06:41",
-    "sunset": "2026-02-01T17:08",
+    "windMax": 6.2,
+    "gustMax": 25.6,
+    "humidity": 55,
+    "sunrise": "2026-02-02T06:40",
+    "sunset": "2026-02-02T17:09",
     "code": 1
   }
 }
