@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-02-04T09:49:59.215Z",
-  "updatedAtJST": "2026-02-04T18:49:59.215+09:00",
-  "date": "2026-02-04",
-  "timeOfDay": "evening",
+  "updatedAt": "2026-02-04T21:26:32.841Z",
+  "updatedAtJST": "2026-02-05T06:26:32.841+09:00",
+  "date": "2026-02-05",
+  "timeOfDay": "morning",
   "topPhrases": [
     {
       "id": "temp.absolute.cold",
       "topic": "temp",
-      "text": "夜は冷えますね",
+      "text": "今朝は冷えますね",
       "weight": 65
     },
     {
       "id": "temp.diurnal",
       "topic": "temp",
-      "text": "夜になって急に寒くなりましたね",
+      "text": "昼くらいから暖かくなるらしいですね",
       "weight": 45
     },
     {
       "id": "feel.wind.strong",
       "topic": "feel",
-      "text": "今日は風強かったらしいですね",
+      "text": "今日は風強いらしいですよ",
       "weight": 58
     }
   ],
@@ -29,12 +29,12 @@
       "phrases": [
         {
           "id": "temp.absolute.cold",
-          "text": "夜は冷えますね",
+          "text": "今朝は冷えますね",
           "weight": 65
         },
         {
           "id": "temp.diurnal",
-          "text": "夜になって急に寒くなりましたね",
+          "text": "昼くらいから暖かくなるらしいですね",
           "weight": 45
         }
       ]
@@ -48,7 +48,7 @@
       "phrases": [
         {
           "id": "feel.wind.strong",
-          "text": "今日は風強かったらしいですね",
+          "text": "今日は風強いらしいですよ",
           "weight": 58
         }
       ]
@@ -73,21 +73,21 @@
     }
   },
   "details": {
-    "maxTemp": 9.5,
-    "minTemp": -0.9,
-    "yesterdayDiff": "+1",
-    "apparentMax": 6.6,
-    "apparentMin": -4.2,
-    "apparentDeltaMax": "-2.9",
-    "apparentDeltaMin": "-3.3",
+    "maxTemp": 11.9,
+    "minTemp": 0.1,
+    "yesterdayDiff": "+2.3",
+    "apparentMax": 9.3,
+    "apparentMin": -3.3,
+    "apparentDeltaMax": "-2.6",
+    "apparentDeltaMin": "-3.4",
     "rain": 0,
     "rainProbToday": 0,
     "rainProbTomorrow": 0,
-    "windMax": 5,
-    "gustMax": 17.3,
-    "humidity": 58,
-    "sunrise": "2026-02-04T06:39",
-    "sunset": "2026-02-04T17:11",
+    "windMax": 5.2,
+    "gustMax": 16.9,
+    "humidity": 60,
+    "sunrise": "2026-02-05T06:38",
+    "sunset": "2026-02-05T17:12",
     "code": 2
   }
 }
