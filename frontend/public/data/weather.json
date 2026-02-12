@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-02-12T04:52:13.767Z",
-  "updatedAtJST": "2026-02-12T13:52:13.767+09:00",
+  "updatedAt": "2026-02-12T09:54:48.873Z",
+  "updatedAtJST": "2026-02-12T18:54:48.873+09:00",
   "date": "2026-02-12",
-  "timeOfDay": "noon",
+  "timeOfDay": "evening",
   "topPhrases": [
     {
       "id": "temp.absolute.cold",
       "topic": "temp",
-      "text": "昼でも寒いですね",
+      "text": "夜は冷えますね",
       "weight": 65
     },
     {
       "id": "temp.diurnal",
       "topic": "temp",
-      "text": "朝は寒かったけど、暖かくなってきましたね",
+      "text": "夜になって急に寒くなりましたね",
       "weight": 45
     },
     {
       "id": "feel.wind.cold-windy",
       "topic": "feel",
-      "text": "風が冷たくて寒いですね",
+      "text": "今日は風も冷たかったですね",
       "weight": 62
     }
   ],
@@ -29,12 +29,12 @@
       "phrases": [
         {
           "id": "temp.absolute.cold",
-          "text": "昼でも寒いですね",
+          "text": "夜は冷えますね",
           "weight": 65
         },
         {
           "id": "temp.diurnal",
-          "text": "朝は寒かったけど、暖かくなってきましたね",
+          "text": "夜になって急に寒くなりましたね",
           "weight": 45
         }
       ]
@@ -48,12 +48,12 @@
       "phrases": [
         {
           "id": "feel.wind.cold-windy",
-          "text": "風が冷たくて寒いですね",
+          "text": "今日は風も冷たかったですね",
           "weight": 62
         },
         {
           "id": "feel.wind.strong",
-          "text": "風強そうですね",
+          "text": "今日は風強かったらしいですね",
           "weight": 58
         }
       ]
@@ -78,19 +78,19 @@
     }
   },
   "details": {
-    "maxTemp": 10.7,
+    "maxTemp": 9.9,
     "minTemp": 2.8,
-    "yesterdayDiff": "+3",
-    "apparentMax": 7.6,
+    "yesterdayDiff": "+2.2",
+    "apparentMax": 7.2,
     "apparentMin": -0.4,
-    "apparentDeltaMax": "-3.1",
+    "apparentDeltaMax": "-2.7",
     "apparentDeltaMin": "-3.2",
     "rain": 0,
     "rainProbToday": 3,
     "rainProbTomorrow": 0,
     "windMax": 9.3,
     "gustMax": 15.5,
-    "humidity": 58,
+    "humidity": 57,
     "sunrise": "2026-02-12T06:31",
     "sunset": "2026-02-12T17:19",
     "code": 3
