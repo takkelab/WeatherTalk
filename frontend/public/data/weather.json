@@ -1,19 +1,13 @@
 {
-  "updatedAt": "2026-02-14T21:17:31.014Z",
-  "updatedAtJST": "2026-02-15T06:17:31.014+09:00",
+  "updatedAt": "2026-02-15T04:49:06.431Z",
+  "updatedAtJST": "2026-02-15T13:49:06.431+09:00",
   "date": "2026-02-15",
-  "timeOfDay": "morning",
+  "timeOfDay": "noon",
   "topPhrases": [
-    {
-      "id": "temp.delta",
-      "topic": "temp",
-      "text": "昨日より暖かいですね",
-      "weight": 50
-    },
     {
       "id": "temp.diurnal",
       "topic": "temp",
-      "text": "昼くらいから暖かくなるらしいですね",
+      "text": "朝は寒かったけど、暖かくなってきましたね",
       "weight": 45
     },
     {
@@ -21,6 +15,12 @@
       "topic": "rain",
       "text": "明日は雨降るらしいですよ",
       "weight": 55
+    },
+    {
+      "id": "feel.wind.strong",
+      "topic": "feel",
+      "text": "風強そうですね",
+      "weight": 58
     }
   ],
   "byTopic": {
@@ -28,13 +28,8 @@
       "header": "気温",
       "phrases": [
         {
-          "id": "temp.delta",
-          "text": "昨日より暖かいですね",
-          "weight": 50
-        },
-        {
           "id": "temp.diurnal",
-          "text": "昼くらいから暖かくなるらしいですね",
+          "text": "朝は寒かったけど、暖かくなってきましたね",
           "weight": 45
         }
       ]
@@ -54,7 +49,7 @@
       "phrases": [
         {
           "id": "feel.wind.strong",
-          "text": "今日は風強いらしいですよ",
+          "text": "風強そうですね",
           "weight": 58
         }
       ]
@@ -63,9 +58,9 @@
       "header": "季節",
       "phrases": [
         {
-          "id": "season.transition.seasonal-shift",
-          "text": "春の気配がしますね",
-          "weight": 58
+          "id": "season.feel.winter-like",
+          "text": "冬っぽいですね",
+          "weight": 60
         }
       ]
     },
@@ -90,19 +85,19 @@
     }
   },
   "details": {
-    "maxTemp": 17.8,
-    "minTemp": 3.6,
-    "yesterdayDiff": "+4.2",
-    "apparentMax": 17.4,
-    "apparentMin": 1.2,
-    "apparentDeltaMax": "-0.4",
+    "maxTemp": 16.4,
+    "minTemp": 2.6,
+    "yesterdayDiff": "+2.8",
+    "apparentMax": 15.4,
+    "apparentMin": 0.2,
+    "apparentDeltaMax": "-1",
     "apparentDeltaMin": "-2.4",
     "rain": 0,
     "rainProbToday": 3,
-    "rainProbTomorrow": 61,
-    "windMax": 4.5,
-    "gustMax": 20.5,
-    "humidity": 78,
+    "rainProbTomorrow": 73,
+    "windMax": 4.8,
+    "gustMax": 19.4,
+    "humidity": 79,
     "sunrise": "2026-02-15T06:28",
     "sunset": "2026-02-15T17:22",
     "code": 2
