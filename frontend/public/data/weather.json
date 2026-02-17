@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-02-16T21:22:25.325Z",
-  "updatedAtJST": "2026-02-17T06:22:25.325+09:00",
+  "updatedAt": "2026-02-17T04:47:17.643Z",
+  "updatedAtJST": "2026-02-17T13:47:17.643+09:00",
   "date": "2026-02-17",
-  "timeOfDay": "morning",
+  "timeOfDay": "noon",
   "topPhrases": [
     {
       "id": "temp.absolute.cold",
       "topic": "temp",
-      "text": "今朝は冷えますね",
+      "text": "昼でも寒いですね",
       "weight": 65
     },
     {
@@ -19,7 +19,7 @@
     {
       "id": "rain.today.probable",
       "topic": "rain",
-      "text": "今日は雨降るみたいですね",
+      "text": "午後から雨降るみたいですね",
       "weight": 65
     }
   ],
@@ -29,7 +29,7 @@
       "phrases": [
         {
           "id": "temp.absolute.cold",
-          "text": "今朝は冷えますね",
+          "text": "昼でも寒いですね",
           "weight": 65
         },
         {
@@ -44,7 +44,7 @@
       "phrases": [
         {
           "id": "rain.today.probable",
-          "text": "今日は雨降るみたいですね",
+          "text": "午後から雨降るみたいですね",
           "weight": 65
         }
       ]
@@ -54,7 +54,7 @@
       "phrases": [
         {
           "id": "feel.wind.strong",
-          "text": "今日は風強いらしいですよ",
+          "text": "風強そうですね",
           "weight": 58
         }
       ]
@@ -78,6 +78,11 @@
       "header": "例年比較",
       "phrases": [
         {
+          "id": "comparison.unseasonable.cold",
+          "text": "季節外れに寒いですね",
+          "weight": 68
+        },
+        {
           "id": "comparison.normal.colder",
           "text": "この時期にしては寒いですね",
           "weight": 54
@@ -90,19 +95,19 @@
     }
   },
   "details": {
-    "maxTemp": 6.7,
-    "minTemp": 2.7,
-    "yesterdayDiff": "-7",
-    "apparentMax": 3.6,
+    "maxTemp": 5.7,
+    "minTemp": 2.5,
+    "yesterdayDiff": "-8",
+    "apparentMax": 2.6,
     "apparentMin": -0.2,
     "apparentDeltaMax": "-3.1",
-    "apparentDeltaMin": "-2.9",
+    "apparentDeltaMin": "-2.7",
     "rain": 0,
     "rainProbToday": 95,
     "rainProbTomorrow": 10,
     "windMax": 7.2,
-    "gustMax": 23.8,
-    "humidity": 65,
+    "gustMax": 26.3,
+    "humidity": 67,
     "sunrise": "2026-02-17T06:26",
     "sunset": "2026-02-17T17:24",
     "code": 3
