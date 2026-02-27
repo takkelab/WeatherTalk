@@ -1,19 +1,13 @@
 {
-  "updatedAt": "2026-02-26T21:26:11.289Z",
-  "updatedAtJST": "2026-02-27T06:26:11.289+09:00",
+  "updatedAt": "2026-02-27T04:41:13.952Z",
+  "updatedAtJST": "2026-02-27T13:41:13.952+09:00",
   "date": "2026-02-27",
-  "timeOfDay": "morning",
+  "timeOfDay": "noon",
   "topPhrases": [
-    {
-      "id": "rain.tomorrow.probable",
-      "topic": "rain",
-      "text": "明日は雨降るらしいですよ",
-      "weight": 55
-    },
     {
       "id": "feel.wind.strong",
       "topic": "feel",
-      "text": "今日は風強いらしいですよ",
+      "text": "風強そうですね",
       "weight": 58
     },
     {
@@ -30,20 +24,14 @@
     },
     "rain": {
       "header": "雨",
-      "phrases": [
-        {
-          "id": "rain.tomorrow.probable",
-          "text": "明日は雨降るらしいですよ",
-          "weight": 55
-        }
-      ]
+      "phrases": []
     },
     "feel": {
       "header": "体感",
       "phrases": [
         {
           "id": "feel.wind.strong",
-          "text": "今日は風強いらしいですよ",
+          "text": "風強そうですね",
           "weight": 58
         }
       ]
@@ -60,13 +48,7 @@
     },
     "comparison": {
       "header": "例年比較",
-      "phrases": [
-        {
-          "id": "comparison.normal.warmer",
-          "text": "この時期にしては暖かいですね",
-          "weight": 54
-        }
-      ]
+      "phrases": []
     },
     "fallback": {
       "header": "その他",
@@ -74,19 +56,19 @@
     }
   },
   "details": {
-    "maxTemp": 12.8,
-    "minTemp": 6.2,
-    "yesterdayDiff": "+1.6",
-    "apparentMax": 11.8,
+    "maxTemp": 12.4,
+    "minTemp": 6,
+    "yesterdayDiff": "+1.2",
+    "apparentMax": 11.5,
     "apparentMin": 4.1,
-    "apparentDeltaMax": "-1",
-    "apparentDeltaMin": "-2.1",
+    "apparentDeltaMax": "-0.9",
+    "apparentDeltaMin": "-1.9",
     "rain": 0,
     "rainProbToday": 0,
-    "rainProbTomorrow": 15,
-    "windMax": 5.9,
-    "gustMax": 27.7,
-    "humidity": 84,
+    "rainProbTomorrow": 13,
+    "windMax": 5.8,
+    "gustMax": 26.3,
+    "humidity": 85,
     "sunrise": "2026-02-27T06:14",
     "sunset": "2026-02-27T17:34",
     "code": 3
