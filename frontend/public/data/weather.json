@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-03-08T04:28:16.202Z",
-  "updatedAtJST": "2026-03-08T13:28:16.202+09:00",
+  "updatedAt": "2026-03-08T09:33:16.933Z",
+  "updatedAtJST": "2026-03-08T18:33:16.933+09:00",
   "date": "2026-03-08",
-  "timeOfDay": "noon",
+  "timeOfDay": "evening",
   "topPhrases": [
     {
       "id": "temp.absolute.cold",
       "topic": "temp",
-      "text": "昼でも寒いですね",
+      "text": "夜は冷えますね",
       "weight": 65
     },
     {
@@ -17,10 +17,10 @@
       "weight": 50
     },
     {
-      "id": "feel.wind.cold-windy",
-      "topic": "feel",
-      "text": "風が冷たくて寒いですね",
-      "weight": 62
+      "id": "rain.tomorrow.probable",
+      "topic": "rain",
+      "text": "明日は雨降るらしいですよ",
+      "weight": 55
     }
   ],
   "byTopic": {
@@ -29,7 +29,7 @@
       "phrases": [
         {
           "id": "temp.absolute.cold",
-          "text": "昼でも寒いですね",
+          "text": "夜は冷えますね",
           "weight": 65
         },
         {
@@ -41,19 +41,25 @@
     },
     "rain": {
       "header": "雨",
-      "phrases": []
+      "phrases": [
+        {
+          "id": "rain.tomorrow.probable",
+          "text": "明日は雨降るらしいですよ",
+          "weight": 55
+        }
+      ]
     },
     "feel": {
       "header": "体感",
       "phrases": [
         {
           "id": "feel.wind.cold-windy",
-          "text": "風が冷たくて寒いですね",
+          "text": "今日は風も冷たかったですね",
           "weight": 62
         },
         {
           "id": "feel.wind.strong",
-          "text": "風強そうですね",
+          "text": "今日は風強かったらしいですね",
           "weight": 58
         }
       ]
@@ -94,19 +100,19 @@
     }
   },
   "details": {
-    "maxTemp": 9.8,
-    "minTemp": 3.2,
-    "yesterdayDiff": "-5.3",
-    "apparentMax": 6.9,
+    "maxTemp": 9.5,
+    "minTemp": 3.1,
+    "yesterdayDiff": "-5.6",
+    "apparentMax": 6.5,
     "apparentMin": -1.2,
-    "apparentDeltaMax": "-2.9",
-    "apparentDeltaMin": "-4.4",
+    "apparentDeltaMax": "-3",
+    "apparentDeltaMin": "-4.3",
     "rain": 0,
     "rainProbToday": 38,
     "rainProbTomorrow": 25,
-    "windMax": 11,
+    "windMax": 11.3,
     "gustMax": 37.8,
-    "humidity": 45,
+    "humidity": 46,
     "sunrise": "2026-03-08T06:02",
     "sunset": "2026-03-08T17:42",
     "code": 3
