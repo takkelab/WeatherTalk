@@ -1,26 +1,26 @@
 {
-  "updatedAt": "2026-03-12T04:42:03.593Z",
-  "updatedAtJST": "2026-03-12T13:42:03.593+09:00",
+  "updatedAt": "2026-03-12T09:49:31.609Z",
+  "updatedAtJST": "2026-03-12T18:49:31.609+09:00",
   "date": "2026-03-12",
-  "timeOfDay": "noon",
+  "timeOfDay": "evening",
   "topPhrases": [
     {
       "id": "temp.absolute.cold",
       "topic": "temp",
-      "text": "昼でも寒いですね",
+      "text": "夜は冷えますね",
       "weight": 65
     },
     {
       "id": "temp.diurnal",
       "topic": "temp",
-      "text": "朝は寒かったけど、暖かくなってきましたね",
+      "text": "夜になって急に寒くなりましたね",
       "weight": 45
     },
     {
-      "id": "feel.wind.strong",
+      "id": "feel.wind.cold-windy",
       "topic": "feel",
-      "text": "風強そうですね",
-      "weight": 58
+      "text": "今日は風も冷たかったですね",
+      "weight": 62
     }
   ],
   "byTopic": {
@@ -29,12 +29,12 @@
       "phrases": [
         {
           "id": "temp.absolute.cold",
-          "text": "昼でも寒いですね",
+          "text": "夜は冷えますね",
           "weight": 65
         },
         {
           "id": "temp.diurnal",
-          "text": "朝は寒かったけど、暖かくなってきましたね",
+          "text": "夜になって急に寒くなりましたね",
           "weight": 45
         }
       ]
@@ -47,8 +47,13 @@
       "header": "体感",
       "phrases": [
         {
+          "id": "feel.wind.cold-windy",
+          "text": "今日は風も冷たかったですね",
+          "weight": 62
+        },
+        {
           "id": "feel.wind.strong",
-          "text": "風強そうですね",
+          "text": "今日は風強かったらしいですね",
           "weight": 58
         }
       ]
@@ -79,19 +84,19 @@
     }
   },
   "details": {
-    "maxTemp": 10.8,
+    "maxTemp": 10.9,
     "minTemp": 3.5,
-    "yesterdayDiff": "+0.8",
+    "yesterdayDiff": "+0.9",
     "apparentMax": 8,
     "apparentMin": 0.4,
-    "apparentDeltaMax": "-2.8",
+    "apparentDeltaMax": "-2.9",
     "apparentDeltaMin": "-3.1",
     "rain": 0,
     "rainProbToday": 43,
     "rainProbTomorrow": 3,
-    "windMax": 7.6,
+    "windMax": 8,
     "gustMax": 33.1,
-    "humidity": 53,
+    "humidity": 52,
     "sunrise": "2026-03-12T05:56",
     "sunset": "2026-03-12T17:45",
     "code": 3
