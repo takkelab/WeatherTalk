@@ -1,26 +1,26 @@
 {
-  "updatedAt": "2026-03-15T04:59:35.681Z",
-  "updatedAtJST": "2026-03-15T13:59:35.681+09:00",
+  "updatedAt": "2026-03-15T09:38:17.337Z",
+  "updatedAtJST": "2026-03-15T18:38:17.337+09:00",
   "date": "2026-03-15",
-  "timeOfDay": "noon",
+  "timeOfDay": "evening",
   "topPhrases": [
     {
       "id": "temp.diurnal",
       "topic": "temp",
-      "text": "朝は寒かったけど、暖かくなってきましたね",
+      "text": "夜になって急に寒くなりましたね",
       "weight": 45
+    },
+    {
+      "id": "rain.tomorrow.probable",
+      "topic": "rain",
+      "text": "明日は雨降るらしいですよ",
+      "weight": 55
     },
     {
       "id": "feel.wind.strong",
       "topic": "feel",
-      "text": "風強そうですね",
+      "text": "今日は風強かったらしいですね",
       "weight": 58
-    },
-    {
-      "id": "season.feel.winter-like",
-      "topic": "season",
-      "text": "冬っぽいですね",
-      "weight": 60
     }
   ],
   "byTopic": {
@@ -29,21 +29,27 @@
       "phrases": [
         {
           "id": "temp.diurnal",
-          "text": "朝は寒かったけど、暖かくなってきましたね",
+          "text": "夜になって急に寒くなりましたね",
           "weight": 45
         }
       ]
     },
     "rain": {
       "header": "雨",
-      "phrases": []
+      "phrases": [
+        {
+          "id": "rain.tomorrow.probable",
+          "text": "明日は雨降るらしいですよ",
+          "weight": 55
+        }
+      ]
     },
     "feel": {
       "header": "体感",
       "phrases": [
         {
           "id": "feel.wind.strong",
-          "text": "風強そうですね",
+          "text": "今日は風強かったらしいですね",
           "weight": 58
         }
       ]
@@ -68,10 +74,10 @@
     }
   },
   "details": {
-    "maxTemp": 13.4,
+    "maxTemp": 14,
     "minTemp": 4.5,
-    "yesterdayDiff": "-0.4",
-    "apparentMax": 11.9,
+    "yesterdayDiff": "+0.2",
+    "apparentMax": 12.5,
     "apparentMin": 1.9,
     "apparentDeltaMax": "-1.5",
     "apparentDeltaMin": "-2.6",
@@ -80,7 +86,7 @@
     "rainProbTomorrow": 48,
     "windMax": 5.9,
     "gustMax": 27.4,
-    "humidity": 61,
+    "humidity": 59,
     "sunrise": "2026-03-15T05:52",
     "sunset": "2026-03-15T17:48",
     "code": 3
