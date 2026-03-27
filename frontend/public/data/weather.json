@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-03-26T21:24:40.260Z",
-  "updatedAtJST": "2026-03-27T06:24:40.260+09:00",
+  "updatedAt": "2026-03-27T05:01:14.280Z",
+  "updatedAtJST": "2026-03-27T14:01:14.280+09:00",
   "date": "2026-03-27",
-  "timeOfDay": "morning",
+  "timeOfDay": "noon",
   "topPhrases": [
     {
       "id": "temp.delta",
@@ -13,7 +13,7 @@
     {
       "id": "temp.diurnal",
       "topic": "temp",
-      "text": "昼くらいから暖かくなるらしいですね",
+      "text": "朝は寒かったけど、暖かくなってきましたね",
       "weight": 45
     },
     {
@@ -34,7 +34,7 @@
         },
         {
           "id": "temp.diurnal",
-          "text": "昼くらいから暖かくなるらしいですね",
+          "text": "朝は寒かったけど、暖かくなってきましたね",
           "weight": 45
         }
       ]
@@ -49,7 +49,7 @@
         },
         {
           "id": "rain.today.probable",
-          "text": "今日は雨降るみたいですね",
+          "text": "午後から雨降るみたいですね",
           "weight": 65
         }
       ]
@@ -59,8 +59,13 @@
       "phrases": [
         {
           "id": "feel.wind.strong",
-          "text": "今日は風強いらしいですよ",
+          "text": "風強そうですね",
           "weight": 58
+        },
+        {
+          "id": "feel.wind.moderate",
+          "text": "風が出てきましたね",
+          "weight": 48
         }
       ]
     },
@@ -90,21 +95,21 @@
     }
   },
   "details": {
-    "maxTemp": 16.9,
-    "minTemp": 8.3,
-    "yesterdayDiff": "+5.1",
-    "apparentMax": 16.3,
-    "apparentMin": 7.2,
-    "apparentDeltaMax": "-0.6",
-    "apparentDeltaMin": "-1.1",
-    "rain": 5.2,
-    "rainProbToday": 78,
-    "rainProbTomorrow": 80,
-    "windMax": 7,
-    "gustMax": 31.3,
-    "humidity": 81,
+    "maxTemp": 16.7,
+    "minTemp": 8,
+    "yesterdayDiff": "+4.9",
+    "apparentMax": 16.7,
+    "apparentMin": 7.1,
+    "apparentDeltaMax": "0",
+    "apparentDeltaMin": "-0.9",
+    "rain": 0.7,
+    "rainProbToday": 100,
+    "rainProbTomorrow": 85,
+    "windMax": 9.1,
+    "gustMax": 32.4,
+    "humidity": 83,
     "sunrise": "2026-03-27T05:35",
     "sunset": "2026-03-27T17:58",
-    "code": 61
+    "code": 51
   }
 }
