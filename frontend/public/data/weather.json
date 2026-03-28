@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-03-27T21:28:04.126Z",
-  "updatedAtJST": "2026-03-28T06:28:04.126+09:00",
+  "updatedAt": "2026-03-28T04:47:34.225Z",
+  "updatedAtJST": "2026-03-28T13:47:34.225+09:00",
   "date": "2026-03-28",
-  "timeOfDay": "morning",
+  "timeOfDay": "noon",
   "topPhrases": [
     {
       "id": "temp.diurnal",
       "topic": "temp",
-      "text": "昼くらいから暖かくなるらしいですね",
+      "text": "朝は寒かったけど、暖かくなってきましたね",
       "weight": 45
     },
     {
       "id": "rain.today.probable",
       "topic": "rain",
-      "text": "今日は雨降るみたいですね",
+      "text": "午後から雨降るみたいですね",
       "weight": 65
     },
     {
@@ -29,7 +29,7 @@
       "phrases": [
         {
           "id": "temp.diurnal",
-          "text": "昼くらいから暖かくなるらしいですね",
+          "text": "朝は寒かったけど、暖かくなってきましたね",
           "weight": 45
         }
       ]
@@ -39,7 +39,7 @@
       "phrases": [
         {
           "id": "rain.today.probable",
-          "text": "今日は雨降るみたいですね",
+          "text": "午後から雨降るみたいですね",
           "weight": 65
         },
         {
@@ -54,7 +54,7 @@
       "phrases": [
         {
           "id": "feel.wind.strong",
-          "text": "今日は風強いらしいですよ",
+          "text": "風強そうですね",
           "weight": 58
         }
       ]
@@ -66,6 +66,11 @@
     "comparison": {
       "header": "例年比較",
       "phrases": [
+        {
+          "id": "comparison.unseasonable.warm",
+          "text": "季節外れに暖かいですね",
+          "weight": 68
+        },
         {
           "id": "comparison.normal.warmer",
           "text": "この時期にしては暖かいですね",
@@ -79,19 +84,19 @@
     }
   },
   "details": {
-    "maxTemp": 17.6,
-    "minTemp": 8.4,
-    "yesterdayDiff": "+1.1",
-    "apparentMax": 17.7,
+    "maxTemp": 18.3,
+    "minTemp": 8.3,
+    "yesterdayDiff": "+1.8",
+    "apparentMax": 18.3,
     "apparentMin": 7.5,
-    "apparentDeltaMax": "+0.1",
-    "apparentDeltaMin": "-0.9",
-    "rain": 4.5,
+    "apparentDeltaMax": "0",
+    "apparentDeltaMin": "-0.8",
+    "rain": 4.6,
     "rainProbToday": 100,
-    "rainProbTomorrow": 44,
-    "windMax": 6.2,
-    "gustMax": 31.7,
-    "humidity": 83,
+    "rainProbTomorrow": 65,
+    "windMax": 6.8,
+    "gustMax": 33.8,
+    "humidity": 82,
     "sunrise": "2026-03-28T05:34",
     "sunset": "2026-03-28T17:59",
     "code": 61
