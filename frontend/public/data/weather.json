@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-03-29T05:05:02.627Z",
-  "updatedAtJST": "2026-03-29T14:05:02.627+09:00",
+  "updatedAt": "2026-03-29T09:40:36.123Z",
+  "updatedAtJST": "2026-03-29T18:40:36.123+09:00",
   "date": "2026-03-29",
-  "timeOfDay": "noon",
+  "timeOfDay": "evening",
   "topPhrases": [
     {
       "id": "temp.diurnal",
       "topic": "temp",
-      "text": "朝は寒かったけど、暖かくなってきましたね",
+      "text": "夜になって急に寒くなりましたね",
       "weight": 45
     },
     {
       "id": "rain.today.probable",
       "topic": "rain",
-      "text": "午後から雨降るみたいですね",
+      "text": "これから雨降るみたいですね",
       "weight": 65
     },
     {
       "id": "feel.wind.strong",
       "topic": "feel",
-      "text": "風強そうですね",
+      "text": "今日は風強かったらしいですね",
       "weight": 58
     }
   ],
@@ -29,7 +29,7 @@
       "phrases": [
         {
           "id": "temp.diurnal",
-          "text": "朝は寒かったけど、暖かくなってきましたね",
+          "text": "夜になって急に寒くなりましたね",
           "weight": 45
         }
       ]
@@ -39,7 +39,7 @@
       "phrases": [
         {
           "id": "rain.today.probable",
-          "text": "午後から雨降るみたいですね",
+          "text": "これから雨降るみたいですね",
           "weight": 65
         }
       ]
@@ -49,8 +49,13 @@
       "phrases": [
         {
           "id": "feel.wind.strong",
-          "text": "風強そうですね",
+          "text": "今日は風強かったらしいですね",
           "weight": 58
+        },
+        {
+          "id": "feel.wind.moderate",
+          "text": "今日は風があったみたいですね",
+          "weight": 48
         }
       ]
     },
@@ -79,19 +84,19 @@
     }
   },
   "details": {
-    "maxTemp": 19.5,
+    "maxTemp": 19.7,
     "minTemp": 9,
-    "yesterdayDiff": "+1",
-    "apparentMax": 20.5,
+    "yesterdayDiff": "+1.2",
+    "apparentMax": 20.6,
     "apparentMin": 8.3,
-    "apparentDeltaMax": "+1",
+    "apparentDeltaMax": "+0.9",
     "apparentDeltaMin": "-0.7",
     "rain": 0,
     "rainProbToday": 98,
     "rainProbTomorrow": 30,
-    "windMax": 7.1,
+    "windMax": 8.1,
     "gustMax": 24.8,
-    "humidity": 85,
+    "humidity": 84,
     "sunrise": "2026-03-29T05:32",
     "sunset": "2026-03-29T18:00",
     "code": 3
