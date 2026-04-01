@@ -1,19 +1,13 @@
 {
-  "updatedAt": "2026-03-31T21:31:55.256Z",
-  "updatedAtJST": "2026-04-01T06:31:55.256+09:00",
+  "updatedAt": "2026-04-01T05:16:26.390Z",
+  "updatedAtJST": "2026-04-01T14:16:26.390+09:00",
   "date": "2026-04-01",
-  "timeOfDay": "morning",
+  "timeOfDay": "noon",
   "topPhrases": [
-    {
-      "id": "temp.delta",
-      "topic": "temp",
-      "text": "昨日より寒いですね",
-      "weight": 50
-    },
     {
       "id": "rain.today.probable",
       "topic": "rain",
-      "text": "今日は雨降るみたいですね",
+      "text": "午後から雨降るみたいですね",
       "weight": 65
     },
     {
@@ -21,25 +15,25 @@
       "topic": "rain",
       "text": "明日は雨降るらしいですよ",
       "weight": 55
+    },
+    {
+      "id": "feel.wind.strong",
+      "topic": "feel",
+      "text": "風強そうですね",
+      "weight": 58
     }
   ],
   "byTopic": {
     "temp": {
       "header": "気温",
-      "phrases": [
-        {
-          "id": "temp.delta",
-          "text": "昨日より寒いですね",
-          "weight": 50
-        }
-      ]
+      "phrases": []
     },
     "rain": {
       "header": "雨",
       "phrases": [
         {
           "id": "rain.today.probable",
-          "text": "今日は雨降るみたいですね",
+          "text": "午後から雨降るみたいですね",
           "weight": 65
         },
         {
@@ -54,7 +48,7 @@
       "phrases": [
         {
           "id": "feel.wind.strong",
-          "text": "今日は風強いらしいですよ",
+          "text": "風強そうですね",
           "weight": 58
         }
       ]
@@ -66,11 +60,6 @@
     "comparison": {
       "header": "例年比較",
       "phrases": [
-        {
-          "id": "comparison.unseasonable.cold",
-          "text": "季節外れに寒いですね",
-          "weight": 68
-        },
         {
           "id": "comparison.normal.colder",
           "text": "この時期にしては寒いですね",
@@ -84,19 +73,19 @@
     }
   },
   "details": {
-    "maxTemp": 14.9,
-    "minTemp": 10.5,
-    "yesterdayDiff": "-3.5",
-    "apparentMax": 15.2,
-    "apparentMin": 9.5,
-    "apparentDeltaMax": "+0.3",
-    "apparentDeltaMin": "-1",
-    "rain": 14.6,
+    "maxTemp": 16.1,
+    "minTemp": 10.7,
+    "yesterdayDiff": "-2.3",
+    "apparentMax": 16.2,
+    "apparentMin": 10,
+    "apparentDeltaMax": "+0.1",
+    "apparentDeltaMin": "-0.7",
+    "rain": 12.9,
     "rainProbToday": 100,
     "rainProbTomorrow": 100,
-    "windMax": 6.8,
-    "gustMax": 33.8,
-    "humidity": 88,
+    "windMax": 6.2,
+    "gustMax": 32.4,
+    "humidity": 90,
     "sunrise": "2026-04-01T05:28",
     "sunset": "2026-04-01T18:02",
     "code": 63
