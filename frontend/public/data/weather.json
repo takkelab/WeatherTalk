@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-04-07T21:36:31.606Z",
-  "updatedAtJST": "2026-04-08T06:36:31.606+09:00",
+  "updatedAt": "2026-04-08T05:04:58.307Z",
+  "updatedAtJST": "2026-04-08T14:04:58.307+09:00",
   "date": "2026-04-08",
-  "timeOfDay": "morning",
+  "timeOfDay": "noon",
   "topPhrases": [
     {
       "id": "temp.diurnal",
       "topic": "temp",
-      "text": "昼くらいから暖かくなるらしいですね",
+      "text": "朝は寒かったけど、暖かくなってきましたね",
       "weight": 45
     },
     {
       "id": "feel.wind.strong",
       "topic": "feel",
-      "text": "今日は風強いらしいですよ",
+      "text": "風強そうですね",
       "weight": 58
     },
     {
@@ -29,7 +29,7 @@
       "phrases": [
         {
           "id": "temp.diurnal",
-          "text": "昼くらいから暖かくなるらしいですね",
+          "text": "朝は寒かったけど、暖かくなってきましたね",
           "weight": 45
         }
       ]
@@ -43,7 +43,7 @@
       "phrases": [
         {
           "id": "feel.wind.strong",
-          "text": "今日は風強いらしいですよ",
+          "text": "風強そうですね",
           "weight": 58
         }
       ]
@@ -68,16 +68,16 @@
     }
   },
   "details": {
-    "maxTemp": 16.7,
+    "maxTemp": 16.8,
     "minTemp": 5.8,
-    "yesterdayDiff": "-1.8",
-    "apparentMax": 15.5,
+    "yesterdayDiff": "-1.7",
+    "apparentMax": 15.6,
     "apparentMin": 2.5,
     "apparentDeltaMax": "-1.2",
     "apparentDeltaMin": "-3.3",
     "rain": 0,
     "rainProbToday": 0,
-    "rainProbTomorrow": 18,
+    "rainProbTomorrow": 15,
     "windMax": 12.4,
     "gustMax": 50.4,
     "humidity": 50,
