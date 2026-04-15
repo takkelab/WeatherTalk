@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-04-14T21:16:14.399Z",
-  "updatedAtJST": "2026-04-15T06:16:14.399+09:00",
+  "updatedAt": "2026-04-15T04:00:26.654Z",
+  "updatedAtJST": "2026-04-15T13:00:26.654+09:00",
   "date": "2026-04-15",
-  "timeOfDay": "morning",
+  "timeOfDay": "noon",
   "topPhrases": [
     {
       "id": "temp.delta",
@@ -13,7 +13,7 @@
     {
       "id": "rain.today.probable",
       "topic": "rain",
-      "text": "今日は雨降るみたいですね",
+      "text": "午後から雨降るみたいですね",
       "weight": 65
     },
     {
@@ -39,7 +39,7 @@
       "phrases": [
         {
           "id": "rain.today.probable",
-          "text": "今日は雨降るみたいですね",
+          "text": "午後から雨降るみたいですね",
           "weight": 65
         },
         {
@@ -54,12 +54,12 @@
       "phrases": [
         {
           "id": "feel.wind.strong",
-          "text": "今日は風強いらしいですよ",
+          "text": "風強そうですね",
           "weight": 58
         },
         {
           "id": "feel.wind.moderate",
-          "text": "今日はちょっと風が吹きそうですね",
+          "text": "風が出てきましたね",
           "weight": 48
         }
       ]
@@ -78,6 +78,11 @@
       "header": "例年比較",
       "phrases": [
         {
+          "id": "comparison.unseasonable.cold",
+          "text": "季節外れに寒いですね",
+          "weight": 68
+        },
+        {
           "id": "comparison.normal.colder",
           "text": "この時期にしては寒いですね",
           "weight": 54
@@ -90,19 +95,19 @@
     }
   },
   "details": {
-    "maxTemp": 16,
-    "minTemp": 12.3,
-    "yesterdayDiff": "-5.7",
-    "apparentMax": 16.4,
-    "apparentMin": 12.3,
-    "apparentDeltaMax": "+0.4",
+    "maxTemp": 15,
+    "minTemp": 12.4,
+    "yesterdayDiff": "-6.7",
+    "apparentMax": 15.5,
+    "apparentMin": 12.4,
+    "apparentDeltaMax": "+0.5",
     "apparentDeltaMin": "0",
-    "rain": 21.6,
-    "rainProbToday": 95,
-    "rainProbTomorrow": 85,
-    "windMax": 8.8,
-    "gustMax": 20.5,
-    "humidity": 94,
+    "rain": 29.8,
+    "rainProbToday": 100,
+    "rainProbTomorrow": 95,
+    "windMax": 8.2,
+    "gustMax": 21.6,
+    "humidity": 96,
     "sunrise": "2026-04-15T05:09",
     "sunset": "2026-04-15T18:14",
     "code": 63
