@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-04-19T21:10:20.117Z",
-  "updatedAtJST": "2026-04-20T06:10:20.117+09:00",
+  "updatedAt": "2026-04-20T04:05:24.915Z",
+  "updatedAtJST": "2026-04-20T13:05:24.915+09:00",
   "date": "2026-04-20",
-  "timeOfDay": "morning",
+  "timeOfDay": "noon",
   "topPhrases": [
     {
       "id": "temp.diurnal",
       "topic": "temp",
-      "text": "昼くらいから暖かくなるらしいですね",
+      "text": "朝は寒かったけど、暖かくなってきましたね",
       "weight": 45
     },
     {
       "id": "feel.wind.strong",
       "topic": "feel",
-      "text": "今日は風強いらしいですよ",
+      "text": "風強そうですね",
       "weight": 58
     },
     {
       "id": "feel.humidity.muggy",
       "topic": "feel",
-      "text": "今日は蒸し暑そうですね",
+      "text": "蒸し暑いですね",
       "weight": 55
     }
   ],
@@ -29,7 +29,7 @@
       "phrases": [
         {
           "id": "temp.diurnal",
-          "text": "昼くらいから暖かくなるらしいですね",
+          "text": "朝は寒かったけど、暖かくなってきましたね",
           "weight": 45
         }
       ]
@@ -43,12 +43,12 @@
       "phrases": [
         {
           "id": "feel.wind.strong",
-          "text": "今日は風強いらしいですよ",
+          "text": "風強そうですね",
           "weight": 58
         },
         {
           "id": "feel.humidity.muggy",
-          "text": "今日は蒸し暑そうですね",
+          "text": "蒸し暑いですね",
           "weight": 55
         }
       ]
@@ -65,7 +65,13 @@
     },
     "comparison": {
       "header": "例年比較",
-      "phrases": []
+      "phrases": [
+        {
+          "id": "comparison.normal.warmer",
+          "text": "この時期にしては暖かいですね",
+          "weight": 54
+        }
+      ]
     },
     "fallback": {
       "header": "その他",
@@ -73,21 +79,21 @@
     }
   },
   "details": {
-    "maxTemp": 21.3,
+    "maxTemp": 21.5,
     "minTemp": 11.2,
-    "yesterdayDiff": "-2.4",
-    "apparentMax": 21.9,
+    "yesterdayDiff": "-2.2",
+    "apparentMax": 21.7,
     "apparentMin": 11,
-    "apparentDeltaMax": "+0.6",
+    "apparentDeltaMax": "+0.2",
     "apparentDeltaMin": "-0.2",
     "rain": 0,
     "rainProbToday": 3,
-    "rainProbTomorrow": 8,
+    "rainProbTomorrow": 3,
     "windMax": 6.9,
-    "gustMax": 34.2,
+    "gustMax": 33.1,
     "humidity": 76,
     "sunrise": "2026-04-20T05:02",
     "sunset": "2026-04-20T18:18",
-    "code": 3
+    "code": 2
   }
 }
