@@ -1,26 +1,26 @@
 {
-  "updatedAt": "2026-05-12T09:57:46.376Z",
-  "updatedAtJST": "2026-05-12T18:57:46.376+09:00",
-  "date": "2026-05-12",
-  "timeOfDay": "evening",
+  "updatedAt": "2026-05-12T21:28:05.957Z",
+  "updatedAtJST": "2026-05-13T06:28:05.957+09:00",
+  "date": "2026-05-13",
+  "timeOfDay": "morning",
   "topPhrases": [
     {
       "id": "temp.diurnal",
       "topic": "temp",
-      "text": "夜になって急に寒くなりましたね",
+      "text": "昼くらいから暖かくなるらしいですね",
       "weight": 45
+    },
+    {
+      "id": "rain.today.probable",
+      "topic": "rain",
+      "text": "今日は雨降るみたいですね",
+      "weight": 65
     },
     {
       "id": "rain.tomorrow.probable",
       "topic": "rain",
       "text": "明日は雨降るらしいですよ",
       "weight": 55
-    },
-    {
-      "id": "feel.wind.strong",
-      "topic": "feel",
-      "text": "今日は風強かったらしいですね",
-      "weight": 58
     }
   ],
   "byTopic": {
@@ -29,7 +29,7 @@
       "phrases": [
         {
           "id": "temp.diurnal",
-          "text": "夜になって急に寒くなりましたね",
+          "text": "昼くらいから暖かくなるらしいですね",
           "weight": 45
         }
       ]
@@ -37,6 +37,11 @@
     "rain": {
       "header": "雨",
       "phrases": [
+        {
+          "id": "rain.today.probable",
+          "text": "今日は雨降るみたいですね",
+          "weight": 65
+        },
         {
           "id": "rain.tomorrow.probable",
           "text": "明日は雨降るらしいですよ",
@@ -49,7 +54,7 @@
       "phrases": [
         {
           "id": "feel.wind.strong",
-          "text": "今日は風強かったらしいですね",
+          "text": "今日は風強いらしいですよ",
           "weight": 58
         }
       ]
@@ -79,21 +84,21 @@
     }
   },
   "details": {
-    "maxTemp": 23.6,
-    "minTemp": 14.3,
-    "yesterdayDiff": "+0.6",
-    "apparentMax": 25.1,
-    "apparentMin": 14.7,
-    "apparentDeltaMax": "+1.5",
-    "apparentDeltaMin": "+0.4",
+    "maxTemp": 24.7,
+    "minTemp": 12,
+    "yesterdayDiff": "+1.1",
+    "apparentMax": 26,
+    "apparentMin": 11.6,
+    "apparentDeltaMax": "+1.3",
+    "apparentDeltaMin": "-0.4",
     "rain": 0,
-    "rainProbToday": 0,
-    "rainProbTomorrow": 33,
-    "windMax": 7.7,
-    "gustMax": 38.2,
-    "humidity": 72,
-    "sunrise": "2026-05-12T04:39",
-    "sunset": "2026-05-12T18:36",
-    "code": 1
+    "rainProbToday": 78,
+    "rainProbTomorrow": 84,
+    "windMax": 6.6,
+    "gustMax": 40,
+    "humidity": 69,
+    "sunrise": "2026-05-13T04:38",
+    "sunset": "2026-05-13T18:37",
+    "code": 3
   }
 }
