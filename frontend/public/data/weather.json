@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-05-17T04:23:21.194Z",
-  "updatedAtJST": "2026-05-17T13:23:21.194+09:00",
+  "updatedAt": "2026-05-17T09:38:17.501Z",
+  "updatedAtJST": "2026-05-17T18:38:17.501+09:00",
   "date": "2026-05-17",
-  "timeOfDay": "noon",
+  "timeOfDay": "evening",
   "topPhrases": [
     {
       "id": "temp.diurnal",
       "topic": "temp",
-      "text": "朝は寒かったけど、暖かくなってきましたね",
+      "text": "夜になって急に寒くなりましたね",
       "weight": 45
     },
     {
       "id": "feel.wind.strong",
       "topic": "feel",
-      "text": "風強そうですね",
+      "text": "今日は風強かったらしいですね",
       "weight": 58
     },
     {
@@ -29,7 +29,7 @@
       "phrases": [
         {
           "id": "temp.diurnal",
-          "text": "朝は寒かったけど、暖かくなってきましたね",
+          "text": "夜になって急に寒くなりましたね",
           "weight": 45
         }
       ]
@@ -43,7 +43,7 @@
       "phrases": [
         {
           "id": "feel.wind.strong",
-          "text": "風強そうですね",
+          "text": "今日は風強かったらしいですね",
           "weight": 58
         }
       ]
@@ -62,6 +62,11 @@
       "header": "例年比較",
       "phrases": [
         {
+          "id": "comparison.unseasonable.warm",
+          "text": "季節外れに暖かいですね",
+          "weight": 68
+        },
+        {
           "id": "comparison.normal.warmer",
           "text": "この時期にしては暖かいですね",
           "weight": 54
@@ -74,19 +79,19 @@
     }
   },
   "details": {
-    "maxTemp": 27.5,
+    "maxTemp": 27.6,
     "minTemp": 12.9,
-    "yesterdayDiff": "+2.7",
-    "apparentMax": 29.8,
+    "yesterdayDiff": "+2.8",
+    "apparentMax": 29.4,
     "apparentMin": 13.2,
-    "apparentDeltaMax": "+2.3",
+    "apparentDeltaMax": "+1.8",
     "apparentDeltaMin": "+0.3",
     "rain": 0,
     "rainProbToday": 0,
     "rainProbTomorrow": 0,
-    "windMax": 7.3,
-    "gustMax": 37.1,
-    "humidity": 67,
+    "windMax": 7,
+    "gustMax": 33.5,
+    "humidity": 64,
     "sunrise": "2026-05-17T04:35",
     "sunset": "2026-05-17T18:40",
     "code": 0
