@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-05-19T04:24:29.949Z",
-  "updatedAtJST": "2026-05-19T13:24:29.949+09:00",
+  "updatedAt": "2026-05-19T10:20:38.365Z",
+  "updatedAtJST": "2026-05-19T19:20:38.365+09:00",
   "date": "2026-05-19",
-  "timeOfDay": "noon",
+  "timeOfDay": "evening",
   "topPhrases": [
     {
       "id": "temp.diurnal",
       "topic": "temp",
-      "text": "朝は寒かったけど、暖かくなってきましたね",
+      "text": "夜になって急に寒くなりましたね",
       "weight": 45
     },
     {
@@ -19,7 +19,7 @@
     {
       "id": "feel.wind.strong",
       "topic": "feel",
-      "text": "風強そうですね",
+      "text": "今日は風強かったらしいですね",
       "weight": 58
     }
   ],
@@ -29,7 +29,7 @@
       "phrases": [
         {
           "id": "temp.diurnal",
-          "text": "朝は寒かったけど、暖かくなってきましたね",
+          "text": "夜になって急に寒くなりましたね",
           "weight": 45
         }
       ]
@@ -49,12 +49,12 @@
       "phrases": [
         {
           "id": "feel.wind.strong",
-          "text": "風強そうですね",
+          "text": "今日は風強かったらしいですね",
           "weight": 58
         },
         {
           "id": "feel.wind.moderate",
-          "text": "風が出てきましたね",
+          "text": "今日は風があったみたいですね",
           "weight": 48
         }
       ]
@@ -73,6 +73,11 @@
       "header": "例年比較",
       "phrases": [
         {
+          "id": "comparison.unseasonable.warm",
+          "text": "季節外れに暖かいですね",
+          "weight": 68
+        },
+        {
           "id": "comparison.normal.warmer",
           "text": "この時期にしては暖かいですね",
           "weight": 54
@@ -85,19 +90,19 @@
     }
   },
   "details": {
-    "maxTemp": 27.1,
+    "maxTemp": 27.9,
     "minTemp": 14.9,
-    "yesterdayDiff": "+0.2",
-    "apparentMax": 30.8,
+    "yesterdayDiff": "+1",
+    "apparentMax": 31,
     "apparentMin": 15.4,
-    "apparentDeltaMax": "+3.7",
+    "apparentDeltaMax": "+3.1",
     "apparentDeltaMin": "+0.5",
     "rain": 0,
     "rainProbToday": 0,
     "rainProbTomorrow": 60,
     "windMax": 9.4,
-    "gustMax": 45.4,
-    "humidity": 72,
+    "gustMax": 45.7,
+    "humidity": 70,
     "sunrise": "2026-05-19T04:33",
     "sunset": "2026-05-19T18:42",
     "code": 3
