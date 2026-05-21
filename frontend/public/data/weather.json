@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-05-21T10:19:23.883Z",
-  "updatedAtJST": "2026-05-21T19:19:23.883+09:00",
-  "date": "2026-05-21",
-  "timeOfDay": "evening",
+  "updatedAt": "2026-05-21T21:30:40.731Z",
+  "updatedAtJST": "2026-05-22T06:30:40.731+09:00",
+  "date": "2026-05-22",
+  "timeOfDay": "morning",
   "topPhrases": [
     {
       "id": "temp.delta",
@@ -11,16 +11,16 @@
       "weight": 50
     },
     {
-      "id": "rain.today.probable",
+      "id": "rain.yesterday.heavy",
       "topic": "rain",
-      "text": "これから雨降るみたいですね",
-      "weight": 65
+      "text": "昨日の雨、けっこう強かったですね",
+      "weight": 68
     },
     {
-      "id": "rain.tomorrow.probable",
+      "id": "rain.today.probable",
       "topic": "rain",
-      "text": "明日は雨降るらしいですよ",
-      "weight": 55
+      "text": "今日は雨降るみたいですね",
+      "weight": 65
     }
   ],
   "byTopic": {
@@ -38,14 +38,14 @@
       "header": "雨",
       "phrases": [
         {
-          "id": "rain.today.probable",
-          "text": "これから雨降るみたいですね",
-          "weight": 65
+          "id": "rain.yesterday.heavy",
+          "text": "昨日の雨、けっこう強かったですね",
+          "weight": 68
         },
         {
-          "id": "rain.tomorrow.probable",
-          "text": "明日は雨降るらしいですよ",
-          "weight": 55
+          "id": "rain.today.probable",
+          "text": "今日は雨降るみたいですね",
+          "weight": 65
         }
       ]
     },
@@ -54,13 +54,8 @@
       "phrases": [
         {
           "id": "feel.wind.strong",
-          "text": "今日は風強かったらしいですね",
+          "text": "今日は風強いらしいですよ",
           "weight": 58
-        },
-        {
-          "id": "feel.humidity.muggy",
-          "text": "今日は蒸し暑かったですね",
-          "weight": 55
         }
       ]
     },
@@ -83,6 +78,11 @@
       "header": "例年比較",
       "phrases": [
         {
+          "id": "comparison.unseasonable.cold",
+          "text": "季節外れに寒いですね",
+          "weight": 68
+        },
+        {
           "id": "comparison.normal.colder",
           "text": "この時期にしては寒いですね",
           "weight": 54
@@ -95,21 +95,21 @@
     }
   },
   "details": {
-    "maxTemp": 20.5,
-    "minTemp": 15.3,
-    "yesterdayDiff": "-8.2",
-    "apparentMax": 24,
-    "apparentMin": 15.8,
-    "apparentDeltaMax": "+3.5",
-    "apparentDeltaMin": "+0.5",
-    "rain": 14.5,
+    "maxTemp": 14.8,
+    "minTemp": 12.9,
+    "yesterdayDiff": "-5.7",
+    "apparentMax": 15.4,
+    "apparentMin": 11.8,
+    "apparentDeltaMax": "+0.6",
+    "apparentDeltaMin": "-1.1",
+    "rain": 18.6,
     "rainProbToday": 100,
-    "rainProbTomorrow": 96,
-    "windMax": 6.5,
-    "gustMax": 45.4,
-    "humidity": 95,
-    "sunrise": "2026-05-21T04:32",
-    "sunset": "2026-05-21T18:43",
+    "rainProbTomorrow": 2,
+    "windMax": 7.6,
+    "gustMax": 40.7,
+    "humidity": 88,
+    "sunrise": "2026-05-22T04:31",
+    "sunset": "2026-05-22T18:44",
     "code": 63
   }
 }
