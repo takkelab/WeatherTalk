@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-05-25T04:29:31.825Z",
-  "updatedAtJST": "2026-05-25T13:29:31.825+09:00",
+  "updatedAt": "2026-05-25T10:38:05.818Z",
+  "updatedAtJST": "2026-05-25T19:38:05.818+09:00",
   "date": "2026-05-25",
-  "timeOfDay": "noon",
+  "timeOfDay": "evening",
   "topPhrases": [
     {
       "id": "temp.delta",
@@ -13,13 +13,13 @@
     {
       "id": "temp.diurnal",
       "topic": "temp",
-      "text": "朝は寒かったけど、暖かくなってきましたね",
+      "text": "夜になって急に寒くなりましたね",
       "weight": 45
     },
     {
       "id": "feel.wind.strong",
       "topic": "feel",
-      "text": "風強そうですね",
+      "text": "今日は風強かったらしいですね",
       "weight": 58
     }
   ],
@@ -34,7 +34,7 @@
         },
         {
           "id": "temp.diurnal",
-          "text": "朝は寒かったけど、暖かくなってきましたね",
+          "text": "夜になって急に寒くなりましたね",
           "weight": 45
         }
       ]
@@ -48,12 +48,12 @@
       "phrases": [
         {
           "id": "feel.wind.strong",
-          "text": "風強そうですね",
+          "text": "今日は風強かったらしいですね",
           "weight": 58
         },
         {
           "id": "feel.humidity.muggy",
-          "text": "蒸し暑いですね",
+          "text": "今日は蒸し暑かったですね",
           "weight": 55
         }
       ]
@@ -75,13 +75,7 @@
     },
     "comparison": {
       "header": "例年比較",
-      "phrases": [
-        {
-          "id": "comparison.normal.warmer",
-          "text": "この時期にしては暖かいですね",
-          "weight": 54
-        }
-      ]
+      "phrases": []
     },
     "fallback": {
       "header": "その他",
@@ -89,18 +83,18 @@
     }
   },
   "details": {
-    "maxTemp": 25.9,
+    "maxTemp": 25.3,
     "minTemp": 15.7,
-    "yesterdayDiff": "+4.5",
-    "apparentMax": 29.1,
+    "yesterdayDiff": "+3.9",
+    "apparentMax": 28.2,
     "apparentMin": 17.1,
-    "apparentDeltaMax": "+3.2",
+    "apparentDeltaMax": "+2.9",
     "apparentDeltaMin": "+1.4",
     "rain": 0,
     "rainProbToday": 14,
     "rainProbTomorrow": 20,
-    "windMax": 6.9,
-    "gustMax": 28.1,
+    "windMax": 7.7,
+    "gustMax": 28.8,
     "humidity": 78,
     "sunrise": "2026-05-25T04:30",
     "sunset": "2026-05-25T18:46",
