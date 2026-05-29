@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-05-29T04:28:15.411Z",
-  "updatedAtJST": "2026-05-29T13:28:15.411+09:00",
+  "updatedAt": "2026-05-29T10:24:22.882Z",
+  "updatedAtJST": "2026-05-29T19:24:22.882+09:00",
   "date": "2026-05-29",
-  "timeOfDay": "noon",
+  "timeOfDay": "evening",
   "topPhrases": [
     {
       "id": "temp.absolute.hot",
       "topic": "temp",
-      "text": "もう夏みたいな暑さですね",
+      "text": "夜でも暑いですね",
       "weight": 65
     },
     {
@@ -19,7 +19,7 @@
     {
       "id": "temp.diurnal",
       "topic": "temp",
-      "text": "朝は寒かったけど、暖かくなってきましたね",
+      "text": "夜になって急に寒くなりましたね",
       "weight": 45
     }
   ],
@@ -29,7 +29,7 @@
       "phrases": [
         {
           "id": "temp.absolute.hot",
-          "text": "もう夏みたいな暑さですね",
+          "text": "夜でも暑いですね",
           "weight": 65
         },
         {
@@ -48,7 +48,7 @@
       "phrases": [
         {
           "id": "feel.wind.strong",
-          "text": "風強そうですね",
+          "text": "今日は風強かったらしいですね",
           "weight": 58
         }
       ]
@@ -89,19 +89,19 @@
     }
   },
   "details": {
-    "maxTemp": 29.2,
-    "minTemp": 19.4,
-    "yesterdayDiff": "+4.3",
-    "apparentMax": 31.5,
+    "maxTemp": 29.8,
+    "minTemp": 19,
+    "yesterdayDiff": "+4.9",
+    "apparentMax": 30.9,
     "apparentMin": 18.4,
-    "apparentDeltaMax": "+2.3",
-    "apparentDeltaMin": "-1",
+    "apparentDeltaMax": "+1.1",
+    "apparentDeltaMin": "-0.6",
     "rain": 0,
     "rainProbToday": 12,
     "rainProbTomorrow": 10,
-    "windMax": 12.6,
-    "gustMax": 57.6,
-    "humidity": 62,
+    "windMax": 12.1,
+    "gustMax": 59.4,
+    "humidity": 61,
     "sunrise": "2026-05-29T04:28",
     "sunset": "2026-05-29T18:49",
     "code": 3
