@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-05-29T21:33:38.240Z",
-  "updatedAtJST": "2026-05-30T06:33:38.240+09:00",
+  "updatedAt": "2026-05-30T04:21:10.833Z",
+  "updatedAtJST": "2026-05-30T13:21:10.833+09:00",
   "date": "2026-05-30",
-  "timeOfDay": "morning",
+  "timeOfDay": "noon",
   "topPhrases": [
     {
       "id": "temp.diurnal",
       "topic": "temp",
-      "text": "昼くらいから暖かくなるらしいですね",
+      "text": "朝は寒かったけど、暖かくなってきましたね",
       "weight": 45
     },
     {
       "id": "feel.wind.strong",
       "topic": "feel",
-      "text": "今日は風強いらしいですよ",
+      "text": "風強そうですね",
       "weight": 58
     },
     {
       "id": "feel.wind.moderate",
       "topic": "feel",
-      "text": "今日はちょっと風が吹きそうですね",
+      "text": "風が出てきましたね",
       "weight": 48
     }
   ],
@@ -29,7 +29,7 @@
       "phrases": [
         {
           "id": "temp.diurnal",
-          "text": "昼くらいから暖かくなるらしいですね",
+          "text": "朝は寒かったけど、暖かくなってきましたね",
           "weight": 45
         }
       ]
@@ -43,12 +43,12 @@
       "phrases": [
         {
           "id": "feel.wind.strong",
-          "text": "今日は風強いらしいですよ",
+          "text": "風強そうですね",
           "weight": 58
         },
         {
           "id": "feel.wind.moderate",
-          "text": "今日はちょっと風が吹きそうですね",
+          "text": "風が出てきましたね",
           "weight": 48
         }
       ]
@@ -79,19 +79,19 @@
     }
   },
   "details": {
-    "maxTemp": 27.2,
-    "minTemp": 16.4,
-    "yesterdayDiff": "-2.6",
+    "maxTemp": 26.9,
+    "minTemp": 16.3,
+    "yesterdayDiff": "-2.9",
     "apparentMax": 29.2,
-    "apparentMin": 16,
-    "apparentDeltaMax": "+2",
-    "apparentDeltaMin": "-0.4",
+    "apparentMin": 15.5,
+    "apparentDeltaMax": "+2.3",
+    "apparentDeltaMin": "-0.8",
     "rain": 0,
-    "rainProbToday": 6,
-    "rainProbTomorrow": 10,
-    "windMax": 9.5,
-    "gustMax": 46.4,
-    "humidity": 57,
+    "rainProbToday": 29,
+    "rainProbTomorrow": 6,
+    "windMax": 9.9,
+    "gustMax": 47.5,
+    "humidity": 58,
     "sunrise": "2026-05-30T04:27",
     "sunset": "2026-05-30T18:50",
     "code": 2
