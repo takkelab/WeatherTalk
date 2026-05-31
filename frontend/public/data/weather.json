@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-05-30T21:20:14.681Z",
-  "updatedAtJST": "2026-05-31T06:20:14.681+09:00",
+  "updatedAt": "2026-05-31T04:29:15.932Z",
+  "updatedAtJST": "2026-05-31T13:29:15.932+09:00",
   "date": "2026-05-31",
-  "timeOfDay": "morning",
+  "timeOfDay": "noon",
   "topPhrases": [
     {
       "id": "temp.diurnal",
       "topic": "temp",
-      "text": "昼くらいから暖かくなるらしいですね",
+      "text": "朝は寒かったけど、暖かくなってきましたね",
       "weight": 45
     },
     {
       "id": "feel.wind.strong",
       "topic": "feel",
-      "text": "今日は風強いらしいですよ",
+      "text": "風強そうですね",
       "weight": 58
     },
     {
@@ -29,7 +29,7 @@
       "phrases": [
         {
           "id": "temp.diurnal",
-          "text": "昼くらいから暖かくなるらしいですね",
+          "text": "朝は寒かったけど、暖かくなってきましたね",
           "weight": 45
         }
       ]
@@ -43,7 +43,7 @@
       "phrases": [
         {
           "id": "feel.wind.strong",
-          "text": "今日は風強いらしいですよ",
+          "text": "風強そうですね",
           "weight": 58
         }
       ]
@@ -62,6 +62,11 @@
       "header": "例年比較",
       "phrases": [
         {
+          "id": "comparison.unseasonable.warm",
+          "text": "季節外れに暖かいですね",
+          "weight": 68
+        },
+        {
           "id": "comparison.normal.warmer",
           "text": "この時期にしては暖かいですね",
           "weight": 54
@@ -74,21 +79,21 @@
     }
   },
   "details": {
-    "maxTemp": 27.3,
-    "minTemp": 16.3,
-    "yesterdayDiff": "+0.4",
-    "apparentMax": 29.5,
-    "apparentMin": 17.6,
-    "apparentDeltaMax": "+2.2",
-    "apparentDeltaMin": "+1.3",
+    "maxTemp": 27.6,
+    "minTemp": 16.6,
+    "yesterdayDiff": "+0.7",
+    "apparentMax": 30.3,
+    "apparentMin": 18.1,
+    "apparentDeltaMax": "+2.7",
+    "apparentDeltaMin": "+1.5",
     "rain": 0,
-    "rainProbToday": 7,
+    "rainProbToday": 26,
     "rainProbTomorrow": 0,
-    "windMax": 7.4,
-    "gustMax": 38.5,
-    "humidity": 73,
+    "windMax": 6.1,
+    "gustMax": 37.1,
+    "humidity": 74,
     "sunrise": "2026-05-31T04:27",
     "sunset": "2026-05-31T18:50",
-    "code": 2
+    "code": 3
   }
 }
