@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-06-08T21:32:49.444Z",
-  "updatedAtJST": "2026-06-09T06:32:49.444+09:00",
+  "updatedAt": "2026-06-09T04:24:07.589Z",
+  "updatedAtJST": "2026-06-09T13:24:07.589+09:00",
   "date": "2026-06-09",
-  "timeOfDay": "morning",
+  "timeOfDay": "noon",
   "topPhrases": [
     {
       "id": "rain.today.probable",
       "topic": "rain",
-      "text": "今日は雨降るみたいですね",
+      "text": "午後から雨降るみたいですね",
       "weight": 65
     },
     {
@@ -19,7 +19,7 @@
     {
       "id": "feel.wind.strong",
       "topic": "feel",
-      "text": "今日は風強いらしいですよ",
+      "text": "風強そうですね",
       "weight": 58
     }
   ],
@@ -33,7 +33,7 @@
       "phrases": [
         {
           "id": "rain.today.probable",
-          "text": "今日は雨降るみたいですね",
+          "text": "午後から雨降るみたいですね",
           "weight": 65
         },
         {
@@ -48,12 +48,12 @@
       "phrases": [
         {
           "id": "feel.wind.strong",
-          "text": "今日は風強いらしいですよ",
+          "text": "風強そうですね",
           "weight": 58
         },
         {
           "id": "feel.humidity.muggy",
-          "text": "今日はじめじめしそうですね",
+          "text": "湿気がすごいですね",
           "weight": 55
         }
       ]
@@ -70,7 +70,13 @@
     },
     "comparison": {
       "header": "例年比較",
-      "phrases": []
+      "phrases": [
+        {
+          "id": "comparison.normal.colder",
+          "text": "この時期にしては寒いですね",
+          "weight": 54
+        }
+      ]
     },
     "fallback": {
       "header": "その他",
@@ -78,21 +84,21 @@
     }
   },
   "details": {
-    "maxTemp": 25.2,
-    "minTemp": 18.9,
-    "yesterdayDiff": "+2.8",
-    "apparentMax": 28.2,
-    "apparentMin": 21.5,
-    "apparentDeltaMax": "+3",
-    "apparentDeltaMin": "+2.6",
-    "rain": 7.3,
-    "rainProbToday": 98,
-    "rainProbTomorrow": 32,
-    "windMax": 5.6,
-    "gustMax": 25.9,
-    "humidity": 84,
+    "maxTemp": 22.7,
+    "minTemp": 18.6,
+    "yesterdayDiff": "+0.3",
+    "apparentMax": 24.9,
+    "apparentMin": 20.5,
+    "apparentDeltaMax": "+2.2",
+    "apparentDeltaMin": "+1.9",
+    "rain": 16.1,
+    "rainProbToday": 100,
+    "rainProbTomorrow": 51,
+    "windMax": 5.8,
+    "gustMax": 23,
+    "humidity": 88,
     "sunrise": "2026-06-09T04:25",
     "sunset": "2026-06-09T18:56",
-    "code": 61
+    "code": 63
   }
 }
