@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-06-20T21:28:08.042Z",
-  "updatedAtJST": "2026-06-21T06:28:08.042+09:00",
+  "updatedAt": "2026-06-21T04:30:09.669Z",
+  "updatedAtJST": "2026-06-21T13:30:09.669+09:00",
   "date": "2026-06-21",
-  "timeOfDay": "morning",
+  "timeOfDay": "noon",
   "topPhrases": [
     {
       "id": "temp.delta",
@@ -19,7 +19,7 @@
     {
       "id": "rain.today.probable",
       "topic": "rain",
-      "text": "今日は雨降るみたいですね",
+      "text": "午後から雨降るみたいですね",
       "weight": 65
     }
   ],
@@ -44,7 +44,7 @@
         },
         {
           "id": "rain.today.probable",
-          "text": "今日は雨降るみたいですね",
+          "text": "午後から雨降るみたいですね",
           "weight": 65
         }
       ]
@@ -54,12 +54,12 @@
       "phrases": [
         {
           "id": "feel.wind.strong",
-          "text": "今日は風強いらしいですよ",
+          "text": "風強そうですね",
           "weight": 58
         },
         {
           "id": "feel.humidity.muggy",
-          "text": "今日はじめじめしそうですね",
+          "text": "湿気がすごいですね",
           "weight": 55
         }
       ]
@@ -73,9 +73,9 @@
           "weight": 58
         },
         {
-          "id": "season.rainy-season",
-          "text": "雨続きですね",
-          "weight": 56
+          "id": "season.daylight.sunset-late",
+          "text": "日が長くなりましたね",
+          "weight": 55
         }
       ]
     },
@@ -89,19 +89,19 @@
     }
   },
   "details": {
-    "maxTemp": 25.8,
-    "minTemp": 21,
-    "yesterdayDiff": "+3.3",
-    "apparentMax": 30.1,
+    "maxTemp": 26.6,
+    "minTemp": 20.8,
+    "yesterdayDiff": "+4.1",
+    "apparentMax": 30.7,
     "apparentMin": 24.3,
-    "apparentDeltaMax": "+4.3",
-    "apparentDeltaMin": "+3.3",
-    "rain": 8.3,
+    "apparentDeltaMax": "+4.1",
+    "apparentDeltaMin": "+3.5",
+    "rain": 11.8,
     "rainProbToday": 100,
-    "rainProbTomorrow": 35,
-    "windMax": 7.3,
+    "rainProbTomorrow": 37,
+    "windMax": 6.5,
     "gustMax": 38.5,
-    "humidity": 90,
+    "humidity": 87,
     "sunrise": "2026-06-21T04:25",
     "sunset": "2026-06-21T19:00",
     "code": 63
