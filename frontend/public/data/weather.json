@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-06-21T21:28:14.427Z",
-  "updatedAtJST": "2026-06-22T06:28:14.427+09:00",
+  "updatedAt": "2026-06-22T04:30:40.526Z",
+  "updatedAtJST": "2026-06-22T13:30:40.526+09:00",
   "date": "2026-06-22",
-  "timeOfDay": "morning",
+  "timeOfDay": "noon",
   "topPhrases": [
     {
       "id": "rain.yesterday.heavy",
@@ -11,16 +11,16 @@
       "weight": 68
     },
     {
+      "id": "rain.today.probable",
+      "topic": "rain",
+      "text": "午後から雨降るみたいですね",
+      "weight": 65
+    },
+    {
       "id": "rain.tomorrow.probable",
       "topic": "rain",
       "text": "明日は雨降るらしいですよ",
       "weight": 55
-    },
-    {
-      "id": "feel.wind.strong",
-      "topic": "feel",
-      "text": "今日は風強いらしいですよ",
-      "weight": 58
     }
   ],
   "byTopic": {
@@ -37,9 +37,9 @@
           "weight": 68
         },
         {
-          "id": "rain.tomorrow.probable",
-          "text": "明日は雨降るらしいですよ",
-          "weight": 55
+          "id": "rain.today.probable",
+          "text": "午後から雨降るみたいですね",
+          "weight": 65
         }
       ]
     },
@@ -48,8 +48,13 @@
       "phrases": [
         {
           "id": "feel.wind.strong",
-          "text": "今日は風強いらしいですよ",
+          "text": "風強そうですね",
           "weight": 58
+        },
+        {
+          "id": "feel.humidity.muggy",
+          "text": "湿気がすごいですね",
+          "weight": 55
         }
       ]
     },
@@ -73,19 +78,19 @@
     }
   },
   "details": {
-    "maxTemp": 26.9,
-    "minTemp": 20.1,
-    "yesterdayDiff": "-0.9",
-    "apparentMax": 30.2,
+    "maxTemp": 26.7,
+    "minTemp": 20.2,
+    "yesterdayDiff": "-1.1",
+    "apparentMax": 29.6,
     "apparentMin": 22.7,
-    "apparentDeltaMax": "+3.3",
-    "apparentDeltaMin": "+2.6",
+    "apparentDeltaMax": "+2.9",
+    "apparentDeltaMin": "+2.5",
     "rain": 0,
-    "rainProbToday": 27,
-    "rainProbTomorrow": 26,
+    "rainProbToday": 71,
+    "rainProbTomorrow": 14,
     "windMax": 5.8,
-    "gustMax": 29.9,
-    "humidity": 73,
+    "gustMax": 29.2,
+    "humidity": 76,
     "sunrise": "2026-06-22T04:26",
     "sunset": "2026-06-22T19:00",
     "code": 3
