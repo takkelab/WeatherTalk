@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-06-28T21:22:43.716Z",
-  "updatedAtJST": "2026-06-29T06:22:43.716+09:00",
+  "updatedAt": "2026-06-29T04:29:39.375Z",
+  "updatedAtJST": "2026-06-29T13:29:39.375+09:00",
   "date": "2026-06-29",
-  "timeOfDay": "morning",
+  "timeOfDay": "noon",
   "topPhrases": [
     {
       "id": "rain.yesterday.heavy",
@@ -13,7 +13,7 @@
     {
       "id": "rain.today.probable",
       "topic": "rain",
-      "text": "今日は雨降るみたいですね",
+      "text": "午後から雨降るみたいですね",
       "weight": 65
     },
     {
@@ -38,7 +38,7 @@
         },
         {
           "id": "rain.today.probable",
-          "text": "今日は雨降るみたいですね",
+          "text": "午後から雨降るみたいですね",
           "weight": 65
         }
       ]
@@ -48,12 +48,12 @@
       "phrases": [
         {
           "id": "feel.wind.strong",
-          "text": "今日は風強いらしいですよ",
+          "text": "風強そうですね",
           "weight": 58
         },
         {
           "id": "feel.humidity.muggy",
-          "text": "今日はじめじめしそうですね",
+          "text": "湿気がすごいですね",
           "weight": 55
         }
       ]
@@ -70,13 +70,7 @@
     },
     "comparison": {
       "header": "例年比較",
-      "phrases": [
-        {
-          "id": "comparison.normal.colder",
-          "text": "この時期にしては寒いですね",
-          "weight": 54
-        }
-      ]
+      "phrases": []
     },
     "fallback": {
       "header": "その他",
@@ -84,19 +78,19 @@
     }
   },
   "details": {
-    "maxTemp": 23.6,
-    "minTemp": 19.9,
-    "yesterdayDiff": "+0.6",
-    "apparentMax": 27.3,
-    "apparentMin": 23.1,
-    "apparentDeltaMax": "+3.7",
-    "apparentDeltaMin": "+3.2",
-    "rain": 1.6,
+    "maxTemp": 24.9,
+    "minTemp": 20.1,
+    "yesterdayDiff": "+1.9",
+    "apparentMax": 28.4,
+    "apparentMin": 23.5,
+    "apparentDeltaMax": "+3.5",
+    "apparentDeltaMin": "+3.4",
+    "rain": 0.3,
     "rainProbToday": 44,
     "rainProbTomorrow": 54,
-    "windMax": 3.4,
-    "gustMax": 22.7,
-    "humidity": 93,
+    "windMax": 4.4,
+    "gustMax": 20.5,
+    "humidity": 89,
     "sunrise": "2026-06-29T04:28",
     "sunset": "2026-06-29T19:01",
     "code": 51
