@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-07-15T03:59:20.955Z",
-  "updatedAtJST": "2026-07-15T12:59:20.955+09:00",
+  "updatedAt": "2026-07-15T09:40:24.673Z",
+  "updatedAtJST": "2026-07-15T18:40:24.673+09:00",
   "date": "2026-07-15",
-  "timeOfDay": "noon",
+  "timeOfDay": "evening",
   "topPhrases": [
     {
       "id": "temp.absolute.hot",
       "topic": "temp",
-      "text": "もう夏みたいな暑さですね",
+      "text": "夜でも暑いですね",
       "weight": 65
     },
     {
       "id": "temp.diurnal",
       "topic": "temp",
-      "text": "朝は寒かったけど、暖かくなってきましたね",
+      "text": "夜になって急に寒くなりましたね",
       "weight": 45
     },
     {
@@ -29,12 +29,12 @@
       "phrases": [
         {
           "id": "temp.absolute.hot",
-          "text": "もう夏みたいな暑さですね",
+          "text": "夜でも暑いですね",
           "weight": 65
         },
         {
           "id": "temp.diurnal",
-          "text": "朝は寒かったけど、暖かくなってきましたね",
+          "text": "夜になって急に寒くなりましたね",
           "weight": 45
         }
       ]
@@ -54,12 +54,12 @@
       "phrases": [
         {
           "id": "feel.wind.strong",
-          "text": "風強そうですね",
+          "text": "今日は風強かったらしいですね",
           "weight": 58
         },
         {
           "id": "feel.humidity.muggy",
-          "text": "湿気がすごいですね",
+          "text": "今日は湿気が多かったですね",
           "weight": 55
         }
       ]
@@ -95,18 +95,18 @@
     }
   },
   "details": {
-    "maxTemp": 33,
+    "maxTemp": 32.6,
     "minTemp": 24.6,
-    "yesterdayDiff": "-0.2",
-    "apparentMax": 40.8,
+    "yesterdayDiff": "-0.6",
+    "apparentMax": 39.8,
     "apparentMin": 30.6,
-    "apparentDeltaMax": "+7.8",
+    "apparentDeltaMax": "+7.2",
     "apparentDeltaMin": "+6",
     "rain": 0,
     "rainProbToday": 18,
     "rainProbTomorrow": 94,
-    "windMax": 7.2,
-    "gustMax": 42.5,
+    "windMax": 8.8,
+    "gustMax": 46.1,
     "humidity": 83,
     "sunrise": "2026-07-15T04:37",
     "sunset": "2026-07-15T18:57",
