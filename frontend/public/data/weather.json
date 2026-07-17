@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-07-16T21:20:38.834Z",
-  "updatedAtJST": "2026-07-17T06:20:38.834+09:00",
+  "updatedAt": "2026-07-17T03:59:48.165Z",
+  "updatedAtJST": "2026-07-17T12:59:48.165+09:00",
   "date": "2026-07-17",
-  "timeOfDay": "morning",
+  "timeOfDay": "noon",
   "topPhrases": [
     {
       "id": "temp.absolute.hot",
       "topic": "temp",
-      "text": "朝から暑いですね",
+      "text": "もう夏みたいな暑さですね",
       "weight": 65
     },
     {
@@ -19,7 +19,7 @@
     {
       "id": "rain.today.probable",
       "topic": "rain",
-      "text": "今日は雨降るみたいですね",
+      "text": "午後から雨降るみたいですね",
       "weight": 65
     }
   ],
@@ -29,7 +29,7 @@
       "phrases": [
         {
           "id": "temp.absolute.hot",
-          "text": "朝から暑いですね",
+          "text": "もう夏みたいな暑さですね",
           "weight": 65
         },
         {
@@ -44,7 +44,7 @@
       "phrases": [
         {
           "id": "rain.today.probable",
-          "text": "今日は雨降るみたいですね",
+          "text": "午後から雨降るみたいですね",
           "weight": 65
         },
         {
@@ -59,12 +59,12 @@
       "phrases": [
         {
           "id": "feel.wind.strong",
-          "text": "今日は風強いらしいですよ",
+          "text": "風強そうですね",
           "weight": 58
         },
         {
           "id": "feel.humidity.muggy",
-          "text": "今日はじめじめしそうですね",
+          "text": "湿気がすごいですね",
           "weight": 55
         }
       ]
@@ -97,18 +97,18 @@
     "maxTemp": 29.8,
     "minTemp": 25,
     "yesterdayDiff": "-3.3",
-    "apparentMax": 36.1,
-    "apparentMin": 30.6,
-    "apparentDeltaMax": "+6.3",
-    "apparentDeltaMin": "+5.6",
-    "rain": 2.2,
+    "apparentMax": 35.8,
+    "apparentMin": 31.1,
+    "apparentDeltaMax": "+6",
+    "apparentDeltaMin": "+6.1",
+    "rain": 0.7,
     "rainProbToday": 100,
-    "rainProbTomorrow": 57,
-    "windMax": 6.8,
-    "gustMax": 28.8,
-    "humidity": 91,
+    "rainProbTomorrow": 37,
+    "windMax": 7.3,
+    "gustMax": 36,
+    "humidity": 87,
     "sunrise": "2026-07-17T04:38",
     "sunset": "2026-07-17T18:56",
-    "code": 53
+    "code": 51
   }
 }
