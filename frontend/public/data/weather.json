@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-07-18T21:15:36.030Z",
-  "updatedAtJST": "2026-07-19T06:15:36.030+09:00",
+  "updatedAt": "2026-07-19T04:07:39.913Z",
+  "updatedAtJST": "2026-07-19T13:07:39.913+09:00",
   "date": "2026-07-19",
-  "timeOfDay": "morning",
+  "timeOfDay": "noon",
   "topPhrases": [
     {
       "id": "temp.absolute.hot",
       "topic": "temp",
-      "text": "朝から暑いですね",
+      "text": "もう夏みたいな暑さですね",
       "weight": 65
     },
     {
       "id": "feel.wind.strong",
       "topic": "feel",
-      "text": "今日は風強いらしいですよ",
+      "text": "風強そうですね",
       "weight": 58
     },
     {
       "id": "feel.humidity.muggy",
       "topic": "feel",
-      "text": "今日はじめじめしそうですね",
+      "text": "湿気がすごいですね",
       "weight": 55
     }
   ],
@@ -29,7 +29,7 @@
       "phrases": [
         {
           "id": "temp.absolute.hot",
-          "text": "朝から暑いですね",
+          "text": "もう夏みたいな暑さですね",
           "weight": 65
         }
       ]
@@ -43,12 +43,12 @@
       "phrases": [
         {
           "id": "feel.wind.strong",
-          "text": "今日は風強いらしいですよ",
+          "text": "風強そうですね",
           "weight": 58
         },
         {
           "id": "feel.humidity.muggy",
-          "text": "今日はじめじめしそうですね",
+          "text": "湿気がすごいですね",
           "weight": 55
         }
       ]
@@ -78,21 +78,21 @@
     }
   },
   "details": {
-    "maxTemp": 30.2,
-    "minTemp": 24.4,
-    "yesterdayDiff": "+1.9",
-    "apparentMax": 35.5,
+    "maxTemp": 30.9,
+    "minTemp": 24.3,
+    "yesterdayDiff": "+2.6",
+    "apparentMax": 36.7,
     "apparentMin": 29.2,
-    "apparentDeltaMax": "+5.3",
-    "apparentDeltaMin": "+4.8",
+    "apparentDeltaMax": "+5.8",
+    "apparentDeltaMin": "+4.9",
     "rain": 0,
-    "rainProbToday": 39,
-    "rainProbTomorrow": 14,
-    "windMax": 6.5,
-    "gustMax": 31,
+    "rainProbToday": 16,
+    "rainProbTomorrow": 8,
+    "windMax": 7.6,
+    "gustMax": 31.3,
     "humidity": 81,
     "sunrise": "2026-07-19T04:39",
     "sunset": "2026-07-19T18:55",
-    "code": 2
+    "code": 1
   }
 }
