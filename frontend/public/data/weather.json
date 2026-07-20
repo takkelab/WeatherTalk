@@ -1,26 +1,26 @@
 {
-  "updatedAt": "2026-07-20T10:05:48.638Z",
-  "updatedAtJST": "2026-07-20T19:05:48.638+09:00",
-  "date": "2026-07-20",
-  "timeOfDay": "evening",
+  "updatedAt": "2026-07-20T21:24:22.430Z",
+  "updatedAtJST": "2026-07-21T06:24:22.430+09:00",
+  "date": "2026-07-21",
+  "timeOfDay": "morning",
   "topPhrases": [
     {
       "id": "temp.absolute.hot",
       "topic": "temp",
-      "text": "夜でも暑いですね",
+      "text": "朝から暑いですね",
       "weight": 65
-    },
-    {
-      "id": "temp.delta",
-      "topic": "temp",
-      "text": "昨日より暑いですね",
-      "weight": 50
     },
     {
       "id": "temp.diurnal",
       "topic": "temp",
-      "text": "夜になって急に寒くなりましたね",
+      "text": "昼くらいから暖かくなるらしいですね",
       "weight": 45
+    },
+    {
+      "id": "rain.today.probable",
+      "topic": "rain",
+      "text": "今日は雨降るみたいですね",
+      "weight": 65
     }
   ],
   "byTopic": {
@@ -29,19 +29,24 @@
       "phrases": [
         {
           "id": "temp.absolute.hot",
-          "text": "夜でも暑いですね",
+          "text": "朝から暑いですね",
           "weight": 65
         },
         {
-          "id": "temp.delta",
-          "text": "昨日より暑いですね",
-          "weight": 50
+          "id": "temp.diurnal",
+          "text": "昼くらいから暖かくなるらしいですね",
+          "weight": 45
         }
       ]
     },
     "rain": {
       "header": "雨",
       "phrases": [
+        {
+          "id": "rain.today.probable",
+          "text": "今日は雨降るみたいですね",
+          "weight": 65
+        },
         {
           "id": "rain.tomorrow.probable",
           "text": "明日は雨降るらしいですよ",
@@ -54,12 +59,12 @@
       "phrases": [
         {
           "id": "feel.wind.strong",
-          "text": "今日は風強かったらしいですね",
+          "text": "今日は風強いらしいですよ",
           "weight": 58
         },
         {
           "id": "feel.humidity.muggy",
-          "text": "今日は湿気が多かったですね",
+          "text": "今日はじめじめしそうですね",
           "weight": 55
         }
       ]
@@ -73,9 +78,9 @@
           "weight": 60
         },
         {
-          "id": "season.transition.seasonal-shift",
-          "text": "夏の気配がしますね",
-          "weight": 58
+          "id": "season.daylight.sunset-late",
+          "text": "日が長くなりましたね",
+          "weight": 55
         }
       ]
     },
@@ -100,21 +105,21 @@
     }
   },
   "details": {
-    "maxTemp": 34.5,
-    "minTemp": 23.8,
-    "yesterdayDiff": "+3",
-    "apparentMax": 41.6,
-    "apparentMin": 29.3,
-    "apparentDeltaMax": "+7.1",
-    "apparentDeltaMin": "+5.5",
+    "maxTemp": 34.7,
+    "minTemp": 24.5,
+    "yesterdayDiff": "+0.2",
+    "apparentMax": 41.7,
+    "apparentMin": 30.5,
+    "apparentDeltaMax": "+7",
+    "apparentDeltaMin": "+6",
     "rain": 0,
-    "rainProbToday": 2,
-    "rainProbTomorrow": 97,
-    "windMax": 5.8,
-    "gustMax": 32.4,
-    "humidity": 79,
-    "sunrise": "2026-07-20T04:40",
-    "sunset": "2026-07-20T18:55",
+    "rainProbToday": 94,
+    "rainProbTomorrow": 81,
+    "windMax": 6.9,
+    "gustMax": 31,
+    "humidity": 80,
+    "sunrise": "2026-07-21T04:41",
+    "sunset": "2026-07-21T18:54",
     "code": 3
   }
 }
