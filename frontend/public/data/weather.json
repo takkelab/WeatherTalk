@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-07-24T21:22:42.858Z",
-  "updatedAtJST": "2026-07-25T06:22:42.858+09:00",
+  "updatedAt": "2026-07-25T04:02:05.655Z",
+  "updatedAtJST": "2026-07-25T13:02:05.655+09:00",
   "date": "2026-07-25",
-  "timeOfDay": "morning",
+  "timeOfDay": "noon",
   "topPhrases": [
     {
       "id": "temp.absolute.hot",
       "topic": "temp",
-      "text": "朝から暑いですね",
+      "text": "もう夏みたいな暑さですね",
       "weight": 65
     },
     {
       "id": "temp.diurnal",
       "topic": "temp",
-      "text": "昼くらいから暖かくなるらしいですね",
+      "text": "朝は寒かったけど、暖かくなってきましたね",
       "weight": 45
     },
     {
       "id": "rain.today.probable",
       "topic": "rain",
-      "text": "今日は雨降るみたいですね",
+      "text": "午後から雨降るみたいですね",
       "weight": 65
     }
   ],
@@ -29,12 +29,12 @@
       "phrases": [
         {
           "id": "temp.absolute.hot",
-          "text": "朝から暑いですね",
+          "text": "もう夏みたいな暑さですね",
           "weight": 65
         },
         {
           "id": "temp.diurnal",
-          "text": "昼くらいから暖かくなるらしいですね",
+          "text": "朝は寒かったけど、暖かくなってきましたね",
           "weight": 45
         }
       ]
@@ -44,7 +44,7 @@
       "phrases": [
         {
           "id": "rain.today.probable",
-          "text": "今日は雨降るみたいですね",
+          "text": "午後から雨降るみたいですね",
           "weight": 65
         },
         {
@@ -59,12 +59,12 @@
       "phrases": [
         {
           "id": "feel.wind.strong",
-          "text": "今日は風強いらしいですよ",
+          "text": "風強そうですね",
           "weight": 58
         },
         {
           "id": "feel.humidity.muggy",
-          "text": "今日はじめじめしそうですね",
+          "text": "湿気がすごいですね",
           "weight": 55
         }
       ]
@@ -105,18 +105,18 @@
     }
   },
   "details": {
-    "maxTemp": 34.6,
-    "minTemp": 24.4,
-    "yesterdayDiff": "+2.5",
-    "apparentMax": 42.5,
-    "apparentMin": 30.2,
-    "apparentDeltaMax": "+7.9",
-    "apparentDeltaMin": "+5.8",
-    "rain": 2.5,
-    "rainProbToday": 88,
-    "rainProbTomorrow": 98,
-    "windMax": 6.8,
-    "gustMax": 25.2,
+    "maxTemp": 34.5,
+    "minTemp": 24.7,
+    "yesterdayDiff": "+2.4",
+    "apparentMax": 42.2,
+    "apparentMin": 30.7,
+    "apparentDeltaMax": "+7.7",
+    "apparentDeltaMin": "+6",
+    "rain": 3.6,
+    "rainProbToday": 84,
+    "rainProbTomorrow": 100,
+    "windMax": 5.8,
+    "gustMax": 26.3,
     "humidity": 82,
     "sunrise": "2026-07-25T04:43",
     "sunset": "2026-07-25T18:52",
