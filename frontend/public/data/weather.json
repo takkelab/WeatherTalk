@@ -1,26 +1,26 @@
 {
-  "updatedAt": "2026-07-26T09:44:15.008Z",
-  "updatedAtJST": "2026-07-26T18:44:15.008+09:00",
-  "date": "2026-07-26",
-  "timeOfDay": "evening",
+  "updatedAt": "2026-07-26T21:17:33.615Z",
+  "updatedAtJST": "2026-07-27T06:17:33.615+09:00",
+  "date": "2026-07-27",
+  "timeOfDay": "morning",
   "topPhrases": [
     {
       "id": "temp.absolute.hot",
       "topic": "temp",
-      "text": "夜でも暑いですね",
+      "text": "朝から暑いですね",
       "weight": 65
     },
     {
-      "id": "temp.delta",
-      "topic": "temp",
-      "text": "昨日より涼しいですね",
-      "weight": 50
+      "id": "rain.today.probable",
+      "topic": "rain",
+      "text": "今日は雨降るみたいですね",
+      "weight": 65
     },
     {
-      "id": "temp.diurnal",
-      "topic": "temp",
-      "text": "夜になって急に寒くなりましたね",
-      "weight": 45
+      "id": "rain.tomorrow.probable",
+      "topic": "rain",
+      "text": "明日は雨降るらしいですよ",
+      "weight": 55
     }
   ],
   "byTopic": {
@@ -29,13 +29,8 @@
       "phrases": [
         {
           "id": "temp.absolute.hot",
-          "text": "夜でも暑いですね",
+          "text": "朝から暑いですね",
           "weight": 65
-        },
-        {
-          "id": "temp.delta",
-          "text": "昨日より涼しいですね",
-          "weight": 50
         }
       ]
     },
@@ -44,7 +39,7 @@
       "phrases": [
         {
           "id": "rain.today.probable",
-          "text": "これから雨降るみたいですね",
+          "text": "今日は雨降るみたいですね",
           "weight": 65
         },
         {
@@ -59,12 +54,12 @@
       "phrases": [
         {
           "id": "feel.wind.strong",
-          "text": "今日は風強かったらしいですね",
+          "text": "今日は風強いらしいですよ",
           "weight": 58
         },
         {
           "id": "feel.humidity.muggy",
-          "text": "今日は湿気が多かったですね",
+          "text": "今日はじめじめしそうですね",
           "weight": 55
         }
       ]
@@ -86,13 +81,7 @@
     },
     "comparison": {
       "header": "例年比較",
-      "phrases": [
-        {
-          "id": "comparison.normal.warmer",
-          "text": "この時期にしては暖かいですね",
-          "weight": 54
-        }
-      ]
+      "phrases": []
     },
     "fallback": {
       "header": "その他",
@@ -100,21 +89,21 @@
     }
   },
   "details": {
-    "maxTemp": 32.3,
-    "minTemp": 23,
-    "yesterdayDiff": "-3.9",
-    "apparentMax": 38.8,
+    "maxTemp": 30.2,
+    "minTemp": 23.3,
+    "yesterdayDiff": "-2.1",
+    "apparentMax": 35.5,
     "apparentMin": 28.1,
-    "apparentDeltaMax": "+6.5",
-    "apparentDeltaMin": "+5.1",
-    "rain": 15.9,
-    "rainProbToday": 100,
-    "rainProbTomorrow": 76,
-    "windMax": 4.7,
+    "apparentDeltaMax": "+5.3",
+    "apparentDeltaMin": "+4.8",
+    "rain": 0.8,
+    "rainProbToday": 66,
+    "rainProbTomorrow": 93,
+    "windMax": 5.6,
     "gustMax": 31,
-    "humidity": 81,
-    "sunrise": "2026-07-26T04:44",
-    "sunset": "2026-07-26T18:51",
-    "code": 65
+    "humidity": 79,
+    "sunrise": "2026-07-27T04:45",
+    "sunset": "2026-07-27T18:50",
+    "code": 53
   }
 }
