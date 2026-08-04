@@ -1,26 +1,26 @@
 {
-  "updatedAt": "2026-08-03T21:23:21.343Z",
-  "updatedAtJST": "2026-08-04T06:23:21.343+09:00",
+  "updatedAt": "2026-08-04T04:00:47.464Z",
+  "updatedAtJST": "2026-08-04T13:00:47.464+09:00",
   "date": "2026-08-04",
-  "timeOfDay": "morning",
+  "timeOfDay": "noon",
   "topPhrases": [
     {
       "id": "temp.absolute.hot",
       "topic": "temp",
-      "text": "朝から暑いですね",
+      "text": "もう夏みたいな暑さですね",
       "weight": 65
+    },
+    {
+      "id": "temp.diurnal",
+      "topic": "temp",
+      "text": "朝は寒かったけど、暖かくなってきましたね",
+      "weight": 45
     },
     {
       "id": "rain.today.probable",
       "topic": "rain",
-      "text": "今日は雨降るみたいですね",
+      "text": "午後から雨降るみたいですね",
       "weight": 65
-    },
-    {
-      "id": "feel.wind.strong",
-      "topic": "feel",
-      "text": "今日は風強いらしいですよ",
-      "weight": 58
     }
   ],
   "byTopic": {
@@ -29,8 +29,13 @@
       "phrases": [
         {
           "id": "temp.absolute.hot",
-          "text": "朝から暑いですね",
+          "text": "もう夏みたいな暑さですね",
           "weight": 65
+        },
+        {
+          "id": "temp.diurnal",
+          "text": "朝は寒かったけど、暖かくなってきましたね",
+          "weight": 45
         }
       ]
     },
@@ -39,7 +44,7 @@
       "phrases": [
         {
           "id": "rain.today.probable",
-          "text": "今日は雨降るみたいですね",
+          "text": "午後から雨降るみたいですね",
           "weight": 65
         }
       ]
@@ -49,12 +54,12 @@
       "phrases": [
         {
           "id": "feel.wind.strong",
-          "text": "今日は風強いらしいですよ",
+          "text": "風強そうですね",
           "weight": 58
         },
         {
           "id": "feel.humidity.muggy",
-          "text": "今日は蒸し暑そうですね",
+          "text": "蒸し暑いですね",
           "weight": 55
         }
       ]
@@ -62,6 +67,11 @@
     "season": {
       "header": "季節",
       "phrases": [
+        {
+          "id": "season.feel.summer-like",
+          "text": "夏っぽいですね",
+          "weight": 60
+        },
         {
           "id": "season.daylight.sunset-late",
           "text": "日が長くなりましたね",
@@ -85,18 +95,18 @@
     }
   },
   "details": {
-    "maxTemp": 28.2,
-    "minTemp": 21.6,
-    "yesterdayDiff": "+1.7",
-    "apparentMax": 31.2,
+    "maxTemp": 29.1,
+    "minTemp": 21.5,
+    "yesterdayDiff": "+2.6",
+    "apparentMax": 33,
     "apparentMin": 24.4,
-    "apparentDeltaMax": "+3",
-    "apparentDeltaMin": "+2.8",
+    "apparentDeltaMax": "+3.9",
+    "apparentDeltaMin": "+2.9",
     "rain": 0.2,
-    "rainProbToday": 12,
-    "rainProbTomorrow": 19,
+    "rainProbToday": 2,
+    "rainProbTomorrow": 22,
     "windMax": 7.3,
-    "gustMax": 32.8,
+    "gustMax": 33.5,
     "humidity": 75,
     "sunrise": "2026-08-04T04:51",
     "sunset": "2026-08-04T18:43",
