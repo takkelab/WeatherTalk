@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-08-08T21:21:52.389Z",
-  "updatedAtJST": "2026-08-09T06:21:52.389+09:00",
+  "updatedAt": "2026-08-09T04:10:23.843Z",
+  "updatedAtJST": "2026-08-09T13:10:23.843+09:00",
   "date": "2026-08-09",
-  "timeOfDay": "morning",
+  "timeOfDay": "noon",
   "topPhrases": [
     {
       "id": "temp.absolute.hot",
       "topic": "temp",
-      "text": "朝から暑いですね",
+      "text": "もう夏みたいな暑さですね",
       "weight": 65
     },
     {
       "id": "temp.diurnal",
       "topic": "temp",
-      "text": "昼くらいから暖かくなるらしいですね",
+      "text": "朝は寒かったけど、暖かくなってきましたね",
       "weight": 45
     },
     {
       "id": "rain.today.probable",
       "topic": "rain",
-      "text": "今日は雨降るみたいですね",
+      "text": "午後から雨降るみたいですね",
       "weight": 65
     }
   ],
@@ -29,12 +29,12 @@
       "phrases": [
         {
           "id": "temp.absolute.hot",
-          "text": "朝から暑いですね",
+          "text": "もう夏みたいな暑さですね",
           "weight": 65
         },
         {
           "id": "temp.diurnal",
-          "text": "昼くらいから暖かくなるらしいですね",
+          "text": "朝は寒かったけど、暖かくなってきましたね",
           "weight": 45
         }
       ]
@@ -44,7 +44,7 @@
       "phrases": [
         {
           "id": "rain.today.probable",
-          "text": "今日は雨降るみたいですね",
+          "text": "午後から雨降るみたいですね",
           "weight": 65
         },
         {
@@ -59,12 +59,12 @@
       "phrases": [
         {
           "id": "feel.wind.strong",
-          "text": "今日は風強いらしいですよ",
+          "text": "風強そうですね",
           "weight": 58
         },
         {
           "id": "feel.humidity.muggy",
-          "text": "今日は蒸し暑そうですね",
+          "text": "蒸し暑いですね",
           "weight": 55
         }
       ]
@@ -94,21 +94,21 @@
     }
   },
   "details": {
-    "maxTemp": 31.9,
-    "minTemp": 23,
-    "yesterdayDiff": "-0.8",
-    "apparentMax": 38,
-    "apparentMin": 27.9,
-    "apparentDeltaMax": "+6.1",
-    "apparentDeltaMin": "+4.9",
-    "rain": 0.9,
-    "rainProbToday": 91,
-    "rainProbTomorrow": 78,
-    "windMax": 6.2,
-    "gustMax": 34.9,
-    "humidity": 81,
+    "maxTemp": 31.5,
+    "minTemp": 22.6,
+    "yesterdayDiff": "-1.2",
+    "apparentMax": 37.4,
+    "apparentMin": 27.2,
+    "apparentDeltaMax": "+5.9",
+    "apparentDeltaMin": "+4.6",
+    "rain": 0.2,
+    "rainProbToday": 100,
+    "rainProbTomorrow": 67,
+    "windMax": 5.5,
+    "gustMax": 38.9,
+    "humidity": 80,
     "sunrise": "2026-08-09T04:55",
     "sunset": "2026-08-09T18:38",
-    "code": 53
+    "code": 51
   }
 }
