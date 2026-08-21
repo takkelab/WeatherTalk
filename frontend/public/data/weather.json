@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-08-20T21:20:13.592Z",
-  "updatedAtJST": "2026-08-21T06:20:13.592+09:00",
+  "updatedAt": "2026-08-21T03:42:03.122Z",
+  "updatedAtJST": "2026-08-21T12:42:03.122+09:00",
   "date": "2026-08-21",
-  "timeOfDay": "morning",
+  "timeOfDay": "noon",
   "topPhrases": [
     {
       "id": "temp.absolute.hot",
       "topic": "temp",
-      "text": "朝から暑いですね",
+      "text": "もう夏みたいな暑さですね",
       "weight": 65
     },
     {
       "id": "rain.today.probable",
       "topic": "rain",
-      "text": "今日は雨降るみたいですね",
+      "text": "午後から雨降るみたいですね",
       "weight": 65
     },
     {
@@ -29,7 +29,7 @@
       "phrases": [
         {
           "id": "temp.absolute.hot",
-          "text": "朝から暑いですね",
+          "text": "もう夏みたいな暑さですね",
           "weight": 65
         }
       ]
@@ -39,7 +39,7 @@
       "phrases": [
         {
           "id": "rain.today.probable",
-          "text": "今日は雨降るみたいですね",
+          "text": "午後から雨降るみたいですね",
           "weight": 65
         },
         {
@@ -54,12 +54,12 @@
       "phrases": [
         {
           "id": "feel.wind.strong",
-          "text": "今日は風強いらしいですよ",
+          "text": "風強そうですね",
           "weight": 58
         },
         {
           "id": "feel.humidity.muggy",
-          "text": "今日は蒸し暑そうですね",
+          "text": "蒸し暑いですね",
           "weight": 55
         }
       ]
@@ -85,20 +85,20 @@
   },
   "details": {
     "maxTemp": 29.8,
-    "minTemp": 24.1,
+    "minTemp": 23.9,
     "yesterdayDiff": "-0.9",
-    "apparentMax": 34.5,
-    "apparentMin": 29,
-    "apparentDeltaMax": "+4.7",
-    "apparentDeltaMin": "+4.9",
-    "rain": 0,
-    "rainProbToday": 87,
+    "apparentMax": 34.9,
+    "apparentMin": 29.1,
+    "apparentDeltaMax": "+5.1",
+    "apparentDeltaMin": "+5.2",
+    "rain": 0.4,
+    "rainProbToday": 86,
     "rainProbTomorrow": 100,
-    "windMax": 6.2,
-    "gustMax": 34.2,
-    "humidity": 80,
+    "windMax": 6.1,
+    "gustMax": 36,
+    "humidity": 84,
     "sunrise": "2026-08-21T05:04",
     "sunset": "2026-08-21T18:24",
-    "code": 2
+    "code": 51
   }
 }
