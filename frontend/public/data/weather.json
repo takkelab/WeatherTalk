@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-08-25T03:39:52.389Z",
-  "updatedAtJST": "2026-08-25T12:39:52.389+09:00",
+  "updatedAt": "2026-08-25T09:37:16.831Z",
+  "updatedAtJST": "2026-08-25T18:37:16.831+09:00",
   "date": "2026-08-25",
-  "timeOfDay": "noon",
+  "timeOfDay": "evening",
   "topPhrases": [
     {
       "id": "temp.absolute.hot",
       "topic": "temp",
-      "text": "もう夏みたいな暑さですね",
+      "text": "夜でも暑いですね",
       "weight": 65
     },
     {
       "id": "temp.diurnal",
       "topic": "temp",
-      "text": "朝は寒かったけど、暖かくなってきましたね",
+      "text": "夜になって急に寒くなりましたね",
       "weight": 45
     },
     {
@@ -29,12 +29,12 @@
       "phrases": [
         {
           "id": "temp.absolute.hot",
-          "text": "もう夏みたいな暑さですね",
+          "text": "夜でも暑いですね",
           "weight": 65
         },
         {
           "id": "temp.diurnal",
-          "text": "朝は寒かったけど、暖かくなってきましたね",
+          "text": "夜になって急に寒くなりましたね",
           "weight": 45
         }
       ]
@@ -54,12 +54,12 @@
       "phrases": [
         {
           "id": "feel.wind.strong",
-          "text": "風強そうですね",
+          "text": "今日は風強かったらしいですね",
           "weight": 58
         },
         {
           "id": "feel.humidity.muggy",
-          "text": "蒸し暑いですね",
+          "text": "今日は蒸し暑かったですね",
           "weight": 55
         }
       ]
@@ -76,7 +76,13 @@
     },
     "comparison": {
       "header": "例年比較",
-      "phrases": []
+      "phrases": [
+        {
+          "id": "comparison.normal.warmer",
+          "text": "この時期にしては暖かいですね",
+          "weight": 54
+        }
+      ]
     },
     "fallback": {
       "header": "その他",
@@ -84,18 +90,18 @@
     }
   },
   "details": {
-    "maxTemp": 33.2,
+    "maxTemp": 33.5,
     "minTemp": 23.4,
-    "yesterdayDiff": "+0.4",
-    "apparentMax": 39.8,
+    "yesterdayDiff": "+0.7",
+    "apparentMax": 40,
     "apparentMin": 28.4,
-    "apparentDeltaMax": "+6.6",
+    "apparentDeltaMax": "+6.5",
     "apparentDeltaMin": "+5",
     "rain": 0,
     "rainProbToday": 10,
     "rainProbTomorrow": 67,
-    "windMax": 7.6,
-    "gustMax": 31.7,
+    "windMax": 6.3,
+    "gustMax": 29.2,
     "humidity": 79,
     "sunrise": "2026-08-25T05:08",
     "sunset": "2026-08-25T18:19",
