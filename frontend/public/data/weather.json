@@ -1,26 +1,26 @@
 {
-  "updatedAt": "2026-09-01T13:59:50.736Z",
-  "updatedAtJST": "2026-09-01T22:59:50.736+09:00",
-  "date": "2026-09-01",
-  "timeOfDay": "evening",
+  "updatedAt": "2026-09-01T21:04:57.088Z",
+  "updatedAtJST": "2026-09-02T06:04:57.088+09:00",
+  "date": "2026-09-02",
+  "timeOfDay": "morning",
   "topPhrases": [
     {
       "id": "temp.absolute.hot",
       "topic": "temp",
-      "text": "夜でも暑いですね",
+      "text": "朝から暑いですね",
       "weight": 65
     },
     {
       "id": "temp.diurnal",
       "topic": "temp",
-      "text": "夜になって急に寒くなりましたね",
+      "text": "昼くらいから暖かくなるらしいですね",
       "weight": 45
     },
     {
-      "id": "feel.wind.strong",
-      "topic": "feel",
-      "text": "今日は風強かったらしいですね",
-      "weight": 58
+      "id": "rain.tomorrow.probable",
+      "topic": "rain",
+      "text": "明日は雨降るらしいですよ",
+      "weight": 55
     }
   ],
   "byTopic": {
@@ -29,31 +29,37 @@
       "phrases": [
         {
           "id": "temp.absolute.hot",
-          "text": "夜でも暑いですね",
+          "text": "朝から暑いですね",
           "weight": 65
         },
         {
           "id": "temp.diurnal",
-          "text": "夜になって急に寒くなりましたね",
+          "text": "昼くらいから暖かくなるらしいですね",
           "weight": 45
         }
       ]
     },
     "rain": {
       "header": "雨",
-      "phrases": []
+      "phrases": [
+        {
+          "id": "rain.tomorrow.probable",
+          "text": "明日は雨降るらしいですよ",
+          "weight": 55
+        }
+      ]
     },
     "feel": {
       "header": "体感",
       "phrases": [
         {
           "id": "feel.wind.strong",
-          "text": "今日は風強かったらしいですね",
+          "text": "今日は風強いらしいですよ",
           "weight": 58
         },
         {
           "id": "feel.humidity.muggy",
-          "text": "今日は蒸し暑かったですね",
+          "text": "今日は蒸し暑そうですね",
           "weight": 55
         }
       ]
@@ -70,7 +76,13 @@
     },
     "comparison": {
       "header": "例年比較",
-      "phrases": []
+      "phrases": [
+        {
+          "id": "comparison.normal.warmer",
+          "text": "この時期にしては暖かいですね",
+          "weight": 54
+        }
+      ]
     },
     "fallback": {
       "header": "その他",
@@ -78,21 +90,21 @@
     }
   },
   "details": {
-    "maxTemp": 29.1,
-    "minTemp": 22,
+    "maxTemp": 31,
+    "minTemp": 22.4,
     "yesterdayDiff": "+1.9",
-    "apparentMax": 33.1,
-    "apparentMin": 25.3,
-    "apparentDeltaMax": "+4",
-    "apparentDeltaMin": "+3.3",
+    "apparentMax": 36.4,
+    "apparentMin": 26.9,
+    "apparentDeltaMax": "+5.4",
+    "apparentDeltaMin": "+4.5",
     "rain": 0,
-    "rainProbToday": 36,
-    "rainProbTomorrow": 33,
-    "windMax": 4.1,
-    "gustMax": 21.2,
-    "humidity": 79,
-    "sunrise": "2026-09-01T05:13",
-    "sunset": "2026-09-01T18:09",
+    "rainProbToday": 41,
+    "rainProbTomorrow": 78,
+    "windMax": 6.5,
+    "gustMax": 27,
+    "humidity": 81,
+    "sunrise": "2026-09-02T05:14",
+    "sunset": "2026-09-02T18:08",
     "code": 2
   }
 }
