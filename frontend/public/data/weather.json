@@ -1,9 +1,15 @@
 {
-  "updatedAt": "2026-09-05T21:04:11.201Z",
-  "updatedAtJST": "2026-09-06T06:04:11.201+09:00",
+  "updatedAt": "2026-09-06T03:05:22.337Z",
+  "updatedAtJST": "2026-09-06T12:05:22.337+09:00",
   "date": "2026-09-06",
-  "timeOfDay": "morning",
+  "timeOfDay": "noon",
   "topPhrases": [
+    {
+      "id": "temp.delta",
+      "topic": "temp",
+      "text": "昨日より涼しいですね",
+      "weight": 50
+    },
     {
       "id": "rain.yesterday.heavy",
       "topic": "rain",
@@ -13,20 +19,20 @@
     {
       "id": "rain.today.probable",
       "topic": "rain",
-      "text": "今日は雨降るみたいですね",
+      "text": "午後から雨降るみたいですね",
       "weight": 65
-    },
-    {
-      "id": "rain.tomorrow.probable",
-      "topic": "rain",
-      "text": "明日は雨降るらしいですよ",
-      "weight": 55
     }
   ],
   "byTopic": {
     "temp": {
       "header": "気温",
-      "phrases": []
+      "phrases": [
+        {
+          "id": "temp.delta",
+          "text": "昨日より涼しいですね",
+          "weight": 50
+        }
+      ]
     },
     "rain": {
       "header": "雨",
@@ -38,7 +44,7 @@
         },
         {
           "id": "rain.today.probable",
-          "text": "今日は雨降るみたいですね",
+          "text": "午後から雨降るみたいですね",
           "weight": 65
         }
       ]
@@ -48,23 +54,34 @@
       "phrases": [
         {
           "id": "feel.wind.strong",
-          "text": "今日は風強いらしいですよ",
+          "text": "風強そうですね",
           "weight": 58
         },
         {
           "id": "feel.humidity.muggy",
-          "text": "今日は蒸し暑そうですね",
+          "text": "蒸し暑いですね",
           "weight": 55
         }
       ]
     },
     "season": {
       "header": "季節",
-      "phrases": []
+      "phrases": [
+        {
+          "id": "season.transition.seasonal-shift",
+          "text": "秋の気配がしますね",
+          "weight": 58
+        }
+      ]
     },
     "comparison": {
       "header": "例年比較",
       "phrases": [
+        {
+          "id": "comparison.unseasonable.cold",
+          "text": "季節外れに寒いですね",
+          "weight": 68
+        },
         {
           "id": "comparison.normal.colder",
           "text": "この時期にしては寒いですね",
@@ -78,18 +95,18 @@
     }
   },
   "details": {
-    "maxTemp": 23.5,
-    "minTemp": 19.5,
-    "yesterdayDiff": "-1.9",
-    "apparentMax": 27.6,
-    "apparentMin": 21.4,
-    "apparentDeltaMax": "+4.1",
+    "maxTemp": 21.9,
+    "minTemp": 19.4,
+    "yesterdayDiff": "-3.5",
+    "apparentMax": 24.7,
+    "apparentMin": 21.3,
+    "apparentDeltaMax": "+2.8",
     "apparentDeltaMin": "+1.9",
-    "rain": 127.1,
-    "rainProbToday": 96,
+    "rain": 95,
+    "rainProbToday": 100,
     "rainProbTomorrow": 100,
-    "windMax": 9,
-    "gustMax": 49.3,
+    "windMax": 11.1,
+    "gustMax": 61.9,
     "humidity": 91,
     "sunrise": "2026-09-06T05:17",
     "sunset": "2026-09-06T18:02",
