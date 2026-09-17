@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-09-16T21:05:14.423Z",
-  "updatedAtJST": "2026-09-17T06:05:14.423+09:00",
+  "updatedAt": "2026-09-17T03:05:25.056Z",
+  "updatedAtJST": "2026-09-17T12:05:25.056+09:00",
   "date": "2026-09-17",
-  "timeOfDay": "morning",
+  "timeOfDay": "noon",
   "topPhrases": [
     {
       "id": "rain.yesterday.heavy",
@@ -13,14 +13,14 @@
     {
       "id": "rain.today.probable",
       "topic": "rain",
-      "text": "今日は雨降るみたいですね",
+      "text": "午後から雨降るみたいですね",
       "weight": 65
     },
     {
-      "id": "rain.tomorrow.probable",
-      "topic": "rain",
-      "text": "明日は雨降るらしいですよ",
-      "weight": 55
+      "id": "feel.wind.strong",
+      "topic": "feel",
+      "text": "風強そうですね",
+      "weight": 58
     }
   ],
   "byTopic": {
@@ -38,7 +38,7 @@
         },
         {
           "id": "rain.today.probable",
-          "text": "今日は雨降るみたいですね",
+          "text": "午後から雨降るみたいですね",
           "weight": 65
         }
       ]
@@ -48,12 +48,12 @@
       "phrases": [
         {
           "id": "feel.wind.strong",
-          "text": "今日は風強いらしいですよ",
+          "text": "風強そうですね",
           "weight": 58
         },
         {
           "id": "feel.humidity.muggy",
-          "text": "今日は蒸し暑そうですね",
+          "text": "蒸し暑いですね",
           "weight": 55
         }
       ]
@@ -78,18 +78,18 @@
     }
   },
   "details": {
-    "maxTemp": 24.1,
-    "minTemp": 19.1,
-    "yesterdayDiff": "+2.1",
-    "apparentMax": 25.9,
-    "apparentMin": 20.8,
-    "apparentDeltaMax": "+1.8",
-    "apparentDeltaMin": "+1.7",
-    "rain": 1.1,
-    "rainProbToday": 96,
-    "rainProbTomorrow": 43,
-    "windMax": 7.4,
-    "gustMax": 28.8,
+    "maxTemp": 24.9,
+    "minTemp": 19.3,
+    "yesterdayDiff": "+2.9",
+    "apparentMax": 26.6,
+    "apparentMin": 21.2,
+    "apparentDeltaMax": "+1.7",
+    "apparentDeltaMin": "+1.9",
+    "rain": 1.2,
+    "rainProbToday": 100,
+    "rainProbTomorrow": 22,
+    "windMax": 7.1,
+    "gustMax": 33.5,
     "humidity": 81,
     "sunrise": "2026-09-17T05:25",
     "sunset": "2026-09-17T17:46",
