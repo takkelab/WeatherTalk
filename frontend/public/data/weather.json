@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-09-18T09:15:34.586Z",
-  "updatedAtJST": "2026-09-18T18:15:34.586+09:00",
-  "date": "2026-09-18",
-  "timeOfDay": "evening",
+  "updatedAt": "2026-09-18T21:04:41.015Z",
+  "updatedAtJST": "2026-09-19T06:04:41.015+09:00",
+  "date": "2026-09-19",
+  "timeOfDay": "morning",
   "topPhrases": [
     {
       "id": "rain.today.probable",
       "topic": "rain",
-      "text": "これから雨降るみたいですね",
+      "text": "今日は雨降るみたいですね",
       "weight": 65
     },
     {
@@ -19,7 +19,7 @@
     {
       "id": "feel.wind.strong",
       "topic": "feel",
-      "text": "今日は風強かったらしいですね",
+      "text": "今日は風強いらしいですよ",
       "weight": 58
     }
   ],
@@ -33,7 +33,7 @@
       "phrases": [
         {
           "id": "rain.today.probable",
-          "text": "これから雨降るみたいですね",
+          "text": "今日は雨降るみたいですね",
           "weight": 65
         },
         {
@@ -48,12 +48,12 @@
       "phrases": [
         {
           "id": "feel.wind.strong",
-          "text": "今日は風強かったらしいですね",
+          "text": "今日は風強いらしいですよ",
           "weight": 58
         },
         {
           "id": "feel.humidity.muggy",
-          "text": "今日は蒸し暑かったですね",
+          "text": "今日は蒸し暑そうですね",
           "weight": 55
         }
       ]
@@ -83,21 +83,21 @@
     }
   },
   "details": {
-    "maxTemp": 23.1,
-    "minTemp": 19,
-    "yesterdayDiff": "-1.8",
-    "apparentMax": 24.8,
-    "apparentMin": 20.1,
-    "apparentDeltaMax": "+1.7",
-    "apparentDeltaMin": "+1.1",
-    "rain": 0.2,
-    "rainProbToday": 8,
-    "rainProbTomorrow": 62,
-    "windMax": 8,
-    "gustMax": 39.6,
-    "humidity": 78,
-    "sunrise": "2026-09-18T05:26",
-    "sunset": "2026-09-18T17:44",
-    "code": 51
+    "maxTemp": 22.5,
+    "minTemp": 20.1,
+    "yesterdayDiff": "-0.6",
+    "apparentMax": 25.4,
+    "apparentMin": 21.7,
+    "apparentDeltaMax": "+2.9",
+    "apparentDeltaMin": "+1.6",
+    "rain": 2.1,
+    "rainProbToday": 65,
+    "rainProbTomorrow": 98,
+    "windMax": 6.6,
+    "gustMax": 27.4,
+    "humidity": 85,
+    "sunrise": "2026-09-19T05:26",
+    "sunset": "2026-09-19T17:43",
+    "code": 53
   }
 }
