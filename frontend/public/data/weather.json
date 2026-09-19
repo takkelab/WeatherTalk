@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-09-18T21:04:41.015Z",
-  "updatedAtJST": "2026-09-19T06:04:41.015+09:00",
+  "updatedAt": "2026-09-19T03:05:10.191Z",
+  "updatedAtJST": "2026-09-19T12:05:10.191+09:00",
   "date": "2026-09-19",
-  "timeOfDay": "morning",
+  "timeOfDay": "noon",
   "topPhrases": [
     {
       "id": "rain.today.probable",
       "topic": "rain",
-      "text": "今日は雨降るみたいですね",
+      "text": "午後から雨降るみたいですね",
       "weight": 65
     },
     {
@@ -19,7 +19,7 @@
     {
       "id": "feel.wind.strong",
       "topic": "feel",
-      "text": "今日は風強いらしいですよ",
+      "text": "風強そうですね",
       "weight": 58
     }
   ],
@@ -33,7 +33,7 @@
       "phrases": [
         {
           "id": "rain.today.probable",
-          "text": "今日は雨降るみたいですね",
+          "text": "午後から雨降るみたいですね",
           "weight": 65
         },
         {
@@ -48,12 +48,12 @@
       "phrases": [
         {
           "id": "feel.wind.strong",
-          "text": "今日は風強いらしいですよ",
+          "text": "風強そうですね",
           "weight": 58
         },
         {
           "id": "feel.humidity.muggy",
-          "text": "今日は蒸し暑そうですね",
+          "text": "蒸し暑いですね",
           "weight": 55
         }
       ]
@@ -83,21 +83,21 @@
     }
   },
   "details": {
-    "maxTemp": 22.5,
-    "minTemp": 20.1,
-    "yesterdayDiff": "-0.6",
-    "apparentMax": 25.4,
-    "apparentMin": 21.7,
-    "apparentDeltaMax": "+2.9",
+    "maxTemp": 22.4,
+    "minTemp": 19.9,
+    "yesterdayDiff": "-0.7",
+    "apparentMax": 24.8,
+    "apparentMin": 21.5,
+    "apparentDeltaMax": "+2.4",
     "apparentDeltaMin": "+1.6",
-    "rain": 2.1,
-    "rainProbToday": 65,
-    "rainProbTomorrow": 98,
-    "windMax": 6.6,
+    "rain": 12,
+    "rainProbToday": 63,
+    "rainProbTomorrow": 93,
+    "windMax": 6.5,
     "gustMax": 27.4,
-    "humidity": 85,
+    "humidity": 86,
     "sunrise": "2026-09-19T05:26",
     "sunset": "2026-09-19T17:43",
-    "code": 53
+    "code": 63
   }
 }
