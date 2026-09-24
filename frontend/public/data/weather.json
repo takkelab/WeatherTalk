@@ -1,50 +1,39 @@
 {
-  "updatedAt": "2026-09-24T09:16:56.866Z",
-  "updatedAtJST": "2026-09-24T18:16:56.866+09:00",
-  "date": "2026-09-24",
-  "timeOfDay": "evening",
+  "updatedAt": "2026-09-24T21:05:37.439Z",
+  "updatedAtJST": "2026-09-25T06:05:37.439+09:00",
+  "date": "2026-09-25",
+  "timeOfDay": "morning",
   "topPhrases": [
     {
-      "id": "temp.absolute.hot",
-      "topic": "temp",
-      "text": "夜でも暑いですね",
+      "id": "rain.today.probable",
+      "topic": "rain",
+      "text": "今日は雨降るみたいですね",
       "weight": 65
     },
     {
-      "id": "temp.delta",
-      "topic": "temp",
-      "text": "昨日より暑いですね",
-      "weight": 50
+      "id": "rain.tomorrow.probable",
+      "topic": "rain",
+      "text": "明日は雨降るらしいですよ",
+      "weight": 55
     },
     {
-      "id": "temp.diurnal",
-      "topic": "temp",
-      "text": "夜になって急に寒くなりましたね",
-      "weight": 45
+      "id": "feel.wind.strong",
+      "topic": "feel",
+      "text": "今日は風強いらしいですよ",
+      "weight": 58
     }
   ],
   "byTopic": {
     "temp": {
       "header": "気温",
-      "phrases": [
-        {
-          "id": "temp.absolute.hot",
-          "text": "夜でも暑いですね",
-          "weight": 65
-        },
-        {
-          "id": "temp.delta",
-          "text": "昨日より暑いですね",
-          "weight": 50
-        }
-      ]
+      "phrases": []
     },
     "rain": {
       "header": "雨",
       "phrases": [
         {
           "id": "rain.today.probable",
-          "text": "これから雨降るみたいですね",
+          "text": "今日は雨降るみたいですね",
           "weight": 65
         },
         {
@@ -59,25 +48,19 @@
       "phrases": [
         {
           "id": "feel.wind.strong",
-          "text": "今日は風強かったらしいですね",
+          "text": "今日は風強いらしいですよ",
           "weight": 58
         },
         {
           "id": "feel.humidity.muggy",
-          "text": "今日は蒸し暑かったですね",
+          "text": "今日は蒸し暑そうですね",
           "weight": 55
         }
       ]
     },
     "season": {
       "header": "季節",
-      "phrases": [
-        {
-          "id": "season.transition.seasonal-shift",
-          "text": "秋の気配がしますね",
-          "weight": 58
-        }
-      ]
+      "phrases": []
     },
     "comparison": {
       "header": "例年比較",
@@ -89,21 +72,21 @@
     }
   },
   "details": {
-    "maxTemp": 28.9,
-    "minTemp": 19.3,
-    "yesterdayDiff": "+6.4",
-    "apparentMax": 32.4,
-    "apparentMin": 22.4,
-    "apparentDeltaMax": "+3.5",
-    "apparentDeltaMin": "+3.1",
-    "rain": 0.1,
-    "rainProbToday": 73,
-    "rainProbTomorrow": 86,
-    "windMax": 4.7,
-    "gustMax": 19.4,
-    "humidity": 80,
-    "sunrise": "2026-09-24T05:30",
-    "sunset": "2026-09-24T17:36",
-    "code": 51
+    "maxTemp": 26.8,
+    "minTemp": 20.2,
+    "yesterdayDiff": "-2.1",
+    "apparentMax": 29.7,
+    "apparentMin": 23.6,
+    "apparentDeltaMax": "+2.9",
+    "apparentDeltaMin": "+3.4",
+    "rain": 4.4,
+    "rainProbToday": 92,
+    "rainProbTomorrow": 100,
+    "windMax": 5.6,
+    "gustMax": 24.5,
+    "humidity": 79,
+    "sunrise": "2026-09-25T05:31",
+    "sunset": "2026-09-25T17:34",
+    "code": 63
   }
 }
