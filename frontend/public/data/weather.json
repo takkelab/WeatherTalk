@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-09-23T21:05:32.312Z",
-  "updatedAtJST": "2026-09-24T06:05:32.312+09:00",
+  "updatedAt": "2026-09-24T03:05:22.157Z",
+  "updatedAtJST": "2026-09-24T12:05:22.157+09:00",
   "date": "2026-09-24",
-  "timeOfDay": "morning",
+  "timeOfDay": "noon",
   "topPhrases": [
     {
       "id": "temp.absolute.hot",
       "topic": "temp",
-      "text": "朝から暑いですね",
+      "text": "もう夏みたいな暑さですね",
       "weight": 65
     },
     {
@@ -19,7 +19,7 @@
     {
       "id": "temp.diurnal",
       "topic": "temp",
-      "text": "昼くらいから暖かくなるらしいですね",
+      "text": "朝は寒かったけど、暖かくなってきましたね",
       "weight": 45
     }
   ],
@@ -29,7 +29,7 @@
       "phrases": [
         {
           "id": "temp.absolute.hot",
-          "text": "朝から暑いですね",
+          "text": "もう夏みたいな暑さですね",
           "weight": 65
         },
         {
@@ -44,7 +44,7 @@
       "phrases": [
         {
           "id": "rain.today.probable",
-          "text": "今日は雨降るみたいですね",
+          "text": "午後から雨降るみたいですね",
           "weight": 65
         },
         {
@@ -59,12 +59,12 @@
       "phrases": [
         {
           "id": "feel.wind.strong",
-          "text": "今日は風強いらしいですよ",
+          "text": "風強そうですね",
           "weight": 58
         },
         {
           "id": "feel.humidity.muggy",
-          "text": "今日は蒸し暑そうですね",
+          "text": "蒸し暑いですね",
           "weight": 55
         }
       ]
@@ -89,18 +89,18 @@
     }
   },
   "details": {
-    "maxTemp": 28.9,
-    "minTemp": 19.1,
-    "yesterdayDiff": "+6.4",
-    "apparentMax": 33,
-    "apparentMin": 21.9,
-    "apparentDeltaMax": "+4.1",
-    "apparentDeltaMin": "+2.8",
+    "maxTemp": 28.8,
+    "minTemp": 19.3,
+    "yesterdayDiff": "+6.3",
+    "apparentMax": 32.7,
+    "apparentMin": 22.4,
+    "apparentDeltaMax": "+3.9",
+    "apparentDeltaMin": "+3.1",
     "rain": 0.1,
-    "rainProbToday": 67,
-    "rainProbTomorrow": 80,
-    "windMax": 4.4,
-    "gustMax": 20.2,
+    "rainProbToday": 73,
+    "rainProbTomorrow": 94,
+    "windMax": 5,
+    "gustMax": 18.7,
     "humidity": 82,
     "sunrise": "2026-09-24T05:30",
     "sunset": "2026-09-24T17:36",
