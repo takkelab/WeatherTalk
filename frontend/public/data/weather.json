@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-09-29T21:05:36.538Z",
-  "updatedAtJST": "2026-09-30T06:05:36.538+09:00",
+  "updatedAt": "2026-09-30T03:06:18.835Z",
+  "updatedAtJST": "2026-09-30T12:06:18.835+09:00",
   "date": "2026-09-30",
-  "timeOfDay": "morning",
+  "timeOfDay": "noon",
   "topPhrases": [
     {
       "id": "rain.yesterday.heavy",
@@ -13,14 +13,14 @@
     {
       "id": "rain.today.probable",
       "topic": "rain",
-      "text": "今日は雨降るみたいですね",
+      "text": "午後から雨降るみたいですね",
       "weight": 65
     },
     {
-      "id": "rain.tomorrow.probable",
-      "topic": "rain",
-      "text": "明日は雨降るらしいですよ",
-      "weight": 55
+      "id": "feel.wind.strong",
+      "topic": "feel",
+      "text": "風強そうですね",
+      "weight": 58
     }
   ],
   "byTopic": {
@@ -38,7 +38,7 @@
         },
         {
           "id": "rain.today.probable",
-          "text": "今日は雨降るみたいですね",
+          "text": "午後から雨降るみたいですね",
           "weight": 65
         }
       ]
@@ -48,12 +48,12 @@
       "phrases": [
         {
           "id": "feel.wind.strong",
-          "text": "今日は風強いらしいですよ",
+          "text": "風強そうですね",
           "weight": 58
         },
         {
           "id": "feel.humidity.muggy",
-          "text": "今日は蒸し暑そうですね",
+          "text": "蒸し暑いですね",
           "weight": 55
         }
       ]
@@ -83,19 +83,19 @@
     }
   },
   "details": {
-    "maxTemp": 21.5,
-    "minTemp": 17.5,
-    "yesterdayDiff": "-0.1",
-    "apparentMax": 23.5,
+    "maxTemp": 21.4,
+    "minTemp": 17.6,
+    "yesterdayDiff": "-0.2",
+    "apparentMax": 22.9,
     "apparentMin": 19.7,
-    "apparentDeltaMax": "+2",
-    "apparentDeltaMin": "+2.2",
-    "rain": 10.2,
+    "apparentDeltaMax": "+1.5",
+    "apparentDeltaMin": "+2.1",
+    "rain": 11.6,
     "rainProbToday": 100,
-    "rainProbTomorrow": 29,
-    "windMax": 4.6,
-    "gustMax": 24.8,
-    "humidity": 87,
+    "rainProbTomorrow": 15,
+    "windMax": 4.4,
+    "gustMax": 21.6,
+    "humidity": 86,
     "sunrise": "2026-09-30T05:35",
     "sunset": "2026-09-30T17:27",
     "code": 63
