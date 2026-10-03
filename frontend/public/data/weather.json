@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-10-03T09:14:34.315Z",
-  "updatedAtJST": "2026-10-03T18:14:34.315+09:00",
-  "date": "2026-10-03",
-  "timeOfDay": "evening",
+  "updatedAt": "2026-10-03T22:00:12.348Z",
+  "updatedAtJST": "2026-10-04T07:00:12.348+09:00",
+  "date": "2026-10-04",
+  "timeOfDay": "morning",
   "topPhrases": [
     {
       "id": "feel.wind.strong",
       "topic": "feel",
-      "text": "今日は風強かったらしいですね",
+      "text": "今日は風強いらしいですよ",
       "weight": 58
+    },
+    {
+      "id": "season.feel.spring-autumn",
+      "topic": "season",
+      "text": "秋らしいですね",
+      "weight": 52
     }
   ],
   "byTopic": {
@@ -25,14 +31,20 @@
       "phrases": [
         {
           "id": "feel.wind.strong",
-          "text": "今日は風強かったらしいですね",
+          "text": "今日は風強いらしいですよ",
           "weight": 58
         }
       ]
     },
     "season": {
       "header": "季節",
-      "phrases": []
+      "phrases": [
+        {
+          "id": "season.feel.spring-autumn",
+          "text": "秋らしいですね",
+          "weight": 52
+        }
+      ]
     },
     "comparison": {
       "header": "例年比較",
@@ -44,21 +56,21 @@
     }
   },
   "details": {
-    "maxTemp": 23.5,
-    "minTemp": 17.4,
-    "yesterdayDiff": "+1.8",
-    "apparentMax": 24.3,
-    "apparentMin": 17.8,
-    "apparentDeltaMax": "+0.8",
+    "maxTemp": 22.2,
+    "minTemp": 15.5,
+    "yesterdayDiff": "-1.2",
+    "apparentMax": 22.9,
+    "apparentMin": 15.9,
+    "apparentDeltaMax": "+0.7",
     "apparentDeltaMin": "+0.4",
     "rain": 0,
-    "rainProbToday": 4,
-    "rainProbTomorrow": 22,
-    "windMax": 5.5,
-    "gustMax": 21.2,
-    "humidity": 66,
-    "sunrise": "2026-10-03T05:37",
-    "sunset": "2026-10-03T17:23",
+    "rainProbToday": 31,
+    "rainProbTomorrow": 41,
+    "windMax": 6,
+    "gustMax": 25.6,
+    "humidity": 73,
+    "sunrise": "2026-10-04T05:38",
+    "sunset": "2026-10-04T17:21",
     "code": 3
   }
 }
