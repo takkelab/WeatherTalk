@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-10-04T04:02:08.820Z",
-  "updatedAtJST": "2026-10-04T13:02:08.820+09:00",
+  "updatedAt": "2026-10-04T10:57:46.704Z",
+  "updatedAtJST": "2026-10-04T19:57:46.704+09:00",
   "date": "2026-10-04",
-  "timeOfDay": "noon",
+  "timeOfDay": "evening",
   "topPhrases": [
     {
       "id": "feel.wind.strong",
       "topic": "feel",
-      "text": "風強そうですね",
+      "text": "今日は風強かったらしいですね",
       "weight": 58
     },
     {
@@ -31,7 +31,7 @@
       "phrases": [
         {
           "id": "feel.wind.strong",
-          "text": "風強そうですね",
+          "text": "今日は風強かったらしいですね",
           "weight": 58
         }
       ]
@@ -56,21 +56,21 @@
     }
   },
   "details": {
-    "maxTemp": 22.1,
+    "maxTemp": 22.4,
     "minTemp": 15.7,
-    "yesterdayDiff": "-1.3",
-    "apparentMax": 22.6,
+    "yesterdayDiff": "-1",
+    "apparentMax": 22.5,
     "apparentMin": 16.1,
-    "apparentDeltaMax": "+0.5",
+    "apparentDeltaMax": "+0.1",
     "apparentDeltaMin": "+0.4",
     "rain": 0,
-    "rainProbToday": 9,
-    "rainProbTomorrow": 20,
+    "rainProbToday": 4,
+    "rainProbTomorrow": 17,
     "windMax": 6.3,
-    "gustMax": 27.7,
+    "gustMax": 29.2,
     "humidity": 72,
     "sunrise": "2026-10-04T05:38",
     "sunset": "2026-10-04T17:21",
-    "code": 2
+    "code": 3
   }
 }
