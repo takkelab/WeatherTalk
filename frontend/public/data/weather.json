@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-10-04T10:57:46.704Z",
-  "updatedAtJST": "2026-10-04T19:57:46.704+09:00",
-  "date": "2026-10-04",
-  "timeOfDay": "evening",
+  "updatedAt": "2026-10-04T21:20:53.924Z",
+  "updatedAtJST": "2026-10-05T06:20:53.924+09:00",
+  "date": "2026-10-05",
+  "timeOfDay": "morning",
   "topPhrases": [
     {
       "id": "feel.wind.strong",
       "topic": "feel",
-      "text": "今日は風強かったらしいですね",
+      "text": "今日は風強いらしいですよ",
       "weight": 58
     },
     {
-      "id": "season.feel.spring-autumn",
-      "topic": "season",
-      "text": "秋らしいですね",
-      "weight": 52
+      "id": "feel.humidity.muggy",
+      "topic": "feel",
+      "text": "今日は蒸し暑そうですね",
+      "weight": 55
     }
   ],
   "byTopic": {
@@ -31,20 +31,19 @@
       "phrases": [
         {
           "id": "feel.wind.strong",
-          "text": "今日は風強かったらしいですね",
+          "text": "今日は風強いらしいですよ",
           "weight": 58
+        },
+        {
+          "id": "feel.humidity.muggy",
+          "text": "今日は蒸し暑そうですね",
+          "weight": 55
         }
       ]
     },
     "season": {
       "header": "季節",
-      "phrases": [
-        {
-          "id": "season.feel.spring-autumn",
-          "text": "秋らしいですね",
-          "weight": 52
-        }
-      ]
+      "phrases": []
     },
     "comparison": {
       "header": "例年比較",
@@ -56,21 +55,21 @@
     }
   },
   "details": {
-    "maxTemp": 22.4,
-    "minTemp": 15.7,
-    "yesterdayDiff": "-1",
-    "apparentMax": 22.5,
-    "apparentMin": 16.1,
-    "apparentDeltaMax": "+0.1",
-    "apparentDeltaMin": "+0.4",
+    "maxTemp": 22.7,
+    "minTemp": 16.7,
+    "yesterdayDiff": "+0.3",
+    "apparentMax": 24.4,
+    "apparentMin": 17.2,
+    "apparentDeltaMax": "+1.7",
+    "apparentDeltaMin": "+0.5",
     "rain": 0,
-    "rainProbToday": 4,
-    "rainProbTomorrow": 17,
-    "windMax": 6.3,
-    "gustMax": 29.2,
-    "humidity": 72,
-    "sunrise": "2026-10-04T05:38",
-    "sunset": "2026-10-04T17:21",
-    "code": 3
+    "rainProbToday": 51,
+    "rainProbTomorrow": 6,
+    "windMax": 6.5,
+    "gustMax": 28.1,
+    "humidity": 76,
+    "sunrise": "2026-10-05T05:39",
+    "sunset": "2026-10-05T17:20",
+    "code": 2
   }
 }
