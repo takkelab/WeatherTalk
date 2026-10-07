@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-10-06T21:05:16.881Z",
-  "updatedAtJST": "2026-10-07T06:05:16.881+09:00",
+  "updatedAt": "2026-10-07T03:08:57.291Z",
+  "updatedAtJST": "2026-10-07T12:08:57.291+09:00",
   "date": "2026-10-07",
-  "timeOfDay": "morning",
+  "timeOfDay": "noon",
   "topPhrases": [
     {
       "id": "temp.diurnal",
       "topic": "temp",
-      "text": "昼くらいから暖かくなるらしいですね",
+      "text": "朝は寒かったけど、暖かくなってきましたね",
       "weight": 45
     },
     {
       "id": "feel.wind.strong",
       "topic": "feel",
-      "text": "今日は風強いらしいですよ",
+      "text": "風強そうですね",
       "weight": 58
     },
     {
       "id": "feel.wind.moderate",
       "topic": "feel",
-      "text": "今日はちょっと風が吹きそうですね",
+      "text": "風が出てきましたね",
       "weight": 48
     }
   ],
@@ -29,7 +29,7 @@
       "phrases": [
         {
           "id": "temp.diurnal",
-          "text": "昼くらいから暖かくなるらしいですね",
+          "text": "朝は寒かったけど、暖かくなってきましたね",
           "weight": 45
         }
       ]
@@ -43,12 +43,12 @@
       "phrases": [
         {
           "id": "feel.wind.strong",
-          "text": "今日は風強いらしいですよ",
+          "text": "風強そうですね",
           "weight": 58
         },
         {
           "id": "feel.wind.moderate",
-          "text": "今日はちょっと風が吹きそうですね",
+          "text": "風が出てきましたね",
           "weight": 48
         }
       ]
@@ -73,19 +73,19 @@
     }
   },
   "details": {
-    "maxTemp": 25.1,
-    "minTemp": 17.4,
-    "yesterdayDiff": "-0.8",
-    "apparentMax": 24.6,
-    "apparentMin": 16.6,
-    "apparentDeltaMax": "-0.5",
-    "apparentDeltaMin": "-0.8",
+    "maxTemp": 25,
+    "minTemp": 17.5,
+    "yesterdayDiff": "-0.9",
+    "apparentMax": 24.1,
+    "apparentMin": 16.8,
+    "apparentDeltaMax": "-0.9",
+    "apparentDeltaMin": "-0.7",
     "rain": 0,
     "rainProbToday": 2,
     "rainProbTomorrow": 0,
-    "windMax": 9,
-    "gustMax": 38.2,
-    "humidity": 55,
+    "windMax": 8.9,
+    "gustMax": 37.8,
+    "humidity": 56,
     "sunrise": "2026-10-07T05:40",
     "sunset": "2026-10-07T17:17",
     "code": 3
