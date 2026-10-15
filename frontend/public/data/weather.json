@@ -1,32 +1,43 @@
 {
-  "updatedAt": "2026-10-15T09:15:25.582Z",
-  "updatedAtJST": "2026-10-15T18:15:25.582+09:00",
-  "date": "2026-10-15",
-  "timeOfDay": "evening",
+  "updatedAt": "2026-10-15T21:05:28.153Z",
+  "updatedAtJST": "2026-10-16T06:05:28.153+09:00",
+  "date": "2026-10-16",
+  "timeOfDay": "morning",
   "topPhrases": [
+    {
+      "id": "temp.delta",
+      "topic": "temp",
+      "text": "昨日より暑いですね",
+      "weight": 50
+    },
+    {
+      "id": "temp.diurnal",
+      "topic": "temp",
+      "text": "昼くらいから暖かくなるらしいですね",
+      "weight": 45
+    },
     {
       "id": "feel.wind.strong",
       "topic": "feel",
-      "text": "今日は風強かったらしいですね",
+      "text": "今日は風強いらしいですよ",
       "weight": 58
-    },
-    {
-      "id": "feel.wind.moderate",
-      "topic": "feel",
-      "text": "今日は風があったみたいですね",
-      "weight": 48
-    },
-    {
-      "id": "season.feel.spring-autumn",
-      "topic": "season",
-      "text": "秋らしいですね",
-      "weight": 52
     }
   ],
   "byTopic": {
     "temp": {
       "header": "気温",
-      "phrases": []
+      "phrases": [
+        {
+          "id": "temp.delta",
+          "text": "昨日より暑いですね",
+          "weight": 50
+        },
+        {
+          "id": "temp.diurnal",
+          "text": "昼くらいから暖かくなるらしいですね",
+          "weight": 45
+        }
+      ]
     },
     "rain": {
       "header": "雨",
@@ -37,29 +48,29 @@
       "phrases": [
         {
           "id": "feel.wind.strong",
-          "text": "今日は風強かったらしいですね",
+          "text": "今日は風強いらしいですよ",
           "weight": 58
-        },
-        {
-          "id": "feel.wind.moderate",
-          "text": "今日は風があったみたいですね",
-          "weight": 48
         }
       ]
     },
     "season": {
       "header": "季節",
-      "phrases": [
-        {
-          "id": "season.feel.spring-autumn",
-          "text": "秋らしいですね",
-          "weight": 52
-        }
-      ]
+      "phrases": []
     },
     "comparison": {
       "header": "例年比較",
-      "phrases": []
+      "phrases": [
+        {
+          "id": "comparison.unseasonable.warm",
+          "text": "季節外れに暖かいですね",
+          "weight": 68
+        },
+        {
+          "id": "comparison.normal.warmer",
+          "text": "この時期にしては暖かいですね",
+          "weight": 54
+        }
+      ]
     },
     "fallback": {
       "header": "その他",
@@ -67,21 +78,21 @@
     }
   },
   "details": {
-    "maxTemp": 21.7,
-    "minTemp": 16,
-    "yesterdayDiff": "-1.5",
-    "apparentMax": 21.7,
-    "apparentMin": 15.1,
-    "apparentDeltaMax": "0",
-    "apparentDeltaMin": "-0.9",
+    "maxTemp": 25.9,
+    "minTemp": 15.8,
+    "yesterdayDiff": "+4.2",
+    "apparentMax": 26.3,
+    "apparentMin": 16,
+    "apparentDeltaMax": "+0.4",
+    "apparentDeltaMin": "+0.2",
     "rain": 0,
-    "rainProbToday": 6,
-    "rainProbTomorrow": 8,
-    "windMax": 10.2,
-    "gustMax": 36,
-    "humidity": 63,
-    "sunrise": "2026-10-15T05:47",
-    "sunset": "2026-10-15T17:06",
+    "rainProbToday": 31,
+    "rainProbTomorrow": 0,
+    "windMax": 5.5,
+    "gustMax": 22.3,
+    "humidity": 66,
+    "sunrise": "2026-10-16T05:48",
+    "sunset": "2026-10-16T17:05",
     "code": 2
   }
 }
