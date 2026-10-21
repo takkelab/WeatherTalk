@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-10-20T21:05:24.471Z",
-  "updatedAtJST": "2026-10-21T06:05:24.471+09:00",
+  "updatedAt": "2026-10-21T03:05:32.446Z",
+  "updatedAtJST": "2026-10-21T12:05:32.446+09:00",
   "date": "2026-10-21",
-  "timeOfDay": "morning",
+  "timeOfDay": "noon",
   "topPhrases": [
     {
       "id": "temp.absolute.hot",
       "topic": "temp",
-      "text": "朝から暑いですね",
+      "text": "もう夏みたいな暑さですね",
       "weight": 65
     },
     {
@@ -19,7 +19,7 @@
     {
       "id": "temp.diurnal",
       "topic": "temp",
-      "text": "昼くらいから暖かくなるらしいですね",
+      "text": "朝は寒かったけど、暖かくなってきましたね",
       "weight": 45
     }
   ],
@@ -29,7 +29,7 @@
       "phrases": [
         {
           "id": "temp.absolute.hot",
-          "text": "朝から暑いですね",
+          "text": "もう夏みたいな暑さですね",
           "weight": 65
         },
         {
@@ -43,9 +43,9 @@
       "header": "雨",
       "phrases": [
         {
-          "id": "rain.tomorrow.probable",
-          "text": "明日は雨降るらしいですよ",
-          "weight": 55
+          "id": "rain.today.probable",
+          "text": "午後から雨降るみたいですね",
+          "weight": 65
         }
       ]
     },
@@ -54,12 +54,12 @@
       "phrases": [
         {
           "id": "feel.wind.strong",
-          "text": "今日は風強いらしいですよ",
+          "text": "風強そうですね",
           "weight": 58
         },
         {
           "id": "feel.humidity.muggy",
-          "text": "今日は蒸し暑そうですね",
+          "text": "蒸し暑いですね",
           "weight": 55
         }
       ]
@@ -100,21 +100,21 @@
     }
   },
   "details": {
-    "maxTemp": 28.4,
-    "minTemp": 17.9,
-    "yesterdayDiff": "+3.6",
-    "apparentMax": 31.2,
-    "apparentMin": 20.6,
-    "apparentDeltaMax": "+2.8",
-    "apparentDeltaMin": "+2.7",
-    "rain": 0,
-    "rainProbToday": 2,
-    "rainProbTomorrow": 13,
-    "windMax": 14.7,
-    "gustMax": 59.8,
-    "humidity": 83,
+    "maxTemp": 28.2,
+    "minTemp": 17.6,
+    "yesterdayDiff": "+3.4",
+    "apparentMax": 30.8,
+    "apparentMin": 19.9,
+    "apparentDeltaMax": "+2.6",
+    "apparentDeltaMin": "+2.3",
+    "rain": 0.4,
+    "rainProbToday": 8,
+    "rainProbTomorrow": 22,
+    "windMax": 15,
+    "gustMax": 61.2,
+    "humidity": 84,
     "sunrise": "2026-10-21T05:52",
     "sunset": "2026-10-21T16:58",
-    "code": 3
+    "code": 51
   }
 }
