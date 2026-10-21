@@ -1,26 +1,26 @@
 {
-  "updatedAt": "2026-10-21T09:15:41.295Z",
-  "updatedAtJST": "2026-10-21T18:15:41.295+09:00",
-  "date": "2026-10-21",
-  "timeOfDay": "evening",
+  "updatedAt": "2026-10-21T21:05:00.567Z",
+  "updatedAtJST": "2026-10-22T06:05:00.567+09:00",
+  "date": "2026-10-22",
+  "timeOfDay": "morning",
   "topPhrases": [
-    {
-      "id": "temp.absolute.hot",
-      "topic": "temp",
-      "text": "夜でも暑いですね",
-      "weight": 65
-    },
     {
       "id": "temp.delta",
       "topic": "temp",
-      "text": "昨日より暑いですね",
+      "text": "昨日より涼しいですね",
       "weight": 50
     },
     {
-      "id": "temp.diurnal",
-      "topic": "temp",
-      "text": "夜になって急に寒くなりましたね",
-      "weight": 45
+      "id": "feel.wind.strong",
+      "topic": "feel",
+      "text": "今日は風強いらしいですよ",
+      "weight": 58
+    },
+    {
+      "id": "feel.wind.moderate",
+      "topic": "feel",
+      "text": "今日はちょっと風が吹きそうですね",
+      "weight": 48
     }
   ],
   "byTopic": {
@@ -28,13 +28,8 @@
       "header": "気温",
       "phrases": [
         {
-          "id": "temp.absolute.hot",
-          "text": "夜でも暑いですね",
-          "weight": 65
-        },
-        {
           "id": "temp.delta",
-          "text": "昨日より暑いですね",
+          "text": "昨日より涼しいですね",
           "weight": 50
         }
       ]
@@ -48,13 +43,13 @@
       "phrases": [
         {
           "id": "feel.wind.strong",
-          "text": "今日は風強かったらしいですね",
+          "text": "今日は風強いらしいですよ",
           "weight": 58
         },
         {
-          "id": "feel.humidity.muggy",
-          "text": "今日は蒸し暑かったですね",
-          "weight": 55
+          "id": "feel.wind.moderate",
+          "text": "今日はちょっと風が吹きそうですね",
+          "weight": 48
         }
       ]
     },
@@ -75,18 +70,7 @@
     },
     "comparison": {
       "header": "例年比較",
-      "phrases": [
-        {
-          "id": "comparison.unseasonable.warm",
-          "text": "季節外れに暖かいですね",
-          "weight": 68
-        },
-        {
-          "id": "comparison.normal.warmer",
-          "text": "この時期にしては暖かいですね",
-          "weight": 54
-        }
-      ]
+      "phrases": []
     },
     "fallback": {
       "header": "その他",
@@ -94,21 +78,21 @@
     }
   },
   "details": {
-    "maxTemp": 28.7,
-    "minTemp": 17.6,
-    "yesterdayDiff": "+3.9",
-    "apparentMax": 31.2,
-    "apparentMin": 19.9,
-    "apparentDeltaMax": "+2.5",
-    "apparentDeltaMin": "+2.3",
+    "maxTemp": 21.7,
+    "minTemp": 14.9,
+    "yesterdayDiff": "-7",
+    "apparentMax": 23.8,
+    "apparentMin": 13.5,
+    "apparentDeltaMax": "+2.1",
+    "apparentDeltaMin": "-1.4",
     "rain": 0,
-    "rainProbToday": 8,
-    "rainProbTomorrow": 22,
-    "windMax": 14.5,
-    "gustMax": 59.4,
-    "humidity": 83,
-    "sunrise": "2026-10-21T05:52",
-    "sunset": "2026-10-21T16:58",
-    "code": 3
+    "rainProbToday": 4,
+    "rainProbTomorrow": 0,
+    "windMax": 10.2,
+    "gustMax": 30.2,
+    "humidity": 58,
+    "sunrise": "2026-10-22T05:53",
+    "sunset": "2026-10-22T16:57",
+    "code": 2
   }
 }
