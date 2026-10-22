@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-10-21T21:05:00.567Z",
-  "updatedAtJST": "2026-10-22T06:05:00.567+09:00",
+  "updatedAt": "2026-10-22T03:05:20.917Z",
+  "updatedAtJST": "2026-10-22T12:05:20.917+09:00",
   "date": "2026-10-22",
-  "timeOfDay": "morning",
+  "timeOfDay": "noon",
   "topPhrases": [
     {
       "id": "temp.delta",
@@ -11,16 +11,16 @@
       "weight": 50
     },
     {
-      "id": "feel.wind.strong",
-      "topic": "feel",
-      "text": "今日は風強いらしいですよ",
-      "weight": 58
+      "id": "temp.diurnal",
+      "topic": "temp",
+      "text": "朝は寒かったけど、暖かくなってきましたね",
+      "weight": 45
     },
     {
-      "id": "feel.wind.moderate",
+      "id": "feel.wind.strong",
       "topic": "feel",
-      "text": "今日はちょっと風が吹きそうですね",
-      "weight": 48
+      "text": "風強そうですね",
+      "weight": 58
     }
   ],
   "byTopic": {
@@ -31,6 +31,11 @@
           "id": "temp.delta",
           "text": "昨日より涼しいですね",
           "weight": 50
+        },
+        {
+          "id": "temp.diurnal",
+          "text": "朝は寒かったけど、暖かくなってきましたね",
+          "weight": 45
         }
       ]
     },
@@ -43,12 +48,12 @@
       "phrases": [
         {
           "id": "feel.wind.strong",
-          "text": "今日は風強いらしいですよ",
+          "text": "風強そうですね",
           "weight": 58
         },
         {
           "id": "feel.wind.moderate",
-          "text": "今日はちょっと風が吹きそうですね",
+          "text": "風が出てきましたね",
           "weight": 48
         }
       ]
@@ -79,20 +84,20 @@
   },
   "details": {
     "maxTemp": 21.7,
-    "minTemp": 14.9,
+    "minTemp": 14.6,
     "yesterdayDiff": "-7",
     "apparentMax": 23.8,
-    "apparentMin": 13.5,
+    "apparentMin": 13.7,
     "apparentDeltaMax": "+2.1",
-    "apparentDeltaMin": "-1.4",
+    "apparentDeltaMin": "-0.9",
     "rain": 0,
-    "rainProbToday": 4,
-    "rainProbTomorrow": 0,
-    "windMax": 10.2,
-    "gustMax": 30.2,
+    "rainProbToday": 8,
+    "rainProbTomorrow": 2,
+    "windMax": 10.3,
+    "gustMax": 44.3,
     "humidity": 58,
     "sunrise": "2026-10-22T05:53",
     "sunset": "2026-10-22T16:57",
-    "code": 2
+    "code": 3
   }
 }
