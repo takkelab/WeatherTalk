@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-10-22T21:05:23.779Z",
-  "updatedAtJST": "2026-10-23T06:05:23.779+09:00",
+  "updatedAt": "2026-10-23T03:05:31.383Z",
+  "updatedAtJST": "2026-10-23T12:05:31.383+09:00",
   "date": "2026-10-23",
-  "timeOfDay": "morning",
+  "timeOfDay": "noon",
   "topPhrases": [
     {
       "id": "temp.delta",
@@ -19,7 +19,7 @@
     {
       "id": "feel.wind.strong",
       "topic": "feel",
-      "text": "今日は風強いらしいですよ",
+      "text": "風強そうですね",
       "weight": 58
     }
   ],
@@ -49,7 +49,7 @@
       "phrases": [
         {
           "id": "feel.wind.strong",
-          "text": "今日は風強いらしいですよ",
+          "text": "風強そうですね",
           "weight": 58
         }
       ]
@@ -85,19 +85,19 @@
     }
   },
   "details": {
-    "maxTemp": 18.7,
-    "minTemp": 11.8,
-    "yesterdayDiff": "-3.1",
+    "maxTemp": 18.9,
+    "minTemp": 12.4,
+    "yesterdayDiff": "-3",
     "apparentMax": 18.4,
-    "apparentMin": 10.5,
-    "apparentDeltaMax": "-0.3",
+    "apparentMin": 11.1,
+    "apparentDeltaMax": "-0.5",
     "apparentDeltaMin": "-1.3",
     "rain": 0,
     "rainProbToday": 0,
-    "rainProbTomorrow": 94,
+    "rainProbTomorrow": 93,
     "windMax": 4.7,
-    "gustMax": 29.5,
-    "humidity": 67,
+    "gustMax": 25.9,
+    "humidity": 66,
     "sunrise": "2026-10-23T05:54",
     "sunset": "2026-10-23T16:56",
     "code": 3
